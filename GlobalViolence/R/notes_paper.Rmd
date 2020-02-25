@@ -1,0 +1,59 @@
+---
+title: "notes_violence"
+author: "Vanessa di Lego"
+output: pdf_document
+---
+ 
+# lit. rev
+
+Check comments made by Alyson. I also agree that the direction of the relationship is more violence affecting people at really young ages and the consequences of this for lifetime uncertainty. Add more literature here and refine definitions, concepts of structural uncertainty.
+
+# reserach question is:
+How does violence influence the dispersion in ages at death? 
+
+# What type of violence are we discussing?
+We have to define here.
+Discuss conflict-related deaths versus homicides and interpersonal violence.
+ 
+MENA countries: war and top-down violence connected to violent conflict.
+
+Latin American countries: 
+The "violence trap": like with poverty and inequality, these countries seem to suffer from an intergenerational transfer of violence: the social conditions that nurture violence perpetuate, reproducing violence through generations. 
+
+As a response to the worldwide increase in the incidence of violence and acknowledging the substantial costs of violence on victim's health, at the 1996 meeting in Geneva the World Health Assembly declared violence as a leading worldwide public health problem, stating that is should be treated as public health priority  [@WHOWorldHealthOrganization2002]. One of the main implications of addressing violence through public health lenses is the preventive take on it. Because violence is often treated as inevitable, governments are encouraged to adopt reactive and therapeutic responses to it, many times leading to even more violence, instead of adopting a preventive approach. Conversely, public health, by definition, is a multidisciplinary, evidence-based approach that focuses on the health of community and populations as a whole, putting emphasis on the prevention of events, rather than treating its consequences.
+One of the most challenging aspects of investigating violence-related phenomena at the global level is defining violence. There are many possible ways to define violence and due to its cultural and moral nature, what is considered an act that inflicts harm does not only vary culturally, but has also changed throughout history (i.e., punishment at school children.). The WHO defines violence as : "The intentional use of physical force or power, threatened or actual, against oneself, another person, or against a group or community, that either results in or has a high likelihood of resulting in injury, death, psychological harm, maldevelopment or deprivation". In this work, we are using a broad definition of violence encompassed by the GPI and relating it to one of the WHO resultants of violence: death. The GPI is a composite multidimentional indicator that employs an overarching definition of violence that concentrates on three pilars : 1. ongoing domestic and international conflict; 2. societal safety and security and 3. militarization. Within these three realms a total of 23 indicators are included, ranging from number and duration of conflicts, political instability, number of homicides, level of violent crime, number of jailed persons, military expenditure, and much more. For each of these indicators there is a specific weighting scheme that is adopted to construct the indicator. We choose this indicator since it is the only global indicator of violence available that accounts for the multifaceted feature of violence while consdering country-specific conditions. For more details on all dimensions considered please refer to GPI bla. 
+
+Some work has indicated that at least part of violence levels can lower due to a compositional effect of the ageing of population (CITE MATEUS). However, recent report from the GPI group people (2019) estimate that some countries have what they call a positive peace deficit, in a way that some countries are more likely to have increased levels of violence in the future due to a lack of necessary attitudes, institutions and structures to prevent violence from breaking out the violence trap.
+
+Important to bear in mind that women, children and elderly people suffer the burden of the non-fatal consequences of physical, sexual and psychological abuse. There is also greater misespecification of female deaths, especially cause by partner violence (kitcjen accident or fall). Exposure to violence is also strongly associated with high-risk behaviors such as alcohool and drug abuse and smoling, which in turn are key risk factors for several leading causes of death, including cardiovascular disease, cancer, chronic lung disease, liver disease and other noncommunicable diseases. 
+
+Not to mention the costs: most countries spend a significant amount of resources in responding to violence. (if needed cite page 30 global status report).
+
+
+
+
+Uncertainty is connected to many processes that influence individuals but that have a macro-level consequence. It has been correlated to hopelesness, preference for extreme leadership, and loss of significance. Uncertainty-identity theory states that uncertainty concerning one's life and their place in the world affects one's perceptions about the future, precluding individuals to effectively plan (or see meaning in planning) their lives. The most common sources of uncertatiny cited in the literature are extreme negative life events, such as health issues, political instability and economic crises. However, the issue is multifaceted and there are two broad framework categories that discuss the pathways through which uncertainty and violence are related. One category focuses on the individual experience of uncertainty, in which individuals may seek certainty through the identification of an external political enemy, leading to violent behavior [@Gøtzsche-Astrup2020]. The pathway through which uncertainty at the individual level may contribute to collective violence has been explored in experimental studies and social identity approach. Evidence shows that uncertainty is linked to support for agressive military groups and suicide bombers in some contexts, like for Israelis and Palestinians, respectively (Hogg and Adelman 2013). In other contexts, individuals exposed to higher levels of uncertainty present a higher likelihood of supporting groups with autocratic leaders (Rast, Hogg and Giessneer 2013) and higher intentions of engaging in extreme behavior (Kunst et al. 2018), all of which may lead to collective violence. within this framework, the relationship between the individual-level uncertainty and collective violence is forged due to a group cohesion cope mechanism - a means of mitigating the individual's sense of uncertainty through feeling of belongness (Liitman and Paluck 2015). The second framework involves a more overarching world view, deemed dark world perceptions, in which the world is perceived as a dangerous, deceptive, and unfair place, making violence a legitimate means to secure a person's survival in society or where intergroup interactions are mainly justifiably conflictual, hence increasing the legitimacy and attractiveness of violence (Littman and Paluck 2015). In this case, it is a mental construct in which uncertainty is linked to a specific perception not of their selves, but of the world. People who present a dark world view would be more likely to quickly escalate the risk severity of a decision they make, because the cost-benefit of their decision-making process is skewed inasmuch deliberative solutions do not work in a world where conflict resolution is more likely to be successfull (Shadmehr 2014; Gøtzsche-Astrup2020). Empirical research that investigated three realms of an extremist mindset (proviolence, vile world and divine power) across the Americas, Europe and Asia, showed that those with higher scores in the spectrum tend to support more violence than most other people in the population. They are also more likely to seek justification for their view about use of violence from a higher authority (Stankov et al. 2010). Another study comparing U.S with Denmark showed that uncertainty and dark world perceptions were positively and significantly correlated to intentions in engaging in collective political violence (Gøtzsche-Astrup2020).    
+
+
+
+
+
+
+However, the issue is multifaceted and there are two broad framework categories that discuss the pathways through which uncertainty and violence are related. One category focuses on the individual experience of uncertainty, in which individuals may seek certainty through the identification of an external political enemy, leading to violent behaviour [@Gøtzsche-Astrup2020]. The pathway through which uncertainty at the individual level may contribute to collective violence has been explored in experimental studies and social identity approach. Evidence shows that uncertainty is linked to support for aggressive military groups and suicide bombers in some contexts, like for Israelis and Palestinians, respectively (Hogg and Adelman 2013). In other contexts, individuals exposed to higher levels of uncertainty present a higher likelihood of supporting groups with autocratic leaders (Rast, Hogg and Giessneer 2013) and higher intentions of engaging in extreme behavior (Kunst et al. 2018), all of which may lead to collective violence. within this framework, the relationship between the individual-level uncertainty and collective violence is forged due to a group cohesion cope mechanism - a means of mitigating the individual's sense of uncertainty through feeling of belongness (Liitman and Paluck 2015). The second framework involves a more overarching world view, deemed dark world perceptions, in which the world is perceived as a dangerous, deceptive, and unfair place, making violence a legitimate means to secure a person's survival in society or where intergroup interactions are mainly justifiably conflictual, hence increasing the legitimacy and attractiveness of violence (Littman and Paluck 2015). In this case, it is a mental construct in which uncertainty is linked to a specific perception not of their selves, but of the world. People who present a dark world view would be more likely to quickly escalate the risk severity of a decision they make, because the cost-benefit of their decision-making process is skewed inasmuch deliberative solutions do not work in a world where conflict resolution is more likely to be successfull (Shadmehr 2014; Gøtzsche-Astrup2020). Empirical research that investigated three realms of an extremist mindset (proviolence, vile world and divine power) across the Americas, Europe and Asia, showed that those with higher scores in the spectrum tend to support more violence than most other people in the population. They are also more likely to seek justification for their view about use of violence from a higher authority (Stankov et al. 2010). Another study comparing U.S with Denmark showed that uncertainty and dark world perceptions were positively and significantly correlated to intentions in engaging in collective political violence (Gøtzsche-Astrup2020).    
+
+regions with high uncertainty and low violence:
+Namibia, Botswana, Zambia, Tanzania and Sierra Leoa
+
+regions with low uncertainty and  high violence:
+China, Egypt, Saudi Arabia and Turkey stand out as being countries where violence is high, but the lifetime uncertainty is low.
+
+
+Remarkably, the United States stands out as the only country among the world's largest economies (i.e., Canada, France, Germany, Italy, Japan and United Kingdom) with middle levels of violence and lifetime uncertainty, while all others experience the lowest levels of both. 
+
+I am a bit concerned that we are mixing a lot some of the underlying causes of lifetime uncertainty and violence. Violence is one of factors associated to uncertainty, but not the main one in specific cases, as clearly illustrated by China, Egypt, Saudi Arabia and Turkey. 
+
+
+
+
+
+
