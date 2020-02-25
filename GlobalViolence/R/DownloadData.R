@@ -145,7 +145,7 @@ file.remove(file.path(who.folder, fls))
 # or notice that the links are the same except the last digit, find the pattern
 # YOU NEED TO CHANGE THIS PATH 
 
-links <- paste0("http://s3.healthdata.org/gbd-api-2017-public/e2c073307b2615cda33b73350273cd9e_files/IHME-GBD_2017_DATA-e2c07330-",
+links <- paste0("http://s3.healthdata.org/gbd-api-2017-public/5e0b0a0d5a4c8dc0f1cc598673178518_files/IHME-GBD_2017_DATA-5e0b0a0d-",
 		1:10,".zip")
 
 # now do bulk download like so

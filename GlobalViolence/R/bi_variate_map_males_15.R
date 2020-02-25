@@ -1,15 +1,16 @@
 ###############################################################################
-me <- system("whoami",intern=TRUE)
+#me <- system("whoami",intern=TRUE)
 
 # change this as needed
-if (me == "tim"){
-  setwd("/home/tim/git/GlobalViolence/GlobalViolence")
-}
+#if (me == "tim"){
+#  setwd("/home/tim/git/GlobalViolence/GlobalViolence")
+#}
 
-if (me == "desktop-0jp28lo\\vdile"){
-  setwd("C:/Users/vdile/Documents/Git/Violence")
-}
+#if (me == "desktop-0jp28lo\\vdile"){
+#  setwd("C:/Users/vdile/Documents/Git/Violence")
+#}
 
+library(here)
 library(rstudioapi)
 library(tidyverse) # ggplot2, dplyr, tidyr, readr, purrr, tibble
 library(magrittr) # pipes
