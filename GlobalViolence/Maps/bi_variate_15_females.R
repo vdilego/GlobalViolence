@@ -74,19 +74,19 @@ summary(GPI_2017$value)
 GBD_15_2017<-GBD_est %>% filter(age==15 & year ==2017)
 View(GBD_15_2017)
 
-# ages 15 only, males
-GBD_15_2017_male<-GBD_15_2017 %>% filter(sex=="Male")
-View(GBD_15_2017_male)
+# ages 15 only, females
+GBD_15_2017_female<-GBD_15_2017 %>% filter(sex=="Female")
+View(GBD_15_2017_female)
 
 # Azerbaijan, Albania, Tunisia and Uzbekistan have NaN edx values.
 # Substitute for 0 so  it is not left out later
-GBD_15_2017_male[is.na(GBD_15_2017_male)] <- 0
+GBD_15_2017_female[is.na(GBD_15_2017_female)] <- 0
 
 # matching GBD file with GPI file
 
 setnames(GPI_2017, "ISO3c","ISO3")
-GBD_GPI_male<-inner_join(GBD_15_2017_male, GPI_2017, by="ISO3") 
-View(GBD_GPI_male)
+GBD_GPI_female<-inner_join(GBD_15_2017_female, GPI_2017, by="ISO3") 
+View(GBD_GPI_female)
 
 # selecting na´s to check who is in the GBD data but do not have GPI estimates
 #GBD_GPI_na <-GBD_GPI_male[!complete.cases(GBD_GPI_male), ]
@@ -139,12 +139,12 @@ st_crs(world_rob)   # good to go
 
 # joining data with shape file
 setnames(world_rob, "iso_a3", "ISO3")
-GBD_GPI_male_full<-left_join(GBD_GPI_male, world_rob, by="ISO3")
-class(GBD_GPI_male_full)
+GBD_GPI_female_full<-left_join(GBD_GPI_female, world_rob, by="ISO3")
+class(GBD_GPI_female_full)
 
 # turning into st_file format for maping
-st_geometry(GBD_GPI_male_full) <- GBD_GPI_male_full$geometry
-class(GBD_GPI_male_full)
+st_geometry(GBD_GPI_female_full) <- GBD_GPI_female_full$geometry
+class(GBD_GPI_female_full)
 
 # using Timo Grossenbaucher theme for maping. It really enhances the outlook
 
@@ -191,20 +191,23 @@ theme_map <- function(...) {
 # first creating the classes
 # used quantiles here to make the breaks
 
-data_map_men <- bi_class(GBD_GPI_male_full, x = sdx, y = value, style = "quantile", dim = 3)
-View(data_map_men)
-class(data_map_men)
+data_map_women <- bi_class(GBD_GPI_female_full, x = sdx, y = value, style = "quantile", dim = 3)
+View(data_map_women)
+class(data_map_women)
+
+data_map_all_15<-rbind(data_map_men, data_map_women)
+data_map_all_15$Indicator<-"Lifetime Uncertainty"
 
 # here we can see how the classes have been created and how sdx is binned into quantiles
 # however there are other options for this..jenks optimizer and also equal bins.
-table(data_map_men$bi_class)
+table(data_map_all_15$bi_class)
 
 
 
-map_male <- ggplot()+
-  geom_sf(data = data_map_men,  mapping = aes(fill = bi_class),
+map_all <- ggplot()+
+  geom_sf(data = data_map_all_15,  mapping = aes(fill = bi_class),
           color = "white", size = 0.1, show.legend = FALSE) +
-  bi_scale_fill(pal = "DkViolet", dim = 3) +
+  bi_scale_fill(pal = "DkViolet", dim = 3) + facet_grid(.~sex)+
   theme_minimal()
 
 # legend
@@ -217,35 +220,34 @@ legend <- bi_legend(pal = "DkViolet",
 
 # final plot
 X11(width=15,height=9)
-finalPlot_men <- ggdraw() +
-  draw_plot(map_male, 0, 0, 1, 1)+
-  draw_plot(legend, 0.05, .15, 0.2, 0.2) # use this only if want legend together
+finalPlot_all <- ggdraw() +
+  draw_plot(map_all, 0, 0, 1, 1)+
+  draw_plot(legend, 0.01, 0.3, 0.2, 0.2) # use this only if want legend together
 #draw_plot(scatter_plot, 0.75, .75, 0.2, 0.2)
 
 # In the end I just cropped the legend and added the labels separately using
 # inkscape due to our paa deadline. But I am working
 # on better developing this only using R.
 
-finalPlot_men
+finalPlot_all
 
 ## scatter plot: this is the scatter plot JM asked for. Because I wanted to take
 # advantage of the biscale color scheme but used the package, I took out their
 # color pallete and built it manually.
 
-data_map_men_plot2<-as.data.frame(data_map_men)
-class(data_map_men_plot2)
-View(data_map_men_plot2)
+data_map_all_15_plot<-as.data.frame(data_map_all_15)
+
 
 # checking if the classes are working here
-scatter_plot <- ggplot(data_map_men_plot2, aes(x = sdx, y = value))+
+scatter_plot_all <- ggplot(data_map_all_15_plot, aes(x = sdx, y = value))+
   geom_point(aes(fill=bi_class))    # it works!
 
 # creating the color scheme for scatter plot manually using the same pallete for the
 # classes as for the map. The package in the map does this already, but here for
 # scatter plot I had to do it manually...
 
-data_map_men_plot2$bi_class<-as.factor(data_map_men_plot2$bi_class)
-levels(data_map_men_plot2$bi_class)
+data_map_all_15_plot$bi_class<-as.factor(data_map_all_15_plot$bi_class)
+levels(data_map_all_15_plot$bi_class)
 
 library(grDevices)
 library(ggthemes)
@@ -255,47 +257,21 @@ palette<-c("#CABED0","#89A1C8" ,"#4885C1" ,
            "#BC7C8F","#806A8A", "#435786" ,
            "#AE3A4E", "#77324C" ,"#3F2949")
 
-scatter_plot <- ggplot(data_map_men_plot2, aes(x = sdx, y = value))+
-  geom_point(aes(color=factor(bi_class)),size=2)+
+scatter_plot_all <- ggplot(data_map_all_15_plot, aes(x = sdx, y = value))+
+  geom_point(aes(color=factor(bi_class)),size=4)+
   scale_color_manual(values=palette)+
   xlab("Lifetime Uncertainty")+
   ylab("Level of Violence") +
-  theme_classic()+
+  theme_classic2()+
   theme(legend.position = "none")+
-  geom_smooth(method="lm", se=F, col="black", size=0.3)+
+  geom_smooth(method="lm", se=F, col="black", size=0.35)+
   scale_x_continuous(breaks = scales::pretty_breaks(n = 5))+
   scale_y_continuous(breaks = scales::pretty_breaks(n = 5))+
-  stat_cor(method = "spearman",
-            label.x = 13, label.y = 4)
+  stat_cor(method = "pearson",
+           label.x = 13, label.y = 4)+ facet_grid(.~sex)
 
 X11()
-scatter_plot_m <- ggdraw() +
-  draw_plot(scatter_plot, 0, 0, 1, 1)+
-  draw_plot(legend, 0.7, .1, 0.2, 0.2)
-scatter_plot_m
-
-
-
-
-
-library(grid)
-
-
-vp <- viewport(x = 0.1, y = 0.4, 
-               width = 0.1, height = 0.2,
-               just = c("left", "bottom"))
-
-full <- function() {
-  print(finalPlot_men)
-  theme_set(theme_bw(base_size = 4))
-  
-  print(scatter_plot_m, vp = vp)
-  theme_set(theme_bw())}
-
-full()
-
-
-# Just checking Calculating Pearson's product-moment correlation: all good
-cor.test(data_map_men_plot2$sdx, data_map_men_plot2$value, method = "spearman", conf.level = 0.95)
-
-
+scatter_plot <- ggdraw() +
+  draw_plot(scatter_plot_all, 0, 0, 1, 1)+
+  draw_plot(legend, 0.80, .1, 0.2, 0.2)
+scatter_plot
