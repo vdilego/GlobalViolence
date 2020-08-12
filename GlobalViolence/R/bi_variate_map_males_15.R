@@ -63,41 +63,43 @@ View(GBD_est)
 GPI_ISO3 <- read_csv(here("GlobalViolence","Data","Inputs","GPI", "GPI_ISO3.csv"))
 View(GPI_ISO3)
 
-# selecting only the latest years for the GPI and the score value
-GPI_2017<-GPI_ISO3 %>% filter(type=="score" & year ==2017)
-summary(GPI_2017$value)
+# selecting only the GPI score value
+GPI<-GPI_ISO3 %>% filter(type=="score" & year %in% c(2008:2017))
+View(GPI)
 
 
-# selecting only the latest years for the GBD as well and start ate age 15
+# selecting ages 10, 15, 20 and 25 for GBD 
+GBD_ages<-GBD_est %>% filter(age %in% c(10,15, 20, 25))
+View(GBD_ages)
 
-# ages 15 only
-GBD_15_2017<-GBD_est %>% filter(age==15 & year ==2017)
-View(GBD_15_2017)
+# only males first
+GBD_male<-GBD_ages %>% filter(sex=="Male" & year %in% c(2008:2017))
+View(GBD_male)
 
-# ages 15 only, males
-GBD_15_2017_male<-GBD_15_2017 %>% filter(sex=="Male")
-View(GBD_15_2017_male)
+GBD_male$year<-as.numeric(GBD_male$year)
 
-# Azerbaijan, Albania, Tunisia and Uzbekistan have NaN edx values.
-# Substitute for 0 so  it is not left out later
-GBD_15_2017_male[is.na(GBD_15_2017_male)] <- 0
+# checking NA´s. They are all related to eddagger estimates. Tim?
+
+GBD_male_na<-GBD_male %>% filter_all(any_vars(is.na(.))) 
+
+
+# Substitute for 0 NaN edx values.
+GBD_male[is.na(GBD_male)]<- 0
 
 # matching GBD file with GPI file
 
-setnames(GPI_2017, "ISO3c","ISO3")
-GBD_GPI_male<-inner_join(GBD_15_2017_male, GPI_2017, by="ISO3") 
+setnames(GPI, "ISO3c","ISO3")
+# joining based on ISO codes and year
+GBD_GPI_male<- GBD_male %>% left_join( GPI, by=c("ISO3","year"))
 View(GBD_GPI_male)
 
-# selecting na´s to check who is in the GBD data but do not have GPI estimates
-#GBD_GPI_na <-GBD_GPI_male[!complete.cases(GBD_GPI_male), ]
+# cases where there is data for GBD, but not GPI: 
+# GBD_GPI_male_na<-GBD_GPI_male %>% filter_all(any_vars(is.na(.))) 
 
-#View(GBD_GPI_na)
+# just keeping info for both: use inner_join
 
-# 34 countries that have info from GBD but not from GPI, so taking them out.
-# Actually later we have to check this. In the end I take them out but then cannot create
-# color scheme for missing value in the map.
-
-#GBD_GPI_male2 <-GBD_GPI_male[complete.cases(GBD_GPI_male), ]
+GBD_GPI_male<- GBD_male %>% inner_join( GPI, by=c("ISO3","year"))
+View(GBD_GPI_male)
 
 
 #install.packages("tmap")
@@ -145,6 +147,7 @@ class(GBD_GPI_male_full)
 # turning into st_file format for maping
 st_geometry(GBD_GPI_male_full) <- GBD_GPI_male_full$geometry
 class(GBD_GPI_male_full)
+View(GBD_GPI_male_full)
 
 # using Timo Grossenbaucher theme for maping. It really enhances the outlook
 
@@ -191,9 +194,10 @@ theme_map <- function(...) {
 # first creating the classes
 # used quantiles here to make the breaks
 
-data_map_men <- bi_class(GBD_GPI_male_full, x = sdx, y = value, style = "quantile", dim = 3)
+data_map_men <- bi_class(GBD_GPI_male_full %>% filter(age ==25 & !(is.na(value)) ), x = sdx, y = value, style = "quantile", dim = 3)
 View(data_map_men)
 class(data_map_men)
+
 
 # here we can see how the classes have been created and how sdx is binned into quantiles
 # however there are other options for this..jenks optimizer and also equal bins.
@@ -204,7 +208,7 @@ table(data_map_men$bi_class)
 map_male <- ggplot()+
   geom_sf(data = data_map_men,  mapping = aes(fill = bi_class),
           color = "white", size = 0.1, show.legend = FALSE) +
-  bi_scale_fill(pal = "DkViolet", dim = 3) +
+  bi_scale_fill(pal = "DkViolet", dim = 3) +facet_grid(~year.x)+
   theme_minimal()
 
 # legend
@@ -212,7 +216,7 @@ legend <- bi_legend(pal = "DkViolet",
                     dim = 3,
                     xlab = "Lifetime \nUncertainty",
                     ylab = "Level \nof Violence",
-                    size = 8)
+                    size = 14)
 
 
 # final plot
@@ -245,7 +249,9 @@ scatter_plot <- ggplot(data_map_men_plot2, aes(x = sdx, y = value))+
 # scatter plot I had to do it manually...
 
 data_map_men_plot2$bi_class<-as.factor(data_map_men_plot2$bi_class)
+
 levels(data_map_men_plot2$bi_class)
+
 
 library(grDevices)
 library(ggthemes)
@@ -256,25 +262,26 @@ palette<-c("#CABED0","#89A1C8" ,"#4885C1" ,
            "#AE3A4E", "#77324C" ,"#3F2949")
 
 scatter_plot <- ggplot(data_map_men_plot2, aes(x = sdx, y = value))+
-  geom_point(aes(color=factor(bi_class)),size=2)+
+  geom_point(aes(color=factor(bi_class)),size=10)+
   scale_color_manual(values=palette)+
-  xlab("Lifetime Uncertainty")+
-  ylab("Level of Violence") +
-  theme_classic()+
+  xlab("Lifetime Uncertainty (log scale)")+
+  ylab("Level of Violence (log scale)") +
+  theme_classic(base_size = 16)+
   theme(legend.position = "none")+
   geom_smooth(method="lm", se=F, col="black", size=0.3)+
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 5))+
-  scale_y_continuous(breaks = scales::pretty_breaks(n = 5))+
-  stat_cor(method = "spearman",
-            label.x = 13, label.y = 4)
+  coord_trans(x="log10",y="log10")+
+  stat_cor(method = "pearson",
+           label.x = 13, label.y = 4)
 
 X11()
 scatter_plot_m <- ggdraw() +
   draw_plot(scatter_plot, 0, 0, 1, 1)+
   draw_plot(legend, 0.7, .1, 0.2, 0.2)
-scatter_plot_m
+scatter_plot_m 
 
+# wow. who are the outliers?!
 
+data_map_men_plot2_out<-data_map_men_plot2 %>% filter(sdx>20)
 
 
 
@@ -296,6 +303,6 @@ full()
 
 
 # Just checking Calculating Pearson's product-moment correlation: all good
-cor.test(data_map_men_plot2$sdx, data_map_men_plot2$value, method = "spearman", conf.level = 0.95)
+cor.test(data_map_men_plot2$sdx, data_map_men_plot2$value, method = "pearson", conf.level = 0.95)
 
 

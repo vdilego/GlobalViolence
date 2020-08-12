@@ -50,7 +50,7 @@ GPI_ISO3<-GPI.dt %>%
 
 # TR modified:
 dir.create(file.path("Data","Inputs","GPI"), showWarnings = FALSE, recursive = TRUE)
-write.table(GPI_ISO3,file.path("Data","Inputs","GPI","GPI_ISO3.csv"), sep = ",", row.names = FALSE)
+write.table(GPI_ISO3,here("GlobalViolence","Data","Inputs","GPI","GPI_ISO3.csv"), sep = ",", row.names = FALSE)
 
 
 
