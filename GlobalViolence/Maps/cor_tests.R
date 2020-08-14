@@ -69,7 +69,7 @@ GBD_GPI_cor_all<-GBD_GPI %>%
          corr_ex= cor.test(ex, value, method = "pearson", conf.level = 0.95)$estimate,
          corr_sdx_test=cor.test(sdx, value, method = "pearson", conf.level = 0.95)$p.value,
          corr_ex_test=cor.test(ex, value, method = "pearson", conf.level = 0.95)$p.value)%>% 
-  select(value,sex,age,year,sdx,ex,corr_sdx,corr_ex, iSO3)
+  select(value,sex,age,year,sdx,ex,corr_sdx,corr_ex)
 
 
 # Plot standard deviation versus GPI, both sexes, all years and countries, ages 10 and 15
@@ -172,7 +172,7 @@ library(stringr)
 pdf(here("GlobalViolence","Maps","plot_corr_2017.pdf"), width = 30, height = 15) 
 
 grid.arrange(sdx_plot_2017, ex_plot_2017, ncol=1,left = textGrob("GPI Score\n", rot = 90, vjust = 1,
-            gp = gpar(fontsize = 16, fontface = 'bold')), right = textGrob("Standard Deviation                                                               Life Expectancy\n",
+            gp = gpar(fontsize = 16, fontface = 'bold')), right = textGrob("Life Expectancy                                                               Standard Deviation\n",
                               gp = gpar(fontsize = 16, fontface = 'bold'),rot = 90))
 
 
@@ -185,72 +185,64 @@ X11()
 # Correlation 3. Disagreggated by Region
 # ----------------------------------------------------------------------------------------------------------------------------------
 
-# First finding a grouping region that makes sens
-
-world_class<- fread(here("GlobalViolence","R","country_class.csv"))
-class(world_class$ISO3)
-
-# download Human Development Index at http://hdr.undp.org/en/data#
+# Download Human Development Index at http://hdr.undp.org/en/data#
 
 hdi<- fread(here("GlobalViolence","Maps","hdi.csv"), header = T)
 View(hdi)
-library(countrycode)
-library(naniar)
-library(magrittr)
 
 hdi_iso<- hdi %>% 
-  mutate(ISO3= countrycode(Country, "country.name","iso3c")) %>% 
+  mutate(ISO3= countrycode(Country, "country.name","iso3c"),
+         Region=countrycode(Country, "country.name","region")) %>% 
   drop_na() %>% 
   select(-1) %>% 
   gather(Year,HDI, 2:30) %>% 
-  filter(Year%in%c(2017))
+  filter(Year%in%c(2008:2017))
 
 hdi_iso$Year<-as.numeric(hdi_iso$Year)
+
 GBD_GPI_hdi<-left_join(hdi_iso,GBD_GPI, by=c("ISO3", "Year"="year"))
+GBD_GPI_hdi$HDI<-as.numeric(GBD_GPI_hdi$HDI)
 GBD_GPI_hdi<-GBD_GPI_hdi %>% 
   drop_na()
 
+GBD_GPI_hdi$Region<-as.factor(GBD_GPI_hdi$Region)
+GBD_GPI_hdi <- within(GBD_GPI_hdi, Region <- relevel(Region, ref = 2))  # relevel to the developed region as comparison group = Europe & Central Asia
 
-# reordering factors
-GBD_GPI_region$Economy<- factor(GBD_GPI_region$Economy, 
-                                  levels = c("Low income", "Lower middle income", "Upper middle income", "High income"), ordered = T)
+# Correlation test between HDI and GPI. Negatively associated; linear relationship with significant correlation 
 
+GBD_GPI_hdi_m_10<-GBD_GPI_hdi %>% 
+  filter(age==10 & sex=="Male" & Year==2017)
 
-GBD_GPI_cor_econ<-GBD_GPI_region %>% 
-  group_by(Economy,year, sex, age ) %>% 
-  drop_na() %>% 
-  mutate(corr_sdx= cor.test(sdx, value, method = "pearson", conf.level = 0.95)$estimate,
-         corr_ex= cor.test(ex, value, method = "pearson", conf.level = 0.95)$estimate,
-         corr_sdx_test=cor.test(sdx, value, method = "pearson", conf.level = 0.95)$p.value,
-         corr_ex_test=cor.test(ex, value, method = "pearson", conf.level = 0.95)$p.value)%>% 
-  select(Economy,year, sex, age, value,sdx,ex,corr_sdx,corr_ex)
+X11()
 
+ggplot(GBD_GPI_hdi_m_10, aes(sdx,value, group=Region, color=Region))+ 
+  geom_point(alpha=0.5, size=3)+ geom_smooth(method = "lm", se=F)
 
-labels_sex_econ<-GBD_GPI_cor_econ %>%                             # labels for graphing
-  group_by(Economy, sex, age,year, corr_sdx) %>% 
-  dplyr::summarise()
-labels_sex_econ$corr_sdx<-sprintf("italic(r) == %.3f",labels_sex_econ$corr_sdx)
+# Check correlation by World Bank region
+# Since all the variables of interest are related to GPI in a linear way, we can fit a linear regression model to check what 
+# is important to explain the sdx. We do it for males, age 10, year 2017. Go into Appendix?
 
-library(cluster)
-library(ggfortify)
-ggplot(GBD_GPI_cor_econ %>% filter(year==2017), aes(sdx,value,group=Economy,color=Economy))+ 
-  geom_jitter(aes(color=Economy),alpha=0.5, size=3)+
-  facet_grid(sex~age)+   
-  geom_smooth(method=lm, se=FALSE, size=1.3)+
-  #scale_y_continuous(name="GPI score",limits=c(1,4))+
-  #scale_x_continuous(name="Standard deviation",limits=c(20,80))+
- # geom_text(x = 29, y = 4, aes(label = corr_ex),size=7, parse=T,data = labels_ex_2017 %>% filter(sex=="Female"), show.legend = FALSE)+
-#  geom_text(x = 29, y = 3.8, aes(label = corr_ex),size=7, parse=T,data = labels_ex_2017 %>% filter(sex=="Male"),show.legend = FALSE)+
- # scale_color_manual(values=c("brown", "blue"))+
-  theme_bw(base_size = 16) + scale_y_log10()+scale_x_log10()+
-  stat_ellipse(type = "t")
-#+
-  #theme(legend.position = "bottom",strip.text.x =  element_blank(), axis.title.y = element_blank(),
-   #                               axis.title.x = element_blank())
+# Models
 
+mod1<-lm(sdx ~ value, data=GBD_GPI_hdi_m_10)
+summary(mod1)
 
+mod2<-lm(sdx ~ HDI, data=GBD_GPI_hdi_m_10)
+summary(mod2)
 
+mod3<-lm(sdx ~ Region, data=GBD_GPI_hdi_m_10)
+summary(mod3)
 
+mod4<-lm(sdx ~ value+Region, data=GBD_GPI_hdi_m_10)
+summary(mod4)
+
+anova(mod1,mod2)
+anova(mod1,mod3)
+anova(mod1,mod4)
+
+anova(mod1,mod2,mod3,mod4)
+
+# the best model is the one that includes both GPI and Region as variables to explain lifespan inequality.
 
 
 
@@ -260,10 +252,8 @@ ggplot(GBD_GPI_cor_econ %>% filter(year==2017), aes(sdx,value,group=Economy,colo
 # Shapiro-Wilk normality test for GPI
 ##############################################################################################
 
-shapiro.test(GBD_GPI$value)
-ggqqplot(GBD_GPI$value, ylab = "GPI") # not normal
 
-plot(GBD_GPI_male$value,GBD_GPI_male$sdx )
+
 # Shapiro-Wilk normality test for sdx
 shapiro.test(GBD_GPI$sdx)
 ggqqplot(GBD_GPI$sdx, ylab = "sdx") # not normal
