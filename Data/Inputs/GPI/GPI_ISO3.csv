@@ -1,0 +1,3913 @@
+"country","year","type","value","ISO3c","ISO3n"
+"Afghanistan",2008,"rank",160,"AFG",4
+"Afghanistan",2008,"score",3.35,"AFG",4
+"Albania",2008,"rank",69,"ALB",8
+"Albania",2008,"score",1.943,"ALB",8
+"Algeria",2008,"rank",NA,"DZA",12
+"Algeria",2008,"score",2.347,"DZA",12
+"Angola",2008,"rank",93,"AGO",24
+"Angola",2008,"score",2.069,"AGO",24
+"Argentina",2008,"rank",NA,"ARG",32
+"Argentina",2008,"score",1.859,"ARG",32
+"Armenia",2008,"rank",NA,"ARM",51
+"Armenia",2008,"score",2.344,"ARM",51
+"Australia",2008,"rank",NA,"AUS",36
+"Australia",2008,"score",1.367,"AUS",36
+"Austria",2008,"rank",5,"AUT",40
+"Austria",2008,"score",1.337,"AUT",40
+"Azerbaijan",2008,"rank",123,"AZE",31
+"Azerbaijan",2008,"score",2.336,"AZE",31
+"Bahrain",2008,"rank",67,"BHR",48
+"Bahrain",2008,"score",1.924,"BHR",48
+"Bangladesh",2008,"rank",99,"BGD",50
+"Bangladesh",2008,"score",2.101,"BGD",50
+"Belarus",2008,"rank",110,"BLR",112
+"Belarus",2008,"score",2.187,"BLR",112
+"Belgium",2008,"rank",16,"BEL",56
+"Belgium",2008,"score",1.494,"BEL",56
+"Benin",2008,"rank",113,"BEN",204
+"Benin",2008,"score",2.218,"BEN",204
+"Bhutan",2008,"rank",NA,"BTN",64
+"Bhutan",2008,"score",1.881,"BTN",64
+"Bolivia",2008,"rank",80,"BOL",68
+"Bolivia",2008,"score",2.011,"BOL",68
+"Bosnia and Herzegovina",2008,"rank",62,"BIH",70
+"Bosnia and Herzegovina",2008,"score",1.912,"BIH",70
+"Botswana",2008,"rank",41,"BWA",72
+"Botswana",2008,"score",1.757,"BWA",72
+"Brazil",2008,"rank",75,"BRA",76
+"Brazil",2008,"score",1.993,"BRA",76
+"Bulgaria",2008,"rank",35,"BGR",100
+"Bulgaria",2008,"score",1.708,"BGR",100
+"Burkina Faso",2008,"rank",61,"BFA",854
+"Burkina Faso",2008,"score",1.893,"BFA",854
+"Burundi",2008,"rank",139,"BDI",108
+"Burundi",2008,"score",2.442,"BDI",108
+"Cambodia",2008,"rank",102,"KHM",116
+"Cambodia",2008,"score",2.124,"KHM",116
+"Cameroon",2008,"rank",85,"CMR",120
+"Cameroon",2008,"score",2.037,"CMR",120
+"Canada",2008,"rank",9,"CAN",124
+"Canada",2008,"score",1.374,"CAN",124
+"Central African Republic",2008,"rank",153,"CAF",140
+"Central African Republic",2008,"score",2.899,"CAF",140
+"Chad",2008,"rank",NA,"TCD",148
+"Chad",2008,"score",2.912,"TCD",148
+"Chile",2008,"rank",32,"CHL",152
+"Chile",2008,"score",1.695,"CHL",152
+"China",2008,"rank",109,"CHN",156
+"China",2008,"score",2.175,"CHN",156
+"Colombia",2008,"rank",152,"COL",170
+"Colombia",2008,"score",2.891,"COL",170
+"Costa Rica",2008,"rank",25,"CRI",188
+"Costa Rica",2008,"score",1.619,"CRI",188
+"Cote d'Ivoire",2008,"rank",144,"CIV",384
+"Cote d'Ivoire",2008,"score",2.481,"CIV",384
+"Croatia",2008,"rank",49,"HRV",191
+"Croatia",2008,"score",1.814,"HRV",191
+"Cuba",2008,"rank",94,"CUB",192
+"Cuba",2008,"score",2.07,"CUB",192
+"Cyprus",2008,"rank",77,"CYP",196
+"Cyprus",2008,"score",2.005,"CYP",196
+"Czechia",2008,"rank",15,"CZE",203
+"Czechia",2008,"score",1.432,"CZE",203
+"Democratic Republic of the Congo",2008,"rank",NA,"COD",180
+"Democratic Republic of the Congo",2008,"score",2.912,"COD",180
+"Denmark",2008,"rank",3,"DNK",208
+"Denmark",2008,"score",1.272,"DNK",208
+"Djibouti",2008,"rank",95,"DJI",262
+"Djibouti",2008,"score",2.082,"DJI",262
+"Dominican Republic",2008,"rank",74,"DOM",214
+"Dominican Republic",2008,"score",1.992,"DOM",214
+"East Timor",2008,"rank",42,"TLS",626
+"East Timor",2008,"score",1.769,"TLS",626
+"Ecuador",2008,"rank",115,"ECU",218
+"Ecuador",2008,"score",2.244,"ECU",218
+"Egypt",2008,"rank",90,"EGY",818
+"Egypt",2008,"score",2.052,"EGY",818
+"El Salvador",2008,"rank",92,"SLV",222
+"El Salvador",2008,"score",2.059,"SLV",222
+"Equatorial Guinea",2008,"rank",71,"GNQ",226
+"Equatorial Guinea",2008,"score",1.963,"GNQ",226
+"Eritrea",2008,"rank",136,"ERI",232
+"Eritrea",2008,"score",2.419,"ERI",232
+"Estonia",2008,"rank",36,"EST",233
+"Estonia",2008,"score",1.718,"EST",233
+"Eswatini",2008,"rank",79,"SWZ",748
+"Eswatini",2008,"score",2.009,"SWZ",748
+"Ethiopia",2008,"rank",146,"ETH",231
+"Ethiopia",2008,"score",2.588,"ETH",231
+"Finland",2008,"rank",13,"FIN",246
+"Finland",2008,"score",1.409,"FIN",246
+"France",2008,"rank",50,"FRA",250
+"France",2008,"score",1.853,"FRA",250
+"Gabon",2008,"rank",73,"GAB",266
+"Gabon",2008,"score",1.986,"GAB",266
+"Georgia",2008,"rank",148,"GEO",268
+"Georgia",2008,"score",2.87,"GEO",268
+"Germany",2008,"rank",21,"DEU",276
+"Germany",2008,"score",1.592,"DEU",276
+"Ghana",2008,"rank",40,"GHA",288
+"Ghana",2008,"score",1.753,"GHA",288
+"Greece",2008,"rank",NA,"GRC",300
+"Greece",2008,"score",1.913,"GRC",300
+"Guatemala",2008,"rank",111,"GTM",320
+"Guatemala",2008,"score",2.19,"GTM",320
+"Guinea",2008,"rank",120,"GIN",324
+"Guinea",2008,"score",2.296,"GIN",324
+"Guinea-Bissau",2008,"rank",142,"GNB",624
+"Guinea-Bissau",2008,"score",2.476,"GNB",624
+"Guyana",2008,"rank",105,"GUY",328
+"Guyana",2008,"score",2.141,"GUY",328
+"Haiti",2008,"rank",121,"HTI",332
+"Haiti",2008,"score",2.3,"HTI",332
+"Honduras",2008,"rank",122,"HND",340
+"Honduras",2008,"score",2.304,"HND",340
+"Hungary",2008,"rank",14,"HUN",348
+"Hungary",2008,"score",1.427,"HUN",348
+"Iceland",2008,"rank",1,"ISL",352
+"Iceland",2008,"score",1.111,"ISL",352
+"India",2008,"rank",143,"IND",356
+"India",2008,"score",2.477,"IND",356
+"Indonesia",2008,"rank",NA,"IDN",360
+"Indonesia",2008,"score",1.859,"IDN",360
+"Iran",2008,"rank",135,"IRN",364
+"Iran",2008,"score",2.412,"IRN",364
+"Iraq",2008,"rank",96,"IRQ",368
+"Iraq",2008,"score",2.083,"IRQ",368
+"Ireland",2008,"rank",NA,"IRL",372
+"Ireland",2008,"score",1.367,"IRL",372
+"Israel",2008,"rank",150,"ISR",376
+"Israel",2008,"score",2.884,"ISR",376
+"Italy",2008,"rank",31,"ITA",380
+"Italy",2008,"score",1.676,"ITA",380
+"Jamaica",2008,"rank",87,"JAM",388
+"Jamaica",2008,"score",2.041,"JAM",388
+"Japan",2008,"rank",4,"JPN",392
+"Japan",2008,"score",1.325,"JPN",392
+"Jordan",2008,"rank",68,"JOR",400
+"Jordan",2008,"score",1.927,"JOR",400
+"Kazakhstan",2008,"rank",98,"KAZ",398
+"Kazakhstan",2008,"score",2.09,"KAZ",398
+"Kenya",2008,"rank",124,"KEN",404
+"Kenya",2008,"score",2.337,"KEN",404
+"Kosovo",2008,"rank",103,NA,NA
+"Kosovo",2008,"score",2.126,NA,NA
+"Kuwait",2008,"rank",28,"KWT",414
+"Kuwait",2008,"score",1.652,"KWT",414
+"Kyrgyz Republic",2008,"rank",132,"KGZ",417
+"Kyrgyz Republic",2008,"score",2.362,"KGZ",417
+"Laos",2008,"rank",NA,"LAO",418
+"Laos",2008,"score",1.913,"LAO",418
+"Latvia",2008,"rank",27,"LVA",428
+"Latvia",2008,"score",1.643,"LVA",428
+"Lebanon",2008,"rank",151,"LBN",422
+"Lebanon",2008,"score",2.888,"LBN",422
+"Lesotho",2008,"rank",66,"LSO",426
+"Lesotho",2008,"score",1.922,"LSO",426
+"Liberia",2008,"rank",91,"LBR",430
+"Liberia",2008,"score",2.054,"LBR",430
+"Libya",2008,"rank",84,"LBY",434
+"Libya",2008,"score",2.033,"LBY",434
+"Lithuania",2008,"rank",55,"LTU",440
+"Lithuania",2008,"score",1.862,"LTU",440
+"Madagascar",2008,"rank",38,"MDG",450
+"Madagascar",2008,"score",1.73,"MDG",450
+"Malawi",2008,"rank",NA,"MWI",454
+"Malawi",2008,"score",1.7,"MWI",454
+"Malaysia",2008,"rank",26,"MYS",458
+"Malaysia",2008,"score",1.635,"MYS",458
+"Mali",2008,"rank",NA,"MLI",466
+"Mali",2008,"score",2.347,"MLI",466
+"Mauritania",2008,"rank",133,"MRT",478
+"Mauritania",2008,"score",2.378,"MRT",478
+"Mauritius",2008,"rank",23,"MUS",480
+"Mauritius",2008,"score",1.61,"MUS",480
+"Mexico",2008,"rank",106,"MEX",484
+"Mexico",2008,"score",2.153,"MEX",484
+"Moldova",2008,"rank",NA,"MDA",498
+"Moldova",2008,"score",2.028,"MDA",498
+"Mongolia",2008,"rank",88,"MNG",496
+"Mongolia",2008,"score",2.043,"MNG",496
+"Montenegro",2008,"rank",112,"MNE",499
+"Montenegro",2008,"score",2.2,"MNE",499
+"Morocco",2008,"rank",72,"MAR",504
+"Morocco",2008,"score",1.98,"MAR",504
+"Mozambique",2008,"rank",45,"MOZ",508
+"Mozambique",2008,"score",1.788,"MOZ",508
+"Myanmar",2008,"rank",134,"MMR",104
+"Myanmar",2008,"score",2.393,"MMR",104
+"Namibia",2008,"rank",NA,"NAM",516
+"Namibia",2008,"score",2.028,"NAM",516
+"Nepal",2008,"rank",81,"NPL",524
+"Nepal",2008,"score",2.024,"NPL",524
+"Netherlands",2008,"rank",19,"NLD",528
+"Netherlands",2008,"score",1.578,"NLD",528
+"New Zealand",2008,"rank",2,"NZL",554
+"New Zealand",2008,"score",1.261,"NZL",554
+"Nicaragua",2008,"rank",60,"NIC",558
+"Nicaragua",2008,"score",1.883,"NIC",558
+"Niger",2008,"rank",107,"NER",562
+"Niger",2008,"score",2.168,"NER",562
+"Nigeria",2008,"rank",147,"NGA",566
+"Nigeria",2008,"score",2.593,"NGA",566
+"North Korea",2008,"rank",158,"PRK",408
+"North Korea",2008,"score",3.121,"PRK",408
+"North Macedonia",2008,"rank",78,"MKD",807
+"North Macedonia",2008,"score",2.006,"MKD",807
+"Norway",2008,"rank",6,"NOR",578
+"Norway",2008,"score",1.365,"NOR",578
+"Oman",2008,"rank",30,"OMN",512
+"Oman",2008,"score",1.672,"OMN",512
+"Pakistan",2008,"rank",157,"PAK",586
+"Pakistan",2008,"score",3.018,"PAK",586
+"Palestine",2008,"rank",162,"PSE",275
+"Palestine",2008,"score",NA,"PSE",275
+"Panama",2008,"rank",51,"PAN",591
+"Panama",2008,"score",1.858,"PAN",591
+"Papua New Guinea",2008,"rank",100,"PNG",598
+"Papua New Guinea",2008,"score",2.12,"PNG",598
+"Paraguay",2008,"rank",NA,"PRY",600
+"Paraguay",2008,"score",1.881,"PRY",600
+"Peru",2008,"rank",97,"PER",604
+"Peru",2008,"score",2.088,"PER",604
+"Philippines",2008,"rank",130,"PHL",608
+"Philippines",2008,"score",2.355,"PHL",608
+"Poland",2008,"rank",29,"POL",616
+"Poland",2008,"score",1.655,"POL",616
+"Portugal",2008,"rank",10,"PRT",620
+"Portugal",2008,"score",1.387,"PRT",620
+"Qatar",2008,"rank",24,"QAT",634
+"Qatar",2008,"score",1.618,"QAT",634
+"Republic of the Congo",2008,"rank",114,"COG",178
+"Republic of the Congo",2008,"score",2.226,"COG",178
+"Romania",2008,"rank",22,"ROU",642
+"Romania",2008,"score",1.599,"ROU",642
+"Russia",2008,"rank",149,"RUS",643
+"Russia",2008,"score",2.876,"RUS",643
+"Rwanda",2008,"rank",65,"RWA",646
+"Rwanda",2008,"score",1.918,"RWA",646
+"Saudi Arabia",2008,"rank",131,"SAU",682
+"Saudi Arabia",2008,"score",2.36,"SAU",682
+"Senegal",2008,"rank",89,"SEN",686
+"Senegal",2008,"score",2.051,"SEN",686
+"Serbia",2008,"rank",86,"SRB",688
+"Serbia",2008,"score",2.039,"SRB",688
+"Sierra Leone",2008,"rank",56,"SLE",694
+"Sierra Leone",2008,"score",1.867,"SLE",694
+"Singapore",2008,"rank",20,"SGP",702
+"Singapore",2008,"score",1.58,"SGP",702
+"Slovakia",2008,"rank",18,"SVK",703
+"Slovakia",2008,"score",1.542,"SVK",703
+"Slovenia",2008,"rank",12,"SVN",705
+"Slovenia",2008,"score",1.39,"SVN",705
+"Somalia",2008,"rank",159,"SOM",706
+"Somalia",2008,"score",3.204,"SOM",706
+"South Africa",2008,"rank",108,"ZAF",710
+"South Africa",2008,"score",2.173,"ZAF",710
+"South Korea",2008,"rank",43,"KOR",410
+"South Korea",2008,"score",1.782,"KOR",410
+"South Sudan",2008,"rank",163,"SSD",728
+"South Sudan",2008,"score",NA,"SSD",728
+"Spain",2008,"rank",37,"ESP",724
+"Spain",2008,"score",1.721,"ESP",724
+"Sri Lanka",2008,"rank",140,"LKA",144
+"Sri Lanka",2008,"score",2.467,"LKA",144
+"Sudan",2008,"rank",156,"SDN",729
+"Sudan",2008,"score",2.947,"SDN",729
+"Sweden",2008,"rank",11,"SWE",752
+"Sweden",2008,"score",1.389,"SWE",752
+"Switzerland",2008,"rank",17,"CHE",756
+"Switzerland",2008,"score",1.495,"CHE",756
+"Syria",2008,"rank",129,"SYR",760
+"Syria",2008,"score",2.35,"SYR",760
+"Taiwan",2008,"rank",48,"TWN",158
+"Taiwan",2008,"score",1.813,"TWN",158
+"Tajikistan",2008,"rank",116,"TJK",762
+"Tajikistan",2008,"score",2.25,"TJK",762
+"Tanzania",2008,"rank",44,"TZA",834
+"Tanzania",2008,"score",1.783,"TZA",834
+"Thailand",2008,"rank",137,"THA",764
+"Thailand",2008,"score",2.423,"THA",764
+"The Gambia",2008,"rank",70,"GMB",270
+"The Gambia",2008,"score",1.952,"GMB",270
+"Togo",2008,"rank",76,"TGO",768
+"Togo",2008,"score",2.002,"TGO",768
+"Trinidad and Tobago",2008,"rank",101,"TTO",780
+"Trinidad and Tobago",2008,"score",2.121,"TTO",780
+"Tunisia",2008,"rank",NA,"TUN",788
+"Tunisia",2008,"score",1.812,"TUN",788
+"Turkey",2008,"rank",138,"TUR",792
+"Turkey",2008,"score",2.44,"TUR",792
+"Turkmenistan",2008,"rank",NA,"TKM",795
+"Turkmenistan",2008,"score",2.267,"TKM",795
+"Uganda",2008,"rank",145,"UGA",800
+"Uganda",2008,"score",2.53,"UGA",800
+"Ukraine",2008,"rank",104,"UKR",804
+"Ukraine",2008,"score",2.127,"UKR",804
+"United Arab Emirates",2008,"rank",39,"ARE",784
+"United Arab Emirates",2008,"score",1.738,"ARE",784
+"United Kingdom",2008,"rank",NA,"GBR",826
+"United Kingdom",2008,"score",1.812,"GBR",826
+"United States",2008,"rank",117,"USA",840
+"United States",2008,"score",2.257,"USA",840
+"Uruguay",2008,"rank",NA,"URY",858
+"Uruguay",2008,"score",1.7,"URY",858
+"Uzbekistan",2008,"rank",NA,"UZB",860
+"Uzbekistan",2008,"score",2.267,"UZB",860
+"Venezuela",2008,"rank",NA,"VEN",862
+"Venezuela",2008,"score",2.344,"VEN",862
+"Vietnam",2008,"rank",54,"VNM",704
+"Vietnam",2008,"score",1.86,"VNM",704
+"Yemen",2008,"rank",161,"YEM",887
+"Yemen",2008,"score",3.681,"YEM",887
+"Zambia",2008,"rank",57,"ZMB",894
+"Zambia",2008,"score",1.879,"ZMB",894
+"Zimbabwe",2008,"rank",141,"ZWE",716
+"Zimbabwe",2008,"score",2.472,"ZWE",716
+"Afghanistan",2009,"rank",160,"AFG",4
+"Afghanistan",2009,"score",3.426,"AFG",4
+"Albania",2009,"rank",62,"ALB",8
+"Albania",2009,"score",1.916,"ALB",8
+"Algeria",2009,"rank",126,"DZA",12
+"Algeria",2009,"score",2.347,"DZA",12
+"Angola",2009,"rank",84,"AGO",24
+"Angola",2009,"score",2.021,"AGO",24
+"Argentina",2009,"rank",71,"ARG",32
+"Argentina",2009,"score",1.962,"ARG",32
+"Armenia",2009,"rank",127,"ARM",51
+"Armenia",2009,"score",2.356,"ARM",51
+"Australia",2009,"rank",9,"AUS",36
+"Australia",2009,"score",1.391,"AUS",36
+"Austria",2009,"rank",5,"AUT",40
+"Austria",2009,"score",1.369,"AUT",40
+"Azerbaijan",2009,"rank",131,"AZE",31
+"Azerbaijan",2009,"score",2.394,"AZE",31
+"Bahrain",2009,"rank",66,"BHR",48
+"Bahrain",2009,"score",1.932,"BHR",48
+"Bangladesh",2009,"rank",94,"BGD",50
+"Bangladesh",2009,"score",2.076,"BGD",50
+"Belarus",2009,"rank",110,"BLR",112
+"Belarus",2009,"score",2.202,"BLR",112
+"Belgium",2009,"rank",17,"BEL",56
+"Belgium",2009,"score",1.504,"BEL",56
+"Benin",2009,"rank",112,"BEN",204
+"Benin",2009,"score",2.214,"BEN",204
+"Bhutan",2009,"rank",59,"BTN",64
+"Bhutan",2009,"score",1.902,"BTN",64
+"Bolivia",2009,"rank",95,"BOL",68
+"Bolivia",2009,"score",2.084,"BOL",68
+"Bosnia and Herzegovina",2009,"rank",NA,"BIH",70
+"Bosnia and Herzegovina",2009,"score",1.922,"BIH",70
+"Botswana",2009,"rank",32,"BWA",72
+"Botswana",2009,"score",1.712,"BWA",72
+"Brazil",2009,"rank",79,"BRA",76
+"Brazil",2009,"score",2.002,"BRA",76
+"Bulgaria",2009,"rank",35,"BGR",100
+"Bulgaria",2009,"score",1.733,"BGR",100
+"Burkina Faso",2009,"rank",47,"BFA",854
+"Burkina Faso",2009,"score",1.826,"BFA",854
+"Burundi",2009,"rank",136,"BDI",108
+"Burundi",2009,"score",2.44,"BDI",108
+"Cambodia",2009,"rank",114,"KHM",116
+"Cambodia",2009,"score",2.233,"KHM",116
+"Cameroon",2009,"rank",97,"CMR",120
+"Cameroon",2009,"score",2.091,"CMR",120
+"Canada",2009,"rank",11,"CAN",124
+"Canada",2009,"score",1.418,"CAN",124
+"Central African Republic",2009,"rank",147,"CAF",140
+"Central African Republic",2009,"score",2.81,"CAF",140
+"Chad",2009,"rank",NA,"TCD",148
+"Chad",2009,"score",2.98,"TCD",148
+"Chile",2009,"rank",34,"CHL",152
+"Chile",2009,"score",1.718,"CHL",152
+"China",2009,"rank",109,"CHN",156
+"China",2009,"score",2.185,"CHN",156
+"Colombia",2009,"rank",150,"COL",170
+"Colombia",2009,"score",2.841,"COL",170
+"Costa Rica",2009,"rank",24,"CRI",188
+"Costa Rica",2009,"score",1.631,"CRI",188
+"Cote d'Ivoire",2009,"rank",130,"CIV",384
+"Cote d'Ivoire",2009,"score",2.387,"CIV",384
+"Croatia",2009,"rank",NA,"HRV",191
+"Croatia",2009,"score",1.84,"HRV",191
+"Cuba",2009,"rank",91,"CUB",192
+"Cuba",2009,"score",2.063,"CUB",192
+"Cyprus",2009,"rank",65,"CYP",196
+"Cyprus",2009,"score",1.929,"CYP",196
+"Czechia",2009,"rank",14,"CZE",203
+"Czechia",2009,"score",1.464,"CZE",203
+"Democratic Republic of the Congo",2009,"rank",156,"COD",180
+"Democratic Republic of the Congo",2009,"score",2.998,"COD",180
+"Denmark",2009,"rank",3,"DNK",208
+"Denmark",2009,"score",1.269,"DNK",208
+"Djibouti",2009,"rank",92,"DJI",262
+"Djibouti",2009,"score",2.07,"DJI",262
+"Dominican Republic",2009,"rank",NA,"DOM",214
+"Dominican Republic",2009,"score",1.998,"DOM",214
+"East Timor",2009,"rank",38,"TLS",626
+"East Timor",2009,"score",1.771,"TLS",626
+"Ecuador",2009,"rank",NA,"ECU",218
+"Ecuador",2009,"score",2.28,"ECU",218
+"Egypt",2009,"rank",70,"EGY",818
+"Egypt",2009,"score",1.96,"EGY",818
+"El Salvador",2009,"rank",NA,"SLV",222
+"El Salvador",2009,"score",2.108,"SLV",222
+"Equatorial Guinea",2009,"rank",58,"GNQ",226
+"Equatorial Guinea",2009,"score",1.887,"GNQ",226
+"Eritrea",2009,"rank",135,"ERI",232
+"Eritrea",2009,"score",2.424,"ERI",232
+"Estonia",2009,"rank",40,"EST",233
+"Estonia",2009,"score",1.773,"EST",233
+"Eswatini",2009,"rank",NA,"SWZ",748
+"Eswatini",2009,"score",1.998,"SWZ",748
+"Ethiopia",2009,"rank",148,"ETH",231
+"Ethiopia",2009,"score",2.813,"ETH",231
+"Finland",2009,"rank",10,"FIN",246
+"Finland",2009,"score",1.416,"FIN",246
+"France",2009,"rank",53,"FRA",250
+"France",2009,"score",1.863,"FRA",250
+"Gabon",2009,"rank",74,"GAB",266
+"Gabon",2009,"score",1.99,"GAB",266
+"Georgia",2009,"rank",153,"GEO",268
+"Georgia",2009,"score",2.95,"GEO",268
+"Germany",2009,"rank",22,"DEU",276
+"Germany",2009,"score",1.613,"DEU",276
+"Ghana",2009,"rank",43,"GHA",288
+"Ghana",2009,"score",1.799,"GHA",288
+"Greece",2009,"rank",61,"GRC",300
+"Greece",2009,"score",1.915,"GRC",300
+"Guatemala",2009,"rank",NA,"GTM",320
+"Guatemala",2009,"score",2.158,"GTM",320
+"Guinea",2009,"rank",120,"GIN",324
+"Guinea",2009,"score",2.296,"GIN",324
+"Guinea-Bissau",2009,"rank",137,"GNB",624
+"Guinea-Bissau",2009,"score",2.464,"GNB",624
+"Guyana",2009,"rank",108,"GUY",328
+"Guyana",2009,"score",2.177,"GUY",328
+"Haiti",2009,"rank",117,"HTI",332
+"Haiti",2009,"score",2.25,"HTI",332
+"Honduras",2009,"rank",122,"HND",340
+"Honduras",2009,"score",2.323,"HND",340
+"Hungary",2009,"rank",20,"HUN",348
+"Hungary",2009,"score",1.558,"HUN",348
+"Iceland",2009,"rank",1,"ISL",352
+"Iceland",2009,"score",1.16,"ISL",352
+"India",2009,"rank",143,"IND",356
+"India",2009,"score",2.543,"IND",356
+"Indonesia",2009,"rank",NA,"IDN",360
+"Indonesia",2009,"score",1.857,"IDN",360
+"Iran",2009,"rank",NA,"IRN",364
+"Iran",2009,"score",2.28,"IRN",364
+"Iraq",2009,"rank",107,"IRQ",368
+"Iraq",2009,"score",2.17,"IRQ",368
+"Ireland",2009,"rank",15,"IRL",372
+"Ireland",2009,"score",1.468,"IRL",372
+"Israel",2009,"rank",151,"ISR",376
+"Israel",2009,"score",2.884,"ISR",376
+"Italy",2009,"rank",37,"ITA",380
+"Italy",2009,"score",1.765,"ITA",380
+"Jamaica",2009,"rank",86,"JAM",388
+"Jamaica",2009,"score",2.039,"JAM",388
+"Japan",2009,"rank",4,"JPN",392
+"Japan",2009,"score",1.33,"JPN",392
+"Jordan",2009,"rank",67,"JOR",400
+"Jordan",2009,"score",1.935,"JOR",400
+"Kazakhstan",2009,"rank",100,"KAZ",398
+"Kazakhstan",2009,"score",2.11,"KAZ",398
+"Kenya",2009,"rank",144,"KEN",404
+"Kenya",2009,"score",2.558,"KEN",404
+"Kosovo",2009,"rank",101,NA,NA
+"Kosovo",2009,"score",2.133,NA,NA
+"Kuwait",2009,"rank",27,"KWT",414
+"Kuwait",2009,"score",1.659,"KWT",414
+"Kyrgyz Republic",2009,"rank",123,"KGZ",417
+"Kyrgyz Republic",2009,"score",2.336,"KGZ",417
+"Laos",2009,"rank",60,"LAO",418
+"Laos",2009,"score",1.912,"LAO",418
+"Latvia",2009,"rank",36,"LVA",428
+"Latvia",2009,"score",1.746,"LVA",428
+"Lebanon",2009,"rank",146,"LBN",422
+"Lebanon",2009,"score",2.796,"LBN",422
+"Lesotho",2009,"rank",NA,"LSO",426
+"Lesotho",2009,"score",1.922,"LSO",426
+"Liberia",2009,"rank",87,"LBR",430
+"Liberia",2009,"score",2.043,"LBR",430
+"Libya",2009,"rank",80,"LBY",434
+"Libya",2009,"score",2.003,"LBY",434
+"Lithuania",2009,"rank",NA,"LTU",440
+"Lithuania",2009,"score",1.857,"LTU",440
+"Madagascar",2009,"rank",75,"MDG",450
+"Madagascar",2009,"score",1.994,"MDG",450
+"Malawi",2009,"rank",30,"MWI",454
+"Malawi",2009,"score",1.686,"MWI",454
+"Malaysia",2009,"rank",26,"MYS",458
+"Malaysia",2009,"score",1.657,"MYS",458
+"Mali",2009,"rank",125,"MLI",466
+"Mali",2009,"score",2.346,"MLI",466
+"Mauritania",2009,"rank",140,"MRT",478
+"Mauritania",2009,"score",2.51,"MRT",478
+"Mauritius",2009,"rank",25,"MUS",480
+"Mauritius",2009,"score",1.637,"MUS",480
+"Mexico",2009,"rank",115,"MEX",484
+"Mexico",2009,"score",2.238,"MEX",484
+"Moldova",2009,"rank",73,"MDA",498
+"Moldova",2009,"score",1.978,"MDA",498
+"Mongolia",2009,"rank",88,"MNG",496
+"Mongolia",2009,"score",2.05,"MNG",496
+"Montenegro",2009,"rank",103,"MNE",499
+"Montenegro",2009,"score",2.15,"MNE",499
+"Morocco",2009,"rank",72,"MAR",504
+"Morocco",2009,"score",1.977,"MAR",504
+"Mozambique",2009,"rank",46,"MOZ",508
+"Mozambique",2009,"score",1.814,"MOZ",508
+"Myanmar",2009,"rank",133,"MMR",104
+"Myanmar",2009,"score",2.417,"MMR",104
+"Namibia",2009,"rank",83,"NAM",516
+"Namibia",2009,"score",2.019,"NAM",516
+"Nepal",2009,"rank",81,"NPL",524
+"Nepal",2009,"score",2.009,"NPL",524
+"Netherlands",2009,"rank",21,"NLD",528
+"Netherlands",2009,"score",1.599,"NLD",528
+"New Zealand",2009,"rank",2,"NZL",554
+"New Zealand",2009,"score",1.26,"NZL",554
+"Nicaragua",2009,"rank",55,"NIC",558
+"Nicaragua",2009,"score",1.869,"NIC",558
+"Niger",2009,"rank",106,"NER",562
+"Niger",2009,"score",2.164,"NER",562
+"Nigeria",2009,"rank",145,"NGA",566
+"Nigeria",2009,"score",2.582,"NGA",566
+"North Korea",2009,"rank",157,"PRK",408
+"North Korea",2009,"score",3.121,"PRK",408
+"North Macedonia",2009,"rank",89,"MKD",807
+"North Macedonia",2009,"score",2.052,"MKD",807
+"Norway",2009,"rank",NA,"NOR",578
+"Norway",2009,"score",1.388,"NOR",578
+"Oman",2009,"rank",31,"OMN",512
+"Oman",2009,"score",1.701,"OMN",512
+"Pakistan",2009,"rank",158,"PAK",586
+"Pakistan",2009,"score",3.247,"PAK",586
+"Palestine",2009,"rank",162,"PSE",275
+"Palestine",2009,"score",NA,"PSE",275
+"Panama",2009,"rank",NA,"PAN",591
+"Panama",2009,"score",1.807,"PAN",591
+"Papua New Guinea",2009,"rank",NA,"PNG",598
+"Papua New Guinea",2009,"score",2.108,"PNG",598
+"Paraguay",2009,"rank",68,"PRY",600
+"Paraguay",2009,"score",1.939,"PRY",600
+"Peru",2009,"rank",82,"PER",604
+"Peru",2009,"score",2.01,"PER",604
+"Philippines",2009,"rank",134,"PHL",608
+"Philippines",2009,"score",2.423,"PHL",608
+"Poland",2009,"rank",28,"POL",616
+"Poland",2009,"score",1.663,"POL",616
+"Portugal",2009,"rank",13,"PRT",620
+"Portugal",2009,"score",1.437,"PRT",620
+"Qatar",2009,"rank",12,"QAT",634
+"Qatar",2009,"score",1.429,"QAT",634
+"Republic of the Congo",2009,"rank",102,"COG",178
+"Republic of the Congo",2009,"score",2.147,"COG",178
+"Romania",2009,"rank",23,"ROU",642
+"Romania",2009,"score",1.614,"ROU",642
+"Russia",2009,"rank",NA,"RUS",643
+"Russia",2009,"score",2.98,"RUS",643
+"Rwanda",2009,"rank",96,"RWA",646
+"Rwanda",2009,"score",2.09,"RWA",646
+"Saudi Arabia",2009,"rank",121,"SAU",682
+"Saudi Arabia",2009,"score",2.309,"SAU",682
+"Senegal",2009,"rank",90,"SEN",686
+"Senegal",2009,"score",2.054,"SEN",686
+"Serbia",2009,"rank",93,"SRB",688
+"Serbia",2009,"score",2.075,"SRB",688
+"Sierra Leone",2009,"rank",52,"SLE",694
+"Sierra Leone",2009,"score",1.862,"SLE",694
+"Singapore",2009,"rank",18,"SGP",702
+"Singapore",2009,"score",1.518,"SGP",702
+"Slovakia",2009,"rank",19,"SVK",703
+"Slovakia",2009,"score",1.529,"SVK",703
+"Slovenia",2009,"rank",NA,"SVN",705
+"Slovenia",2009,"score",1.388,"SVN",705
+"Somalia",2009,"rank",159,"SOM",706
+"Somalia",2009,"score",3.312,"SOM",706
+"South Africa",2009,"rank",128,"ZAF",710
+"South Africa",2009,"score",2.364,"ZAF",710
+"South Korea",2009,"rank",42,"KOR",410
+"South Korea",2009,"score",1.796,"KOR",410
+"South Sudan",2009,"rank",163,"SSD",728
+"South Sudan",2009,"score",NA,"SSD",728
+"Spain",2009,"rank",41,"ESP",724
+"Spain",2009,"score",1.782,"ESP",724
+"Sri Lanka",2009,"rank",141,"LKA",144
+"Sri Lanka",2009,"score",2.515,"LKA",144
+"Sudan",2009,"rank",152,"SDN",729
+"Sudan",2009,"score",2.947,"SDN",729
+"Sweden",2009,"rank",6,"SWE",752
+"Sweden",2009,"score",1.382,"SWE",752
+"Switzerland",2009,"rank",16,"CHE",756
+"Switzerland",2009,"score",1.496,"CHE",756
+"Syria",2009,"rank",138,"SYR",760
+"Syria",2009,"score",2.484,"SYR",760
+"Taiwan",2009,"rank",56,"TWN",158
+"Taiwan",2009,"score",1.873,"TWN",158
+"Tajikistan",2009,"rank",116,"TJK",762
+"Tajikistan",2009,"score",2.248,"TJK",762
+"Tanzania",2009,"rank",39,"TZA",834
+"Tanzania",2009,"score",1.772,"TZA",834
+"Thailand",2009,"rank",139,"THA",764
+"Thailand",2009,"score",2.49,"THA",764
+"The Gambia",2009,"rank",69,"GMB",270
+"The Gambia",2009,"score",1.951,"GMB",270
+"Togo",2009,"rank",78,"TGO",768
+"Togo",2009,"score",2,"TGO",768
+"Trinidad and Tobago",2009,"rank",85,"TTO",780
+"Trinidad and Tobago",2009,"score",2.034,"TTO",780
+"Tunisia",2009,"rank",NA,"TUN",788
+"Tunisia",2009,"score",1.807,"TUN",788
+"Turkey",2009,"rank",142,"TUR",792
+"Turkey",2009,"score",2.541,"TUR",792
+"Turkmenistan",2009,"rank",NA,"TKM",795
+"Turkmenistan",2009,"score",2.158,"TKM",795
+"Uganda",2009,"rank",132,"UGA",800
+"Uganda",2009,"score",2.414,"UGA",800
+"Ukraine",2009,"rank",111,"UKR",804
+"Ukraine",2009,"score",2.203,"UKR",804
+"United Arab Emirates",2009,"rank",29,"ARE",784
+"United Arab Emirates",2009,"score",1.685,"ARE",784
+"United Kingdom",2009,"rank",NA,"GBR",826
+"United Kingdom",2009,"score",1.84,"GBR",826
+"United States",2009,"rank",124,"USA",840
+"United States",2009,"score",2.337,"USA",840
+"Uruguay",2009,"rank",33,"URY",858
+"Uruguay",2009,"score",1.714,"URY",858
+"Uzbekistan",2009,"rank",113,"UZB",860
+"Uzbekistan",2009,"score",2.226,"UZB",860
+"Venezuela",2009,"rank",129,"VEN",862
+"Venezuela",2009,"score",2.377,"VEN",862
+"Vietnam",2009,"rank",57,"VNM",704
+"Vietnam",2009,"score",1.883,"VNM",704
+"Yemen",2009,"rank",161,"YEM",887
+"Yemen",2009,"score",3.616,"YEM",887
+"Zambia",2009,"rank",54,"ZMB",894
+"Zambia",2009,"score",1.864,"ZMB",894
+"Zimbabwe",2009,"rank",149,"ZWE",716
+"Zimbabwe",2009,"score",2.831,"ZWE",716
+"Afghanistan",2010,"rank",160,"AFG",4
+"Afghanistan",2010,"score",3.485,"AFG",4
+"Albania",2010,"rank",59,"ALB",8
+"Albania",2010,"score",1.912,"ALB",8
+"Algeria",2010,"rank",130,"DZA",12
+"Algeria",2010,"score",2.37,"DZA",12
+"Angola",2010,"rank",80,"AGO",24
+"Angola",2010,"score",2.02,"AGO",24
+"Argentina",2010,"rank",72,"ARG",32
+"Argentina",2010,"score",2,"ARG",32
+"Armenia",2010,"rank",129,"ARM",51
+"Armenia",2010,"score",2.368,"ARM",51
+"Australia",2010,"rank",8,"AUS",36
+"Australia",2010,"score",1.393,"AUS",36
+"Austria",2010,"rank",5,"AUT",40
+"Austria",2010,"score",1.383,"AUT",40
+"Azerbaijan",2010,"rank",131,"AZE",31
+"Azerbaijan",2010,"score",2.382,"AZE",31
+"Bahrain",2010,"rank",NA,"BHR",48
+"Bahrain",2010,"score",1.871,"BHR",48
+"Bangladesh",2010,"rank",98,"BGD",50
+"Bangladesh",2010,"score",2.156,"BGD",50
+"Belarus",2010,"rank",NA,"BLR",112
+"Belarus",2010,"score",2.204,"BLR",112
+"Belgium",2010,"rank",18,"BEL",56
+"Belgium",2010,"score",1.517,"BEL",56
+"Benin",2010,"rank",111,"BEN",204
+"Benin",2010,"score",2.213,"BEN",204
+"Bhutan",2010,"rank",66,"BTN",64
+"Bhutan",2010,"score",1.95,"BTN",64
+"Bolivia",2010,"rank",NA,"BOL",68
+"Bolivia",2010,"score",2.115,"BOL",68
+"Bosnia and Herzegovina",2010,"rank",64,"BIH",70
+"Bosnia and Herzegovina",2010,"score",1.943,"BIH",70
+"Botswana",2010,"rank",29,"BWA",72
+"Botswana",2010,"score",1.691,"BWA",72
+"Brazil",2010,"rank",81,"BRA",76
+"Brazil",2010,"score",2.022,"BRA",76
+"Bulgaria",2010,"rank",32,"BGR",100
+"Bulgaria",2010,"score",1.709,"BGR",100
+"Burkina Faso",2010,"rank",41,"BFA",854
+"Burkina Faso",2010,"score",1.791,"BFA",854
+"Burundi",2010,"rank",140,"BDI",108
+"Burundi",2010,"score",2.502,"BDI",108
+"Cambodia",2010,"rank",109,"KHM",116
+"Cambodia",2010,"score",2.206,"KHM",116
+"Cameroon",2010,"rank",106,"CMR",120
+"Cameroon",2010,"score",2.183,"CMR",120
+"Canada",2010,"rank",17,"CAN",124
+"Canada",2010,"score",1.5,"CAN",124
+"Central African Republic",2010,"rank",148,"CAF",140
+"Central African Republic",2010,"score",2.765,"CAF",140
+"Chad",2010,"rank",154,"TCD",148
+"Chad",2010,"score",3.028,"TCD",148
+"Chile",2010,"rank",37,"CHL",152
+"Chile",2010,"score",1.755,"CHL",152
+"China",2010,"rank",117,"CHN",156
+"China",2010,"score",2.247,"CHN",156
+"Colombia",2010,"rank",150,"COL",170
+"Colombia",2010,"score",2.908,"COL",170
+"Costa Rica",2010,"rank",27,"CRI",188
+"Costa Rica",2010,"score",1.654,"CRI",188
+"Cote d'Ivoire",2010,"rank",121,"CIV",384
+"Cote d'Ivoire",2010,"score",2.299,"CIV",384
+"Croatia",2010,"rank",39,"HRV",191
+"Croatia",2010,"score",1.773,"HRV",191
+"Cuba",2010,"rank",85,"CUB",192
+"Cuba",2010,"score",2.062,"CUB",192
+"Cyprus",2010,"rank",58,"CYP",196
+"Cyprus",2010,"score",1.909,"CYP",196
+"Czechia",2010,"rank",12,"CZE",203
+"Czechia",2010,"score",1.452,"CZE",203
+"Democratic Republic of the Congo",2010,"rank",153,"COD",180
+"Democratic Republic of the Congo",2010,"score",3.023,"COD",180
+"Denmark",2010,"rank",4,"DNK",208
+"Denmark",2010,"score",1.334,"DNK",208
+"Djibouti",2010,"rank",84,"DJI",262
+"Djibouti",2010,"score",2.061,"DJI",262
+"Dominican Republic",2010,"rank",NA,"DOM",214
+"Dominican Republic",2010,"score",2.123,"DOM",214
+"East Timor",2010,"rank",68,"TLS",626
+"East Timor",2010,"score",1.958,"TLS",626
+"Ecuador",2010,"rank",112,"ECU",218
+"Ecuador",2010,"score",2.216,"ECU",218
+"Egypt",2010,"rank",63,"EGY",818
+"Egypt",2010,"score",1.939,"EGY",818
+"El Salvador",2010,"rank",104,"SLV",222
+"El Salvador",2010,"score",2.173,"SLV",222
+"Equatorial Guinea",2010,"rank",62,"GNQ",226
+"Equatorial Guinea",2010,"score",1.933,"GNQ",226
+"Eritrea",2010,"rank",132,"ERI",232
+"Eritrea",2010,"score",2.409,"ERI",232
+"Estonia",2010,"rank",42,"EST",233
+"Estonia",2010,"score",1.798,"EST",233
+"Eswatini",2010,"rank",NA,"SWZ",748
+"Eswatini",2010,"score",2.016,"SWZ",748
+"Ethiopia",2010,"rank",142,"ETH",231
+"Ethiopia",2010,"score",2.581,"ETH",231
+"Finland",2010,"rank",10,"FIN",246
+"Finland",2010,"score",1.41,"FIN",246
+"France",2010,"rank",52,"FRA",250
+"France",2010,"score",1.866,"FRA",250
+"Gabon",2010,"rank",87,"GAB",266
+"Gabon",2010,"score",2.079,"GAB",266
+"Georgia",2010,"rank",155,"GEO",268
+"Georgia",2010,"score",3.107,"GEO",268
+"Germany",2010,"rank",24,"DEU",276
+"Germany",2010,"score",1.633,"DEU",276
+"Ghana",2010,"rank",43,"GHA",288
+"Ghana",2010,"score",1.803,"GHA",288
+"Greece",2010,"rank",70,"GRC",300
+"Greece",2010,"score",1.985,"GRC",300
+"Guatemala",2010,"rank",105,"GTM",320
+"Guatemala",2010,"score",2.181,"GTM",320
+"Guinea",2010,"rank",120,"GIN",324
+"Guinea",2010,"score",2.296,"GIN",324
+"Guinea-Bissau",2010,"rank",136,"GNB",624
+"Guinea-Bissau",2010,"score",2.453,"GNB",624
+"Guyana",2010,"rank",102,"GUY",328
+"Guyana",2010,"score",2.169,"GUY",328
+"Haiti",2010,"rank",NA,"HTI",332
+"Haiti",2010,"score",2.204,"HTI",332
+"Honduras",2010,"rank",134,"HND",340
+"Honduras",2010,"score",2.421,"HND",340
+"Hungary",2010,"rank",19,"HUN",348
+"Hungary",2010,"score",1.544,"HUN",348
+"Iceland",2010,"rank",1,"ISL",352
+"Iceland",2010,"score",1.143,"ISL",352
+"India",2010,"rank",144,"IND",356
+"India",2010,"score",2.683,"IND",356
+"Indonesia",2010,"rank",50,"IDN",360
+"Indonesia",2010,"score",1.852,"IDN",360
+"Iran",2010,"rank",127,"IRN",364
+"Iran",2010,"score",2.36,"IRN",364
+"Iraq",2010,"rank",115,"IRQ",368
+"Iraq",2010,"score",2.232,"IRQ",368
+"Ireland",2010,"rank",11,"IRL",372
+"Ireland",2010,"score",1.439,"IRL",372
+"Israel",2010,"rank",151,"ISR",376
+"Israel",2010,"score",2.922,"ISR",376
+"Italy",2010,"rank",56,"ITA",380
+"Italy",2010,"score",1.882,"ITA",380
+"Jamaica",2010,"rank",83,"JAM",388
+"Jamaica",2010,"score",2.059,"JAM",388
+"Japan",2010,"rank",3,"JPN",392
+"Japan",2010,"score",1.328,"JPN",392
+"Jordan",2010,"rank",65,"JOR",400
+"Jordan",2010,"score",1.948,"JOR",400
+"Kazakhstan",2010,"rank",NA,"KAZ",398
+"Kazakhstan",2010,"score",2.123,"KAZ",398
+"Kenya",2010,"rank",141,"KEN",404
+"Kenya",2010,"score",2.545,"KEN",404
+"Kosovo",2010,"rank",NA,NA,NA
+"Kosovo",2010,"score",2.115,NA,NA
+"Kuwait",2010,"rank",NA,"KWT",414
+"Kuwait",2010,"score",1.608,"KWT",414
+"Kyrgyz Republic",2010,"rank",NA,"KGZ",417
+"Kyrgyz Republic",2010,"score",2.331,"KGZ",417
+"Laos",2010,"rank",47,"LAO",418
+"Laos",2010,"score",1.825,"LAO",418
+"Latvia",2010,"rank",36,"LVA",428
+"Latvia",2010,"score",1.742,"LVA",428
+"Lebanon",2010,"rank",147,"LBN",422
+"Lebanon",2010,"score",2.76,"LBN",422
+"Lesotho",2010,"rank",60,"LSO",426
+"Lesotho",2010,"score",1.918,"LSO",426
+"Liberia",2010,"rank",86,"LBR",430
+"Liberia",2010,"score",2.077,"LBR",430
+"Libya",2010,"rank",67,"LBY",434
+"Libya",2010,"score",1.953,"LBY",434
+"Lithuania",2010,"rank",51,"LTU",440
+"Lithuania",2010,"score",1.858,"LTU",440
+"Madagascar",2010,"rank",NA,"MDG",450
+"Madagascar",2010,"score",2.016,"MDG",450
+"Malawi",2010,"rank",33,"MWI",454
+"Malawi",2010,"score",1.71,"MWI",454
+"Malaysia",2010,"rank",23,"MYS",458
+"Malaysia",2010,"score",1.618,"MYS",458
+"Mali",2010,"rank",118,"MLI",466
+"Mali",2010,"score",2.266,"MLI",466
+"Mauritania",2010,"rank",126,"MRT",478
+"Mauritania",2010,"score",2.348,"MRT",478
+"Mauritius",2010,"rank",30,"MUS",480
+"Mauritius",2010,"score",1.701,"MUS",480
+"Mexico",2010,"rank",110,"MEX",484
+"Mexico",2010,"score",2.212,"MEX",484
+"Moldova",2010,"rank",73,"MDA",498
+"Moldova",2010,"score",2.001,"MDA",498
+"Mongolia",2010,"rank",82,"MNG",496
+"Mongolia",2010,"score",2.048,"MNG",496
+"Montenegro",2010,"rank",94,"MNE",499
+"Montenegro",2010,"score",2.122,"MNE",499
+"Morocco",2010,"rank",71,"MAR",504
+"Morocco",2010,"score",1.996,"MAR",504
+"Mozambique",2010,"rank",46,"MOZ",508
+"Mozambique",2010,"score",1.823,"MOZ",508
+"Myanmar",2010,"rank",133,"MMR",104
+"Myanmar",2010,"score",2.413,"MMR",104
+"Namibia",2010,"rank",79,"NAM",516
+"Namibia",2010,"score",2.019,"NAM",516
+"Nepal",2010,"rank",97,"NPL",524
+"Nepal",2010,"score",2.138,"NPL",524
+"Netherlands",2010,"rank",25,"NLD",528
+"Netherlands",2010,"score",1.635,"NLD",528
+"New Zealand",2010,"rank",2,"NZL",554
+"New Zealand",2010,"score",1.251,"NZL",554
+"Nicaragua",2010,"rank",55,"NIC",558
+"Nicaragua",2010,"score",1.88,"NIC",558
+"Niger",2010,"rank",NA,"NER",562
+"Niger",2010,"score",2.162,"NER",562
+"Nigeria",2010,"rank",143,"NGA",566
+"Nigeria",2010,"score",2.61,"NGA",566
+"North Korea",2010,"rank",159,"PRK",408
+"North Korea",2010,"score",3.202,"PRK",408
+"North Macedonia",2010,"rank",76,"MKD",807
+"North Macedonia",2010,"score",2.014,"MKD",807
+"Norway",2010,"rank",9,"NOR",578
+"Norway",2010,"score",1.407,"NOR",578
+"Oman",2010,"rank",26,"OMN",512
+"Oman",2010,"score",1.65,"OMN",512
+"Pakistan",2010,"rank",158,"PAK",586
+"Pakistan",2010,"score",3.188,"PAK",586
+"Palestine",2010,"rank",162,"PSE",275
+"Palestine",2010,"score",NA,"PSE",275
+"Panama",2010,"rank",61,"PAN",591
+"Panama",2010,"score",1.919,"PAN",591
+"Papua New Guinea",2010,"rank",89,"PNG",598
+"Papua New Guinea",2010,"score",2.089,"PNG",598
+"Paraguay",2010,"rank",75,"PRY",600
+"Paraguay",2010,"score",2.005,"PRY",600
+"Peru",2010,"rank",NA,"PER",604
+"Peru",2010,"score",2.162,"PER",604
+"Philippines",2010,"rank",137,"PHL",608
+"Philippines",2010,"score",2.465,"PHL",608
+"Poland",2010,"rank",34,"POL",616
+"Poland",2010,"score",1.714,"POL",616
+"Portugal",2010,"rank",14,"PRT",620
+"Portugal",2010,"score",1.472,"PRT",620
+"Qatar",2010,"rank",15,"QAT",634
+"Qatar",2010,"score",1.483,"QAT",634
+"Republic of the Congo",2010,"rank",103,"COG",178
+"Republic of the Congo",2010,"score",2.17,"COG",178
+"Romania",2010,"rank",NA,"ROU",642
+"Romania",2010,"score",1.608,"ROU",642
+"Russia",2010,"rank",156,"RUS",643
+"Russia",2010,"score",3.125,"RUS",643
+"Rwanda",2010,"rank",93,"RWA",646
+"Rwanda",2010,"score",2.12,"RWA",646
+"Saudi Arabia",2010,"rank",125,"SAU",682
+"Saudi Arabia",2010,"score",2.347,"SAU",682
+"Senegal",2010,"rank",NA,"SEN",686
+"Senegal",2010,"score",2.162,"SEN",686
+"Serbia",2010,"rank",90,"SRB",688
+"Serbia",2010,"score",2.11,"SRB",688
+"Sierra Leone",2010,"rank",49,"SLE",694
+"Sierra Leone",2010,"score",1.847,"SLE",694
+"Singapore",2010,"rank",16,"SGP",702
+"Singapore",2010,"score",1.486,"SGP",702
+"Slovakia",2010,"rank",20,"SVK",703
+"Slovakia",2010,"score",1.548,"SVK",703
+"Slovenia",2010,"rank",6,"SVN",705
+"Slovenia",2010,"score",1.387,"SVN",705
+"Somalia",2010,"rank",157,"SOM",706
+"Somalia",2010,"score",3.163,"SOM",706
+"South Africa",2010,"rank",NA,"ZAF",710
+"South Africa",2010,"score",2.331,"ZAF",710
+"South Korea",2010,"rank",45,"KOR",410
+"South Korea",2010,"score",1.822,"KOR",410
+"South Sudan",2010,"rank",163,"SSD",728
+"South Sudan",2010,"score",NA,"SSD",728
+"Spain",2010,"rank",44,"ESP",724
+"Spain",2010,"score",1.807,"ESP",724
+"Sri Lanka",2010,"rank",149,"LKA",144
+"Sri Lanka",2010,"score",2.793,"LKA",144
+"Sudan",2010,"rank",152,"SDN",729
+"Sudan",2010,"score",2.996,"SDN",729
+"Sweden",2010,"rank",7,"SWE",752
+"Sweden",2010,"score",1.39,"SWE",752
+"Switzerland",2010,"rank",13,"CHE",756
+"Switzerland",2010,"score",1.464,"CHE",756
+"Syria",2010,"rank",145,"SYR",760
+"Syria",2010,"score",2.686,"SYR",760
+"Taiwan",2010,"rank",35,"TWN",158
+"Taiwan",2010,"score",1.731,"TWN",158
+"Tajikistan",2010,"rank",113,"TJK",762
+"Tajikistan",2010,"score",2.226,"TJK",762
+"Tanzania",2010,"rank",38,"TZA",834
+"Tanzania",2010,"score",1.761,"TZA",834
+"Thailand",2010,"rank",138,"THA",764
+"Thailand",2010,"score",2.482,"THA",764
+"The Gambia",2010,"rank",69,"GMB",270
+"The Gambia",2010,"score",1.974,"GMB",270
+"Togo",2010,"rank",74,"TGO",768
+"Togo",2010,"score",2.004,"TGO",768
+"Trinidad and Tobago",2010,"rank",88,"TTO",780
+"Trinidad and Tobago",2010,"score",2.085,"TTO",780
+"Tunisia",2010,"rank",40,"TUN",788
+"Tunisia",2010,"score",1.789,"TUN",788
+"Turkey",2010,"rank",139,"TUR",792
+"Turkey",2010,"score",2.486,"TUR",792
+"Turkmenistan",2010,"rank",116,"TKM",795
+"Turkmenistan",2010,"score",2.241,"TKM",795
+"Uganda",2010,"rank",128,"UGA",800
+"Uganda",2010,"score",2.361,"UGA",800
+"Ukraine",2010,"rank",114,"UKR",804
+"Ukraine",2010,"score",2.228,"UKR",804
+"United Arab Emirates",2010,"rank",28,"ARE",784
+"United Arab Emirates",2010,"score",1.669,"ARE",784
+"United Kingdom",2010,"rank",NA,"GBR",826
+"United Kingdom",2010,"score",1.871,"GBR",826
+"United States",2010,"rank",122,"USA",840
+"United States",2010,"score",2.32,"USA",840
+"Uruguay",2010,"rank",31,"URY",858
+"Uruguay",2010,"score",1.703,"URY",858
+"Uzbekistan",2010,"rank",119,"UZB",860
+"Uzbekistan",2010,"score",2.267,"UZB",860
+"Venezuela",2010,"rank",135,"VEN",862
+"Venezuela",2010,"score",2.435,"VEN",862
+"Vietnam",2010,"rank",57,"VNM",704
+"Vietnam",2010,"score",1.905,"VNM",704
+"Yemen",2010,"rank",161,"YEM",887
+"Yemen",2010,"score",3.6,"YEM",887
+"Zambia",2010,"rank",48,"ZMB",894
+"Zambia",2010,"score",1.839,"ZMB",894
+"Zimbabwe",2010,"rank",146,"ZWE",716
+"Zimbabwe",2010,"score",2.752,"ZWE",716
+"Afghanistan",2011,"rank",161,"AFG",4
+"Afghanistan",2011,"score",3.392,"AFG",4
+"Albania",2011,"rank",62,"ALB",8
+"Albania",2011,"score",1.938,"ALB",8
+"Algeria",2011,"rank",140,"DZA",12
+"Algeria",2011,"score",2.512,"DZA",12
+"Angola",2011,"rank",82,"AGO",24
+"Angola",2011,"score",2.074,"AGO",24
+"Argentina",2011,"rank",73,"ARG",32
+"Argentina",2011,"score",2.007,"ARG",32
+"Armenia",2011,"rank",123,"ARM",51
+"Armenia",2011,"score",2.331,"ARM",51
+"Australia",2011,"rank",11,"AUS",36
+"Australia",2011,"score",1.447,"AUS",36
+"Austria",2011,"rank",9,"AUT",40
+"Austria",2011,"score",1.416,"AUT",40
+"Azerbaijan",2011,"rank",127,"AZE",31
+"Azerbaijan",2011,"score",2.387,"AZE",31
+"Bahrain",2011,"rank",117,"BHR",48
+"Bahrain",2011,"score",2.287,"BHR",48
+"Bangladesh",2011,"rank",100,"BGD",50
+"Bangladesh",2011,"score",2.157,"BGD",50
+"Belarus",2011,"rank",110,"BLR",112
+"Belarus",2011,"score",2.236,"BLR",112
+"Belgium",2011,"rank",18,"BEL",56
+"Belgium",2011,"score",1.5,"BEL",56
+"Benin",2011,"rank",113,"BEN",204
+"Benin",2011,"score",2.261,"BEN",204
+"Bhutan",2011,"rank",60,"BTN",64
+"Bhutan",2011,"score",1.932,"BTN",64
+"Bolivia",2011,"rank",79,"BOL",68
+"Bolivia",2011,"score",2.046,"BOL",68
+"Bosnia and Herzegovina",2011,"rank",66,"BIH",70
+"Bosnia and Herzegovina",2011,"score",1.953,"BIH",70
+"Botswana",2011,"rank",32,"BWA",72
+"Botswana",2011,"score",1.709,"BWA",72
+"Brazil",2011,"rank",72,"BRA",76
+"Brazil",2011,"score",2.005,"BRA",76
+"Bulgaria",2011,"rank",29,"BGR",100
+"Bulgaria",2011,"score",1.651,"BGR",100
+"Burkina Faso",2011,"rank",38,"BFA",854
+"Burkina Faso",2011,"score",1.75,"BFA",854
+"Burundi",2011,"rank",131,"BDI",108
+"Burundi",2011,"score",2.413,"BDI",108
+"Cambodia",2011,"rank",106,"KHM",116
+"Cambodia",2011,"score",2.204,"KHM",116
+"Cameroon",2011,"rank",87,"CMR",120
+"Cameroon",2011,"score",2.111,"CMR",120
+"Canada",2011,"rank",12,"CAN",124
+"Canada",2011,"score",1.46,"CAN",124
+"Central African Republic",2011,"rank",153,"CAF",140
+"Central African Republic",2011,"score",2.805,"CAF",140
+"Chad",2011,"rank",150,"TCD",148
+"Chad",2011,"score",2.758,"TCD",148
+"Chile",2011,"rank",41,"CHL",152
+"Chile",2011,"score",1.783,"CHL",152
+"China",2011,"rank",112,"CHN",156
+"China",2011,"score",2.255,"CHN",156
+"Colombia",2011,"rank",152,"COL",170
+"Colombia",2011,"score",2.8,"COL",170
+"Costa Rica",2011,"rank",43,"CRI",188
+"Costa Rica",2011,"score",1.793,"CRI",188
+"Cote d'Ivoire",2011,"rank",139,"CIV",384
+"Cote d'Ivoire",2011,"score",2.5,"CIV",384
+"Croatia",2011,"rank",39,"HRV",191
+"Croatia",2011,"score",1.761,"HRV",191
+"Cuba",2011,"rank",78,"CUB",192
+"Cuba",2011,"score",2.037,"CUB",192
+"Cyprus",2011,"rank",46,"CYP",196
+"Cyprus",2011,"score",1.827,"CYP",196
+"Czechia",2011,"rank",10,"CZE",203
+"Czechia",2011,"score",1.426,"CZE",203
+"Democratic Republic of the Congo",2011,"rank",155,"COD",180
+"Democratic Republic of the Congo",2011,"score",2.925,"COD",180
+"Denmark",2011,"rank",3,"DNK",208
+"Denmark",2011,"score",1.29,"DNK",208
+"Djibouti",2011,"rank",85,"DJI",262
+"Djibouti",2011,"score",2.099,"DJI",262
+"Dominican Republic",2011,"rank",93,"DOM",214
+"Dominican Republic",2011,"score",2.136,"DOM",214
+"East Timor",2011,"rank",64,"TLS",626
+"East Timor",2011,"score",1.946,"TLS",626
+"Ecuador",2011,"rank",99,"ECU",218
+"Ecuador",2011,"score",2.156,"ECU",218
+"Egypt",2011,"rank",NA,"EGY",818
+"Egypt",2011,"score",2.128,"EGY",818
+"El Salvador",2011,"rank",105,"SLV",222
+"El Salvador",2011,"score",2.203,"SLV",222
+"Equatorial Guinea",2011,"rank",74,"GNQ",226
+"Equatorial Guinea",2011,"score",2.008,"GNQ",226
+"Eritrea",2011,"rank",128,"ERI",232
+"Eritrea",2011,"score",2.4,"ERI",232
+"Estonia",2011,"rank",42,"EST",233
+"Estonia",2011,"score",1.792,"EST",233
+"Eswatini",2011,"rank",80,"SWZ",748
+"Eswatini",2011,"score",2.049,"SWZ",748
+"Ethiopia",2011,"rank",141,"ETH",231
+"Ethiopia",2011,"score",2.568,"ETH",231
+"Finland",2011,"rank",8,"FIN",246
+"Finland",2011,"score",1.414,"FIN",246
+"France",2011,"rank",48,"FRA",250
+"France",2011,"score",1.84,"FRA",250
+"Gabon",2011,"rank",86,"GAB",266
+"Gabon",2011,"score",2.105,"GAB",266
+"Georgia",2011,"rank",145,"GEO",268
+"Georgia",2011,"score",2.667,"GEO",268
+"Germany",2011,"rank",25,"DEU",276
+"Germany",2011,"score",1.621,"DEU",276
+"Ghana",2011,"rank",40,"GHA",288
+"Ghana",2011,"score",1.78,"GHA",288
+"Greece",2011,"rank",75,"GRC",300
+"Greece",2011,"score",2.012,"GRC",300
+"Guatemala",2011,"rank",119,"GTM",320
+"Guatemala",2011,"score",2.311,"GTM",320
+"Guinea",2011,"rank",121,"GIN",324
+"Guinea",2011,"score",2.32,"GIN",324
+"Guinea-Bissau",2011,"rank",130,"GNB",624
+"Guinea-Bissau",2011,"score",2.41,"GNB",624
+"Guyana",2011,"rank",94,"GUY",328
+"Guyana",2011,"score",2.137,"GUY",328
+"Haiti",2011,"rank",98,"HTI",332
+"Haiti",2011,"score",2.15,"HTI",332
+"Honduras",2011,"rank",122,"HND",340
+"Honduras",2011,"score",2.327,"HND",340
+"Hungary",2011,"rank",21,"HUN",348
+"Hungary",2011,"score",1.59,"HUN",348
+"Iceland",2011,"rank",1,"ISL",352
+"Iceland",2011,"score",1.099,"ISL",352
+"India",2011,"rank",147,"IND",356
+"India",2011,"score",2.714,"IND",356
+"Indonesia",2011,"rank",54,"IDN",360
+"Indonesia",2011,"score",1.859,"IDN",360
+"Iran",2011,"rank",137,"IRN",364
+"Iran",2011,"score",2.477,"IRN",364
+"Iraq",2011,"rank",115,"IRQ",368
+"Iraq",2011,"score",2.276,"IRQ",368
+"Ireland",2011,"rank",14,"IRL",372
+"Ireland",2011,"score",1.481,"IRL",372
+"Israel",2011,"rank",154,"ISR",376
+"Israel",2011,"score",2.866,"ISR",376
+"Italy",2011,"rank",44,"ITA",380
+"Italy",2011,"score",1.814,"ITA",380
+"Jamaica",2011,"rank",103,"JAM",388
+"Jamaica",2011,"score",2.174,"JAM",388
+"Japan",2011,"rank",4,"JPN",392
+"Japan",2011,"score",1.333,"JPN",392
+"Jordan",2011,"rank",59,"JOR",400
+"Jordan",2011,"score",1.93,"JOR",400
+"Kazakhstan",2011,"rank",84,"KAZ",398
+"Kazakhstan",2011,"score",2.089,"KAZ",398
+"Kenya",2011,"rank",138,"KEN",404
+"Kenya",2011,"score",2.487,"KEN",404
+"Kosovo",2011,"rank",88,NA,NA
+"Kosovo",2011,"score",2.116,NA,NA
+"Kuwait",2011,"rank",20,"KWT",414
+"Kuwait",2011,"score",1.581,"KWT",414
+"Kyrgyz Republic",2011,"rank",124,"KGZ",417
+"Kyrgyz Republic",2011,"score",2.332,"KGZ",417
+"Laos",2011,"rank",51,"LAO",418
+"Laos",2011,"score",1.847,"LAO",418
+"Latvia",2011,"rank",37,"LVA",428
+"Latvia",2011,"score",1.746,"LVA",428
+"Lebanon",2011,"rank",151,"LBN",422
+"Lebanon",2011,"score",2.774,"LBN",422
+"Lesotho",2011,"rank",65,"LSO",426
+"Lesotho",2011,"score",1.949,"LSO",426
+"Liberia",2011,"rank",77,"LBR",430
+"Liberia",2011,"score",2.035,"LBR",430
+"Libya",2011,"rank",149,"LBY",434
+"Libya",2011,"score",2.755,"LBY",434
+"Lithuania",2011,"rank",34,"LTU",440
+"Lithuania",2011,"score",1.733,"LTU",440
+"Madagascar",2011,"rank",108,"MDG",450
+"Madagascar",2011,"score",2.211,"MDG",450
+"Malawi",2011,"rank",45,"MWI",454
+"Malawi",2011,"score",1.819,"MWI",454
+"Malaysia",2011,"rank",19,"MYS",458
+"Malaysia",2011,"score",1.54,"MYS",458
+"Mali",2011,"rank",111,"MLI",466
+"Mali",2011,"score",2.251,"MLI",466
+"Mauritania",2011,"rank",132,"MRT",478
+"Mauritania",2011,"score",2.421,"MRT",478
+"Mauritius",2011,"rank",30,"MUS",480
+"Mauritius",2011,"score",1.69,"MUS",480
+"Mexico",2011,"rank",129,"MEX",484
+"Mexico",2011,"score",2.405,"MEX",484
+"Moldova",2011,"rank",71,"MDA",498
+"Moldova",2011,"score",2.004,"MDA",498
+"Mongolia",2011,"rank",50,"MNG",496
+"Mongolia",2011,"score",1.844,"MNG",496
+"Montenegro",2011,"rank",NA,"MNE",499
+"Montenegro",2011,"score",2.143,"MNE",499
+"Morocco",2011,"rank",76,"MAR",504
+"Morocco",2011,"score",2.027,"MAR",504
+"Mozambique",2011,"rank",57,"MOZ",508
+"Mozambique",2011,"score",1.897,"MOZ",508
+"Myanmar",2011,"rank",126,"MMR",104
+"Myanmar",2011,"score",2.341,"MMR",104
+"Namibia",2011,"rank",68,"NAM",516
+"Namibia",2011,"score",1.965,"NAM",516
+"Nepal",2011,"rank",107,"NPL",524
+"Nepal",2011,"score",2.207,"NPL",524
+"Netherlands",2011,"rank",23,"NLD",528
+"Netherlands",2011,"score",1.611,"NLD",528
+"New Zealand",2011,"rank",2,"NZL",554
+"New Zealand",2011,"score",1.255,"NZL",554
+"Nicaragua",2011,"rank",61,"NIC",558
+"Nicaragua",2011,"score",1.935,"NIC",558
+"Niger",2011,"rank",91,"NER",562
+"Niger",2011,"score",2.13,"NER",562
+"Nigeria",2011,"rank",142,"NGA",566
+"Nigeria",2011,"score",2.58,"NGA",566
+"North Korea",2011,"rank",160,"PRK",408
+"North Korea",2011,"score",3.285,"PRK",408
+"North Macedonia",2011,"rank",67,"MKD",807
+"North Macedonia",2011,"score",1.962,"MKD",807
+"Norway",2011,"rank",15,"NOR",578
+"Norway",2011,"score",1.482,"NOR",578
+"Oman",2011,"rank",47,"OMN",512
+"Oman",2011,"score",1.828,"OMN",512
+"Pakistan",2011,"rank",158,"PAK",586
+"Pakistan",2011,"score",3.11,"PAK",586
+"Palestine",2011,"rank",163,"PSE",275
+"Palestine",2011,"score",NA,"PSE",275
+"Panama",2011,"rank",52,"PAN",591
+"Panama",2011,"score",1.849,"PAN",591
+"Papua New Guinea",2011,"rank",92,"PNG",598
+"Papua New Guinea",2011,"score",2.133,"PNG",598
+"Paraguay",2011,"rank",63,"PRY",600
+"Paraguay",2011,"score",1.942,"PRY",600
+"Peru",2011,"rank",97,"PER",604
+"Peru",2011,"score",2.148,"PER",604
+"Philippines",2011,"rank",136,"PHL",608
+"Philippines",2011,"score",2.453,"PHL",608
+"Poland",2011,"rank",26,"POL",616
+"Poland",2011,"score",1.628,"POL",616
+"Portugal",2011,"rank",16,"PRT",620
+"Portugal",2011,"score",1.485,"PRT",620
+"Qatar",2011,"rank",17,"QAT",634
+"Qatar",2011,"score",1.487,"QAT",634
+"Republic of the Congo",2011,"rank",NA,"COG",178
+"Republic of the Congo",2011,"score",2.143,"COG",178
+"Romania",2011,"rank",24,"ROU",642
+"Romania",2011,"score",1.613,"ROU",642
+"Russia",2011,"rank",156,"RUS",643
+"Russia",2011,"score",2.992,"RUS",643
+"Rwanda",2011,"rank",101,"RWA",646
+"Rwanda",2011,"score",2.164,"RWA",646
+"Saudi Arabia",2011,"rank",114,"SAU",682
+"Saudi Arabia",2011,"score",2.263,"SAU",682
+"Senegal",2011,"rank",NA,"SEN",686
+"Senegal",2011,"score",2.128,"SEN",686
+"Serbia",2011,"rank",83,"SRB",688
+"Serbia",2011,"score",2.079,"SRB",688
+"Sierra Leone",2011,"rank",56,"SLE",694
+"Sierra Leone",2011,"score",1.895,"SLE",694
+"Singapore",2011,"rank",13,"SGP",702
+"Singapore",2011,"score",1.461,"SGP",702
+"Slovakia",2011,"rank",22,"SVK",703
+"Slovakia",2011,"score",1.592,"SVK",703
+"Slovenia",2011,"rank",6,"SVN",705
+"Slovenia",2011,"score",1.388,"SVN",705
+"Somalia",2011,"rank",159,"SOM",706
+"Somalia",2011,"score",3.167,"SOM",706
+"South Africa",2011,"rank",120,"ZAF",710
+"South Africa",2011,"score",2.312,"ZAF",710
+"South Korea",2011,"rank",58,"KOR",410
+"South Korea",2011,"score",1.902,"KOR",410
+"South Sudan",2011,"rank",143,"SSD",728
+"South Sudan",2011,"score",2.591,"SSD",728
+"Spain",2011,"rank",36,"ESP",724
+"Spain",2011,"score",1.739,"ESP",724
+"Sri Lanka",2011,"rank",144,"LKA",144
+"Sri Lanka",2011,"score",2.64,"LKA",144
+"Sudan",2011,"rank",157,"SDN",729
+"Sudan",2011,"score",3.061,"SDN",729
+"Sweden",2011,"rank",7,"SWE",752
+"Sweden",2011,"score",1.409,"SWE",752
+"Switzerland",2011,"rank",5,"CHE",756
+"Switzerland",2011,"score",1.383,"CHE",756
+"Syria",2011,"rank",148,"SYR",760
+"Syria",2011,"score",2.735,"SYR",760
+"Taiwan",2011,"rank",31,"TWN",158
+"Taiwan",2011,"score",1.707,"TWN",158
+"Tajikistan",2011,"rank",109,"TJK",762
+"Tajikistan",2011,"score",2.212,"TJK",762
+"Tanzania",2011,"rank",35,"TZA",834
+"Tanzania",2011,"score",1.735,"TZA",834
+"Thailand",2011,"rank",135,"THA",764
+"Thailand",2011,"score",2.45,"THA",764
+"The Gambia",2011,"rank",NA,"GMB",270
+"The Gambia",2011,"score",2,"GMB",270
+"Togo",2011,"rank",NA,"TGO",768
+"Togo",2011,"score",2,"TGO",768
+"Trinidad and Tobago",2011,"rank",81,"TTO",780
+"Trinidad and Tobago",2011,"score",2.055,"TTO",780
+"Tunisia",2011,"rank",53,"TUN",788
+"Tunisia",2011,"score",1.851,"TUN",788
+"Turkey",2011,"rank",134,"TUR",792
+"Turkey",2011,"score",2.441,"TUR",792
+"Turkmenistan",2011,"rank",104,"TKM",795
+"Turkmenistan",2011,"score",2.196,"TKM",795
+"Uganda",2011,"rank",125,"UGA",800
+"Uganda",2011,"score",2.34,"UGA",800
+"Ukraine",2011,"rank",102,"UKR",804
+"Ukraine",2011,"score",2.171,"UKR",804
+"United Arab Emirates",2011,"rank",28,"ARE",784
+"United Arab Emirates",2011,"score",1.649,"ARE",784
+"United Kingdom",2011,"rank",55,"GBR",826
+"United Kingdom",2011,"score",1.876,"GBR",826
+"United States",2011,"rank",116,"USA",840
+"United States",2011,"score",2.284,"USA",840
+"Uruguay",2011,"rank",27,"URY",858
+"Uruguay",2011,"score",1.647,"URY",858
+"Uzbekistan",2011,"rank",118,"UZB",860
+"Uzbekistan",2011,"score",2.297,"UZB",860
+"Venezuela",2011,"rank",133,"VEN",862
+"Venezuela",2011,"score",2.426,"VEN",862
+"Vietnam",2011,"rank",49,"VNM",704
+"Vietnam",2011,"score",1.843,"VNM",704
+"Yemen",2011,"rank",162,"YEM",887
+"Yemen",2011,"score",3.411,"YEM",887
+"Zambia",2011,"rank",33,"ZMB",894
+"Zambia",2011,"score",1.721,"ZMB",894
+"Zimbabwe",2011,"rank",146,"ZWE",716
+"Zimbabwe",2011,"score",2.695,"ZWE",716
+"Afghanistan",2012,"rank",162,"AFG",4
+"Afghanistan",2012,"score",3.442,"AFG",4
+"Albania",2012,"rank",63,"ALB",8
+"Albania",2012,"score",1.976,"ALB",8
+"Algeria",2012,"rank",125,"DZA",12
+"Algeria",2012,"score",2.355,"DZA",12
+"Angola",2012,"rank",NA,"AGO",24
+"Angola",2012,"score",2.105,"AGO",24
+"Argentina",2012,"rank",68,"ARG",32
+"Argentina",2012,"score",1.984,"ARG",32
+"Armenia",2012,"rank",123,"ARM",51
+"Armenia",2012,"score",2.329,"ARM",51
+"Australia",2012,"rank",15,"AUS",36
+"Australia",2012,"score",1.497,"AUS",36
+"Austria",2012,"rank",7,"AUT",40
+"Austria",2012,"score",1.407,"AUT",40
+"Azerbaijan",2012,"rank",131,"AZE",31
+"Azerbaijan",2012,"score",2.404,"AZE",31
+"Bahrain",2012,"rank",100,"BHR",48
+"Bahrain",2012,"score",2.168,"BHR",48
+"Bangladesh",2012,"rank",102,"BGD",50
+"Bangladesh",2012,"score",2.188,"BGD",50
+"Belarus",2012,"rank",NA,"BLR",112
+"Belarus",2012,"score",2.28,"BLR",112
+"Belgium",2012,"rank",14,"BEL",56
+"Belgium",2012,"score",1.493,"BEL",56
+"Benin",2012,"rank",NA,"BEN",204
+"Benin",2012,"score",2.212,"BEN",204
+"Bhutan",2012,"rank",38,"BTN",64
+"Bhutan",2012,"score",1.75,"BTN",64
+"Bolivia",2012,"rank",97,"BOL",68
+"Bolivia",2012,"score",2.146,"BOL",68
+"Bosnia and Herzegovina",2012,"rank",NA,"BIH",70
+"Bosnia and Herzegovina",2012,"score",1.98,"BIH",70
+"Botswana",2012,"rank",33,"BWA",72
+"Botswana",2012,"score",1.702,"BWA",72
+"Brazil",2012,"rank",75,"BRA",76
+"Brazil",2012,"score",2.043,"BRA",76
+"Bulgaria",2012,"rank",31,"BGR",100
+"Bulgaria",2012,"score",1.693,"BGR",100
+"Burkina Faso",2012,"rank",NA,"BFA",854
+"Burkina Faso",2012,"score",1.772,"BFA",854
+"Burundi",2012,"rank",137,"BDI",108
+"Burundi",2012,"score",2.48,"BDI",108
+"Cambodia",2012,"rank",111,"KHM",116
+"Cambodia",2012,"score",2.251,"KHM",116
+"Cameroon",2012,"rank",89,"CMR",120
+"Cameroon",2012,"score",2.104,"CMR",120
+"Canada",2012,"rank",NA,"CAN",124
+"Canada",2012,"score",1.438,"CAN",124
+"Central African Republic",2012,"rank",153,"CAF",140
+"Central African Republic",2012,"score",2.861,"CAF",140
+"Chad",2012,"rank",147,"TCD",148
+"Chad",2012,"score",2.684,"TCD",148
+"Chile",2012,"rank",29,"CHL",152
+"Chile",2012,"score",1.687,"CHL",152
+"China",2012,"rank",109,"CHN",156
+"China",2012,"score",2.238,"CHN",156
+"Colombia",2012,"rank",NA,"COL",170
+"Colombia",2012,"score",2.712,"COL",170
+"Costa Rica",2012,"rank",36,"CRI",188
+"Costa Rica",2012,"score",1.74,"CRI",188
+"Cote d'Ivoire",2012,"rank",134,"CIV",384
+"Cote d'Ivoire",2012,"score",2.452,"CIV",384
+"Croatia",2012,"rank",34,"HRV",191
+"Croatia",2012,"score",1.723,"HRV",191
+"Cuba",2012,"rank",NA,"CUB",192
+"Cuba",2012,"score",2.078,"CUB",192
+"Cyprus",2012,"rank",42,"CYP",196
+"Cyprus",2012,"score",1.792,"CYP",196
+"Czechia",2012,"rank",6,"CZE",203
+"Czechia",2012,"score",1.4,"CZE",203
+"Democratic Republic of the Congo",2012,"rank",156,"COD",180
+"Democratic Republic of the Congo",2012,"score",2.958,"COD",180
+"Denmark",2012,"rank",2,"DNK",208
+"Denmark",2012,"score",1.235,"DNK",208
+"Djibouti",2012,"rank",73,"DJI",262
+"Djibouti",2012,"score",2.009,"DJI",262
+"Dominican Republic",2012,"rank",NA,"DOM",214
+"Dominican Republic",2012,"score",2.105,"DOM",214
+"East Timor",2012,"rank",62,"TLS",626
+"East Timor",2012,"score",1.974,"TLS",626
+"Ecuador",2012,"rank",96,"ECU",218
+"Ecuador",2012,"score",2.138,"ECU",218
+"Egypt",2012,"rank",120,"EGY",818
+"Egypt",2012,"score",2.317,"EGY",818
+"El Salvador",2012,"rank",110,"SLV",222
+"El Salvador",2012,"score",2.25,"SLV",222
+"Equatorial Guinea",2012,"rank",NA,"GNQ",226
+"Equatorial Guinea",2012,"score",1.982,"GNQ",226
+"Eritrea",2012,"rank",127,"ERI",232
+"Eritrea",2012,"score",2.364,"ERI",232
+"Estonia",2012,"rank",39,"EST",233
+"Estonia",2012,"score",1.771,"EST",233
+"Eswatini",2012,"rank",87,"SWZ",748
+"Eswatini",2012,"score",2.095,"SWZ",748
+"Ethiopia",2012,"rank",145,"ETH",231
+"Ethiopia",2012,"score",2.652,"ETH",231
+"Finland",2012,"rank",5,"FIN",246
+"Finland",2012,"score",1.385,"FIN",246
+"France",2012,"rank",57,"FRA",250
+"France",2012,"score",1.896,"FRA",250
+"Gabon",2012,"rank",78,"GAB",266
+"Gabon",2012,"score",2.064,"GAB",266
+"Georgia",2012,"rank",146,"GEO",268
+"Georgia",2012,"score",2.671,"GEO",268
+"Germany",2012,"rank",25,"DEU",276
+"Germany",2012,"score",1.62,"DEU",276
+"Ghana",2012,"rank",43,"GHA",288
+"Ghana",2012,"score",1.804,"GHA",288
+"Greece",2012,"rank",77,"GRC",300
+"Greece",2012,"score",2.063,"GRC",300
+"Guatemala",2012,"rank",122,"GTM",320
+"Guatemala",2012,"score",2.326,"GTM",320
+"Guinea",2012,"rank",NA,"GIN",324
+"Guinea",2012,"score",2.212,"GIN",324
+"Guinea-Bissau",2012,"rank",132,"GNB",624
+"Guinea-Bissau",2012,"score",2.422,"GNB",624
+"Guyana",2012,"rank",74,"GUY",328
+"Guyana",2012,"score",2.033,"GUY",328
+"Haiti",2012,"rank",79,"HTI",332
+"Haiti",2012,"score",2.07,"HTI",332
+"Honduras",2012,"rank",121,"HND",340
+"Honduras",2012,"score",2.32,"HND",340
+"Hungary",2012,"rank",18,"HUN",348
+"Hungary",2012,"score",1.557,"HUN",348
+"Iceland",2012,"rank",1,"ISL",352
+"Iceland",2012,"score",1.159,"ISL",352
+"India",2012,"rank",144,"IND",356
+"India",2012,"score",2.627,"IND",356
+"Indonesia",2012,"rank",49,"IDN",360
+"Indonesia",2012,"score",1.836,"IDN",360
+"Iran",2012,"rank",136,"IRN",364
+"Iran",2012,"score",2.468,"IRN",364
+"Iraq",2012,"rank",154,"IRQ",368
+"Iraq",2012,"score",2.935,"IRQ",368
+"Ireland",2012,"rank",9,"IRL",372
+"Ireland",2012,"score",1.43,"IRL",372
+"Israel",2012,"rank",151,"ISR",376
+"Israel",2012,"score",2.805,"ISR",376
+"Italy",2012,"rank",47,"ITA",380
+"Italy",2012,"score",1.819,"ITA",380
+"Jamaica",2012,"rank",108,"JAM",388
+"Jamaica",2012,"score",2.229,"JAM",388
+"Japan",2012,"rank",4,"JPN",392
+"Japan",2012,"score",1.346,"JPN",392
+"Jordan",2012,"rank",NA,"JOR",400
+"Jordan",2012,"score",1.982,"JOR",400
+"Kazakhstan",2012,"rank",88,"KAZ",398
+"Kazakhstan",2012,"score",2.1,"KAZ",398
+"Kenya",2012,"rank",130,"KEN",404
+"Kenya",2012,"score",2.395,"KEN",404
+"Kosovo",2012,"rank",83,NA,NA
+"Kosovo",2012,"score",2.083,NA,NA
+"Kuwait",2012,"rank",30,"KWT",414
+"Kuwait",2012,"score",1.691,"KWT",414
+"Kyrgyz Republic",2012,"rank",135,"KGZ",417
+"Kyrgyz Republic",2012,"score",2.454,"KGZ",417
+"Laos",2012,"rank",53,"LAO",418
+"Laos",2012,"score",1.871,"LAO",418
+"Latvia",2012,"rank",37,"LVA",428
+"Latvia",2012,"score",1.744,"LVA",428
+"Lebanon",2012,"rank",143,"LBN",422
+"Lebanon",2012,"score",2.606,"LBN",422
+"Lesotho",2012,"rank",56,"LSO",426
+"Lesotho",2012,"score",1.894,"LSO",426
+"Liberia",2012,"rank",70,"LBR",430
+"Liberia",2012,"score",1.994,"LBR",430
+"Libya",2012,"rank",152,"LBY",434
+"Libya",2012,"score",2.839,"LBY",434
+"Lithuania",2012,"rank",48,"LTU",440
+"Lithuania",2012,"score",1.825,"LTU",440
+"Madagascar",2012,"rank",107,"MDG",450
+"Madagascar",2012,"score",2.223,"MDG",450
+"Malawi",2012,"rank",46,"MWI",454
+"Malawi",2012,"score",1.814,"MWI",454
+"Malaysia",2012,"rank",24,"MYS",458
+"Malaysia",2012,"score",1.611,"MYS",458
+"Mali",2012,"rank",NA,"MLI",466
+"Mali",2012,"score",2.28,"MLI",466
+"Mauritania",2012,"rank",129,"MRT",478
+"Mauritania",2012,"score",2.392,"MRT",478
+"Mauritius",2012,"rank",28,"MUS",480
+"Mauritius",2012,"score",1.686,"MUS",480
+"Mexico",2012,"rank",142,"MEX",484
+"Mexico",2012,"score",2.581,"MEX",484
+"Moldova",2012,"rank",69,"MDA",498
+"Moldova",2012,"score",1.99,"MDA",498
+"Mongolia",2012,"rank",55,"MNG",496
+"Mongolia",2012,"score",1.89,"MNG",496
+"Montenegro",2012,"rank",82,"MNE",499
+"Montenegro",2012,"score",2.082,"MNE",499
+"Morocco",2012,"rank",84,"MAR",504
+"Morocco",2012,"score",2.084,"MAR",504
+"Mozambique",2012,"rank",50,"MOZ",508
+"Mozambique",2012,"score",1.841,"MOZ",508
+"Myanmar",2012,"rank",126,"MMR",104
+"Myanmar",2012,"score",2.357,"MMR",104
+"Namibia",2012,"rank",59,"NAM",516
+"Namibia",2012,"score",1.916,"NAM",516
+"Nepal",2012,"rank",92,"NPL",524
+"Nepal",2012,"score",2.11,"NPL",524
+"Netherlands",2012,"rank",21,"NLD",528
+"Netherlands",2012,"score",1.577,"NLD",528
+"New Zealand",2012,"rank",3,"NZL",554
+"New Zealand",2012,"score",1.276,"NZL",554
+"Nicaragua",2012,"rank",72,"NIC",558
+"Nicaragua",2012,"score",2.003,"NIC",558
+"Niger",2012,"rank",99,"NER",562
+"Niger",2012,"score",2.156,"NER",562
+"Nigeria",2012,"rank",NA,"NGA",566
+"Nigeria",2012,"score",2.712,"NGA",566
+"North Korea",2012,"rank",161,"PRK",408
+"North Korea",2012,"score",3.292,"PRK",408
+"North Macedonia",2012,"rank",71,"MKD",807
+"North Macedonia",2012,"score",1.997,"MKD",807
+"Norway",2012,"rank",19,"NOR",578
+"Norway",2012,"score",1.563,"NOR",578
+"Oman",2012,"rank",58,"OMN",512
+"Oman",2012,"score",1.901,"OMN",512
+"Pakistan",2012,"rank",158,"PAK",586
+"Pakistan",2012,"score",3.098,"PAK",586
+"Palestine",2012,"rank",163,"PSE",275
+"Palestine",2012,"score",NA,"PSE",275
+"Panama",2012,"rank",54,"PAN",591
+"Panama",2012,"score",1.885,"PAN",591
+"Papua New Guinea",2012,"rank",86,"PNG",598
+"Papua New Guinea",2012,"score",2.094,"PNG",598
+"Paraguay",2012,"rank",61,"PRY",600
+"Paraguay",2012,"score",1.972,"PRY",600
+"Peru",2012,"rank",101,"PER",604
+"Peru",2012,"score",2.169,"PER",604
+"Philippines",2012,"rank",138,"PHL",608
+"Philippines",2012,"score",2.5,"PHL",608
+"Poland",2012,"rank",23,"POL",616
+"Poland",2012,"score",1.603,"POL",616
+"Portugal",2012,"rank",16,"PRT",620
+"Portugal",2012,"score",1.52,"PRT",620
+"Qatar",2012,"rank",17,"QAT",634
+"Qatar",2012,"score",1.535,"QAT",634
+"Republic of the Congo",2012,"rank",98,"COG",178
+"Republic of the Congo",2012,"score",2.147,"COG",178
+"Romania",2012,"rank",22,"ROU",642
+"Romania",2012,"score",1.595,"ROU",642
+"Russia",2012,"rank",157,"RUS",643
+"Russia",2012,"score",3.005,"RUS",643
+"Rwanda",2012,"rank",104,"RWA",646
+"Rwanda",2012,"score",2.199,"RWA",646
+"Saudi Arabia",2012,"rank",119,"SAU",682
+"Saudi Arabia",2012,"score",2.315,"SAU",682
+"Senegal",2012,"rank",76,"SEN",686
+"Senegal",2012,"score",2.05,"SEN",686
+"Serbia",2012,"rank",93,"SRB",688
+"Serbia",2012,"score",2.114,"SRB",688
+"Sierra Leone",2012,"rank",60,"SLE",694
+"Sierra Leone",2012,"score",1.917,"SLE",694
+"Singapore",2012,"rank",13,"SGP",702
+"Singapore",2012,"score",1.441,"SGP",702
+"Slovakia",2012,"rank",20,"SVK",703
+"Slovakia",2012,"score",1.573,"SVK",703
+"Slovenia",2012,"rank",NA,"SVN",705
+"Slovenia",2012,"score",1.438,"SVN",705
+"Somalia",2012,"rank",160,"SOM",706
+"Somalia",2012,"score",3.279,"SOM",706
+"South Africa",2012,"rank",116,"ZAF",710
+"South Africa",2012,"score",2.299,"ZAF",710
+"South Korea",2012,"rank",NA,"KOR",410
+"South Korea",2012,"score",1.81,"KOR",410
+"South Sudan",2012,"rank",141,"SSD",728
+"South Sudan",2012,"score",2.561,"SSD",728
+"Spain",2012,"rank",27,"ESP",724
+"Spain",2012,"score",1.668,"ESP",724
+"Sri Lanka",2012,"rank",117,"LKA",144
+"Sri Lanka",2012,"score",2.303,"LKA",144
+"Sudan",2012,"rank",155,"SDN",729
+"Sudan",2012,"score",2.944,"SDN",729
+"Sweden",2012,"rank",8,"SWE",752
+"Sweden",2012,"score",1.409,"SWE",752
+"Switzerland",2012,"rank",10,"CHE",756
+"Switzerland",2012,"score",1.435,"CHE",756
+"Syria",2012,"rank",150,"SYR",760
+"Syria",2012,"score",2.79,"SYR",760
+"Taiwan",2012,"rank",26,"TWN",158
+"Taiwan",2012,"score",1.638,"TWN",158
+"Tajikistan",2012,"rank",103,"TJK",762
+"Tajikistan",2012,"score",2.189,"TJK",762
+"Tanzania",2012,"rank",NA,"TZA",834
+"Tanzania",2012,"score",1.772,"TZA",834
+"Thailand",2012,"rank",139,"THA",764
+"Thailand",2012,"score",2.507,"THA",764
+"The Gambia",2012,"rank",NA,"GMB",270
+"The Gambia",2012,"score",2.078,"GMB",270
+"Togo",2012,"rank",NA,"TGO",768
+"Togo",2012,"score",1.98,"TGO",768
+"Trinidad and Tobago",2012,"rank",95,"TTO",780
+"Trinidad and Tobago",2012,"score",2.128,"TTO",780
+"Tunisia",2012,"rank",85,"TUN",788
+"Tunisia",2012,"score",2.092,"TUN",788
+"Turkey",2012,"rank",133,"TUR",792
+"Turkey",2012,"score",2.446,"TUR",792
+"Turkmenistan",2012,"rank",112,"TKM",795
+"Turkmenistan",2012,"score",2.261,"TKM",795
+"Uganda",2012,"rank",118,"UGA",800
+"Uganda",2012,"score",2.308,"UGA",800
+"Ukraine",2012,"rank",94,"UKR",804
+"Ukraine",2012,"score",2.125,"UKR",804
+"United Arab Emirates",2012,"rank",32,"ARE",784
+"United Arab Emirates",2012,"score",1.7,"ARE",784
+"United Kingdom",2012,"rank",52,"GBR",826
+"United Kingdom",2012,"score",1.859,"GBR",826
+"United States",2012,"rank",115,"USA",840
+"United States",2012,"score",2.29,"USA",840
+"Uruguay",2012,"rank",35,"URY",858
+"Uruguay",2012,"score",1.728,"URY",858
+"Uzbekistan",2012,"rank",124,"UZB",860
+"Uzbekistan",2012,"score",2.334,"UZB",860
+"Venezuela",2012,"rank",128,"VEN",862
+"Venezuela",2012,"score",2.379,"VEN",862
+"Vietnam",2012,"rank",51,"VNM",704
+"Vietnam",2012,"score",1.85,"VNM",704
+"Yemen",2012,"rank",159,"YEM",887
+"Yemen",2012,"score",3.234,"YEM",887
+"Zambia",2012,"rank",NA,"ZMB",894
+"Zambia",2012,"score",1.81,"ZMB",894
+"Zimbabwe",2012,"rank",140,"ZWE",716
+"Zimbabwe",2012,"score",2.528,"ZWE",716
+"Afghanistan",2013,"rank",162,"AFG",4
+"Afghanistan",2013,"score",3.353,"AFG",4
+"Albania",2013,"rank",71,"ALB",8
+"Albania",2013,"score",1.995,"ALB",8
+"Algeria",2013,"rank",122,"DZA",12
+"Algeria",2013,"score",2.314,"DZA",12
+"Angola",2013,"rank",87,"AGO",24
+"Angola",2013,"score",2.094,"AGO",24
+"Argentina",2013,"rank",93,"ARG",32
+"Argentina",2013,"score",2.117,"ARG",32
+"Armenia",2013,"rank",NA,"ARM",51
+"Armenia",2013,"score",2.332,"ARM",51
+"Australia",2013,"rank",13,"AUS",36
+"Australia",2013,"score",1.451,"AUS",36
+"Austria",2013,"rank",NA,"AUT",40
+"Austria",2013,"score",1.309,"AUT",40
+"Azerbaijan",2013,"rank",134,"AZE",31
+"Azerbaijan",2013,"score",2.459,"AZE",31
+"Bahrain",2013,"rank",107,"BHR",48
+"Bahrain",2013,"score",2.2,"BHR",48
+"Bangladesh",2013,"rank",100,"BGD",50
+"Bangladesh",2013,"score",2.154,"BGD",50
+"Belarus",2013,"rank",113,"BLR",112
+"Belarus",2013,"score",2.234,"BLR",112
+"Belgium",2013,"rank",15,"BEL",56
+"Belgium",2013,"score",1.473,"BEL",56
+"Benin",2013,"rank",95,"BEN",204
+"Benin",2013,"score",2.126,"BEN",204
+"Bhutan",2013,"rank",33,"BTN",64
+"Bhutan",2013,"score",1.679,"BTN",64
+"Bolivia",2013,"rank",101,"BOL",68
+"Bolivia",2013,"score",2.165,"BOL",68
+"Bosnia and Herzegovina",2013,"rank",63,"BIH",70
+"Bosnia and Herzegovina",2013,"score",1.94,"BIH",70
+"Botswana",2013,"rank",32,"BWA",72
+"Botswana",2013,"score",1.676,"BWA",72
+"Brazil",2013,"rank",NA,"BRA",76
+"Brazil",2013,"score",2.047,"BRA",76
+"Bulgaria",2013,"rank",37,"BGR",100
+"Bulgaria",2013,"score",1.712,"BGR",100
+"Burkina Faso",2013,"rank",NA,"BFA",854
+"Burkina Faso",2013,"score",1.91,"BFA",854
+"Burundi",2013,"rank",133,"BDI",108
+"Burundi",2013,"score",2.44,"BDI",108
+"Cambodia",2013,"rank",108,"KHM",116
+"Cambodia",2013,"score",2.217,"KHM",116
+"Cameroon",2013,"rank",NA,"CMR",120
+"Cameroon",2013,"score",2.047,"CMR",120
+"Canada",2013,"rank",6,"CAN",124
+"Canada",2013,"score",1.342,"CAN",124
+"Central African Republic",2013,"rank",155,"CAF",140
+"Central African Republic",2013,"score",2.981,"CAF",140
+"Chad",2013,"rank",136,"TCD",148
+"Chad",2013,"score",2.477,"TCD",148
+"Chile",2013,"rank",NA,"CHL",152
+"Chile",2013,"score",1.669,"CHL",152
+"China",2013,"rank",112,"CHN",156
+"China",2013,"score",2.224,"CHN",156
+"Colombia",2013,"rank",NA,"COL",170
+"Colombia",2013,"score",2.669,"COL",170
+"Costa Rica",2013,"rank",45,"CRI",188
+"Costa Rica",2013,"score",1.801,"CRI",188
+"Cote d'Ivoire",2013,"rank",145,"CIV",384
+"Cote d'Ivoire",2013,"score",2.627,"CIV",384
+"Croatia",2013,"rank",34,"HRV",191
+"Croatia",2013,"score",1.688,"HRV",191
+"Cuba",2013,"rank",81,"CUB",192
+"Cuba",2013,"score",2.064,"CUB",192
+"Cyprus",2013,"rank",42,"CYP",196
+"Cyprus",2013,"score",1.794,"CYP",196
+"Czechia",2013,"rank",7,"CZE",203
+"Czechia",2013,"score",1.383,"CZE",203
+"Democratic Republic of the Congo",2013,"rank",153,"COD",180
+"Democratic Republic of the Congo",2013,"score",2.929,"COD",180
+"Denmark",2013,"rank",2,"DNK",208
+"Denmark",2013,"score",1.197,"DNK",208
+"Djibouti",2013,"rank",69,"DJI",262
+"Djibouti",2013,"score",1.965,"DJI",262
+"Dominican Republic",2013,"rank",91,"DOM",214
+"Dominican Republic",2013,"score",2.11,"DOM",214
+"East Timor",2013,"rank",61,"TLS",626
+"East Timor",2013,"score",1.926,"TLS",626
+"Ecuador",2013,"rank",94,"ECU",218
+"Ecuador",2013,"score",2.119,"ECU",218
+"Egypt",2013,"rank",128,"EGY",818
+"Egypt",2013,"score",2.353,"EGY",818
+"El Salvador",2013,"rank",102,"SLV",222
+"El Salvador",2013,"score",2.178,"SLV",222
+"Equatorial Guinea",2013,"rank",NA,"GNQ",226
+"Equatorial Guinea",2013,"score",1.941,"GNQ",226
+"Eritrea",2013,"rank",121,"ERI",232
+"Eritrea",2013,"score",2.306,"ERI",232
+"Estonia",2013,"rank",39,"EST",233
+"Estonia",2013,"score",1.753,"EST",233
+"Eswatini",2013,"rank",96,"SWZ",748
+"Eswatini",2013,"score",2.129,"SWZ",748
+"Ethiopia",2013,"rank",140,"ETH",231
+"Ethiopia",2013,"score",2.542,"ETH",231
+"Finland",2013,"rank",8,"FIN",246
+"Finland",2013,"score",1.385,"FIN",246
+"France",2013,"rank",NA,"FRA",250
+"France",2013,"score",1.901,"FRA",250
+"Gabon",2013,"rank",73,"GAB",266
+"Gabon",2013,"score",2.006,"GAB",266
+"Georgia",2013,"rank",144,"GEO",268
+"Georgia",2013,"score",2.6,"GEO",268
+"Germany",2013,"rank",21,"DEU",276
+"Germany",2013,"score",1.555,"DEU",276
+"Ghana",2013,"rank",43,"GHA",288
+"Ghana",2013,"score",1.795,"GHA",288
+"Greece",2013,"rank",82,"GRC",300
+"Greece",2013,"score",2.071,"GRC",300
+"Guatemala",2013,"rank",114,"GTM",320
+"Guatemala",2013,"score",2.261,"GTM",320
+"Guinea",2013,"rank",106,"GIN",324
+"Guinea",2013,"score",2.194,"GIN",324
+"Guinea-Bissau",2013,"rank",130,"GNB",624
+"Guinea-Bissau",2013,"score",2.376,"GNB",624
+"Guyana",2013,"rank",76,"GUY",328
+"Guyana",2013,"score",2.038,"GUY",328
+"Haiti",2013,"rank",74,"HTI",332
+"Haiti",2013,"score",2.016,"HTI",332
+"Honduras",2013,"rank",115,"HND",340
+"Honduras",2013,"score",2.263,"HND",340
+"Hungary",2013,"rank",19,"HUN",348
+"Hungary",2013,"score",1.542,"HUN",348
+"Iceland",2013,"rank",1,"ISL",352
+"Iceland",2013,"score",1.164,"ISL",352
+"India",2013,"rank",141,"IND",356
+"India",2013,"score",2.546,"IND",356
+"Indonesia",2013,"rank",48,"IDN",360
+"Indonesia",2013,"score",1.828,"IDN",360
+"Iran",2013,"rank",139,"IRN",364
+"Iran",2013,"score",2.503,"IRN",364
+"Iraq",2013,"rank",160,"IRQ",368
+"Iraq",2013,"score",3.251,"IRQ",368
+"Ireland",2013,"rank",12,"IRL",372
+"Ireland",2013,"score",1.435,"IRL",372
+"Israel",2013,"rank",150,"ISR",376
+"Israel",2013,"score",2.743,"ISR",376
+"Italy",2013,"rank",46,"ITA",380
+"Italy",2013,"score",1.806,"ITA",380
+"Jamaica",2013,"rank",NA,"JAM",388
+"Jamaica",2013,"score",2.193,"JAM",388
+"Japan",2013,"rank",NA,"JPN",392
+"Japan",2013,"score",1.309,"JPN",392
+"Jordan",2013,"rank",70,"JOR",400
+"Jordan",2013,"score",1.981,"JOR",400
+"Kazakhstan",2013,"rank",72,"KAZ",398
+"Kazakhstan",2013,"score",1.999,"KAZ",398
+"Kenya",2013,"rank",132,"KEN",404
+"Kenya",2013,"score",2.431,"KEN",404
+"Kosovo",2013,"rank",92,NA,NA
+"Kosovo",2013,"score",2.111,NA,NA
+"Kuwait",2013,"rank",27,"KWT",414
+"Kuwait",2013,"score",1.651,"KWT",414
+"Kyrgyz Republic",2013,"rank",131,"KGZ",417
+"Kyrgyz Republic",2013,"score",2.417,"KGZ",417
+"Laos",2013,"rank",50,"LAO",418
+"Laos",2013,"score",1.849,"LAO",418
+"Latvia",2013,"rank",36,"LVA",428
+"Latvia",2013,"score",1.694,"LVA",428
+"Lebanon",2013,"rank",NA,"LBN",422
+"Lebanon",2013,"score",2.669,"LBN",422
+"Lesotho",2013,"rank",55,"LSO",426
+"Lesotho",2013,"score",1.884,"LSO",426
+"Liberia",2013,"rank",66,"LBR",430
+"Liberia",2013,"score",1.946,"LBR",430
+"Libya",2013,"rank",147,"LBY",434
+"Libya",2013,"score",2.655,"LBY",434
+"Lithuania",2013,"rank",49,"LTU",440
+"Lithuania",2013,"score",1.834,"LTU",440
+"Madagascar",2013,"rank",98,"MDG",450
+"Madagascar",2013,"score",2.142,"MDG",450
+"Malawi",2013,"rank",40,"MWI",454
+"Malawi",2013,"score",1.769,"MWI",454
+"Malaysia",2013,"rank",23,"MYS",458
+"Malaysia",2013,"score",1.585,"MYS",458
+"Mali",2013,"rank",125,"MLI",466
+"Mali",2013,"score",2.329,"MLI",466
+"Mauritania",2013,"rank",117,"MRT",478
+"Mauritania",2013,"score",2.273,"MRT",478
+"Mauritius",2013,"rank",NA,"MUS",480
+"Mauritius",2013,"score",1.669,"MUS",480
+"Mexico",2013,"rank",142,"MEX",484
+"Mexico",2013,"score",2.563,"MEX",484
+"Moldova",2013,"rank",68,"MDA",498
+"Moldova",2013,"score",1.959,"MDA",498
+"Mongolia",2013,"rank",NA,"MNG",496
+"Mongolia",2013,"score",1.91,"MNG",496
+"Montenegro",2013,"rank",58,"MNE",499
+"Montenegro",2013,"score",1.908,"MNE",499
+"Morocco",2013,"rank",79,"MAR",504
+"Morocco",2013,"score",2.048,"MAR",504
+"Mozambique",2013,"rank",NA,"MOZ",508
+"Mozambique",2013,"score",1.901,"MOZ",508
+"Myanmar",2013,"rank",120,"MMR",104
+"Myanmar",2013,"score",2.3,"MMR",104
+"Namibia",2013,"rank",53,"NAM",516
+"Namibia",2013,"score",1.878,"NAM",516
+"Nepal",2013,"rank",80,"NPL",524
+"Nepal",2013,"score",2.057,"NPL",524
+"Netherlands",2013,"rank",20,"NLD",528
+"Netherlands",2013,"score",1.549,"NLD",528
+"New Zealand",2013,"rank",3,"NZL",554
+"New Zealand",2013,"score",1.291,"NZL",554
+"Nicaragua",2013,"rank",NA,"NIC",558
+"Nicaragua",2013,"score",1.941,"NIC",558
+"Niger",2013,"rank",97,"NER",562
+"Niger",2013,"score",2.132,"NER",562
+"Nigeria",2013,"rank",151,"NGA",566
+"Nigeria",2013,"score",2.744,"NGA",566
+"North Korea",2013,"rank",157,"PRK",408
+"North Korea",2013,"score",3.172,"PRK",408
+"North Macedonia",2013,"rank",83,"MKD",807
+"North Macedonia",2013,"score",2.081,"MKD",807
+"Norway",2013,"rank",18,"NOR",578
+"Norway",2013,"score",1.53,"NOR",578
+"Oman",2013,"rank",62,"OMN",512
+"Oman",2013,"score",1.93,"OMN",512
+"Pakistan",2013,"rank",158,"PAK",586
+"Pakistan",2013,"score",3.174,"PAK",586
+"Palestine",2013,"rank",163,"PSE",275
+"Palestine",2013,"score",NA,"PSE",275
+"Panama",2013,"rank",54,"PAN",591
+"Panama",2013,"score",1.879,"PAN",591
+"Papua New Guinea",2013,"rank",85,"PNG",598
+"Papua New Guinea",2013,"score",2.087,"PNG",598
+"Paraguay",2013,"rank",84,"PRY",600
+"Paraguay",2013,"score",2.084,"PRY",600
+"Peru",2013,"rank",NA,"PER",604
+"Peru",2013,"score",2.193,"PER",604
+"Philippines",2013,"rank",135,"PHL",608
+"Philippines",2013,"score",2.464,"PHL",608
+"Poland",2013,"rank",22,"POL",616
+"Poland",2013,"score",1.568,"POL",616
+"Portugal",2013,"rank",17,"PRT",620
+"Portugal",2013,"score",1.525,"PRT",620
+"Qatar",2013,"rank",24,"QAT",634
+"Qatar",2013,"score",1.588,"QAT",634
+"Republic of the Congo",2013,"rank",99,"COG",178
+"Republic of the Congo",2013,"score",2.147,"COG",178
+"Romania",2013,"rank",16,"ROU",642
+"Romania",2013,"score",1.516,"ROU",642
+"Russia",2013,"rank",156,"RUS",643
+"Russia",2013,"score",3.008,"RUS",643
+"Rwanda",2013,"rank",124,"RWA",646
+"Rwanda",2013,"score",2.326,"RWA",646
+"Saudi Arabia",2013,"rank",110,"SAU",682
+"Saudi Arabia",2013,"score",2.22,"SAU",682
+"Senegal",2013,"rank",75,"SEN",686
+"Senegal",2013,"score",2.034,"SEN",686
+"Serbia",2013,"rank",86,"SRB",688
+"Serbia",2013,"score",2.089,"SRB",688
+"Sierra Leone",2013,"rank",47,"SLE",694
+"Sierra Leone",2013,"score",1.821,"SLE",694
+"Singapore",2013,"rank",14,"SGP",702
+"Singapore",2013,"score",1.455,"SGP",702
+"Slovakia",2013,"rank",25,"SVK",703
+"Slovakia",2013,"score",1.591,"SVK",703
+"Slovenia",2013,"rank",11,"SVN",705
+"Slovenia",2013,"score",1.434,"SVN",705
+"Somalia",2013,"rank",161,"SOM",706
+"Somalia",2013,"score",3.316,"SOM",706
+"South Africa",2013,"rank",NA,"ZAF",710
+"South Africa",2013,"score",2.332,"ZAF",710
+"South Korea",2013,"rank",41,"KOR",410
+"South Korea",2013,"score",1.787,"KOR",410
+"South Sudan",2013,"rank",146,"SSD",728
+"South Sudan",2013,"score",2.65,"SSD",728
+"Spain",2013,"rank",29,"ESP",724
+"Spain",2013,"score",1.667,"ESP",724
+"Sri Lanka",2013,"rank",111,"LKA",144
+"Sri Lanka",2013,"score",2.221,"LKA",144
+"Sudan",2013,"rank",154,"SDN",729
+"Sudan",2013,"score",2.958,"SDN",729
+"Sweden",2013,"rank",9,"SWE",752
+"Sweden",2013,"score",1.399,"SWE",752
+"Switzerland",2013,"rank",10,"CHE",756
+"Switzerland",2013,"score",1.421,"CHE",756
+"Syria",2013,"rank",152,"SYR",760
+"Syria",2013,"score",2.755,"SYR",760
+"Taiwan",2013,"rank",26,"TWN",158
+"Taiwan",2013,"score",1.639,"TWN",158
+"Tajikistan",2013,"rank",116,"TJK",762
+"Tajikistan",2013,"score",2.265,"TJK",762
+"Tanzania",2013,"rank",44,"TZA",834
+"Tanzania",2013,"score",1.799,"TZA",834
+"Thailand",2013,"rank",137,"THA",764
+"Thailand",2013,"score",2.482,"THA",764
+"The Gambia",2013,"rank",88,"GMB",270
+"The Gambia",2013,"score",2.096,"GMB",270
+"Togo",2013,"rank",67,"TGO",768
+"Togo",2013,"score",1.951,"TGO",768
+"Trinidad and Tobago",2013,"rank",89,"TTO",780
+"Trinidad and Tobago",2013,"score",2.097,"TTO",780
+"Tunisia",2013,"rank",90,"TUN",788
+"Tunisia",2013,"score",2.106,"TUN",788
+"Turkey",2013,"rank",143,"TUR",792
+"Turkey",2013,"score",2.578,"TUR",792
+"Turkmenistan",2013,"rank",109,"TKM",795
+"Turkmenistan",2013,"score",2.218,"TKM",795
+"Uganda",2013,"rank",103,"UGA",800
+"Uganda",2013,"score",2.192,"UGA",800
+"Ukraine",2013,"rank",119,"UKR",804
+"Ukraine",2013,"score",2.298,"UKR",804
+"United Arab Emirates",2013,"rank",28,"ARE",784
+"United Arab Emirates",2013,"score",1.665,"ARE",784
+"United Kingdom",2013,"rank",52,"GBR",826
+"United Kingdom",2013,"score",1.876,"GBR",826
+"United States",2013,"rank",118,"USA",840
+"United States",2013,"score",2.283,"USA",840
+"Uruguay",2013,"rank",35,"URY",858
+"Uruguay",2013,"score",1.689,"URY",858
+"Uzbekistan",2013,"rank",123,"UZB",860
+"Uzbekistan",2013,"score",2.321,"UZB",860
+"Venezuela",2013,"rank",129,"VEN",862
+"Venezuela",2013,"score",2.365,"VEN",862
+"Vietnam",2013,"rank",51,"VNM",704
+"Vietnam",2013,"score",1.868,"VNM",704
+"Yemen",2013,"rank",159,"YEM",887
+"Yemen",2013,"score",3.196,"YEM",887
+"Zambia",2013,"rank",38,"ZMB",894
+"Zambia",2013,"score",1.724,"ZMB",894
+"Zimbabwe",2013,"rank",138,"ZWE",716
+"Zimbabwe",2013,"score",2.501,"ZWE",716
+"Afghanistan",2014,"rank",161,"AFG",4
+"Afghanistan",2014,"score",3.321,"AFG",4
+"Albania",2014,"rank",67,"ALB",8
+"Albania",2014,"score",1.96,"ALB",8
+"Algeria",2014,"rank",119,"DZA",12
+"Algeria",2014,"score",2.283,"DZA",12
+"Angola",2014,"rank",96,"AGO",24
+"Angola",2014,"score",2.115,"AGO",24
+"Argentina",2014,"rank",77,"ARG",32
+"Argentina",2014,"score",2.019,"ARG",32
+"Armenia",2014,"rank",114,"ARM",51
+"Armenia",2014,"score",2.253,"ARM",51
+"Australia",2014,"rank",10,"AUS",36
+"Australia",2014,"score",1.387,"AUS",36
+"Austria",2014,"rank",4,"AUT",40
+"Austria",2014,"score",1.287,"AUT",40
+"Azerbaijan",2014,"rank",133,"AZE",31
+"Azerbaijan",2014,"score",2.412,"AZE",31
+"Bahrain",2014,"rank",120,"BHR",48
+"Bahrain",2014,"score",2.287,"BHR",48
+"Bangladesh",2014,"rank",87,"BGD",50
+"Bangladesh",2014,"score",2.086,"BGD",50
+"Belarus",2014,"rank",108,"BLR",112
+"Belarus",2014,"score",2.207,"BLR",112
+"Belgium",2014,"rank",15,"BEL",56
+"Belgium",2014,"score",1.442,"BEL",56
+"Benin",2014,"rank",93,"BEN",204
+"Benin",2014,"score",2.101,"BEN",204
+"Bhutan",2014,"rank",35,"BTN",64
+"Bhutan",2014,"score",1.66,"BTN",64
+"Bolivia",2014,"rank",91,"BOL",68
+"Bolivia",2014,"score",2.096,"BOL",68
+"Bosnia and Herzegovina",2014,"rank",58,"BIH",70
+"Bosnia and Herzegovina",2014,"score",1.895,"BIH",70
+"Botswana",2014,"rank",40,"BWA",72
+"Botswana",2014,"score",1.766,"BWA",72
+"Brazil",2014,"rank",85,"BRA",76
+"Brazil",2014,"score",2.078,"BRA",76
+"Bulgaria",2014,"rank",26,"BGR",100
+"Bulgaria",2014,"score",1.619,"BGR",100
+"Burkina Faso",2014,"rank",49,"BFA",854
+"Burkina Faso",2014,"score",1.824,"BFA",854
+"Burundi",2014,"rank",122,"BDI",108
+"Burundi",2014,"score",2.312,"BDI",108
+"Cambodia",2014,"rank",103,"KHM",116
+"Cambodia",2014,"score",2.175,"KHM",116
+"Cameroon",2014,"rank",NA,"CMR",120
+"Cameroon",2014,"score",2.094,"CMR",120
+"Canada",2014,"rank",5,"CAN",124
+"Canada",2014,"score",1.325,"CAN",124
+"Central African Republic",2014,"rank",158,"CAF",140
+"Central African Republic",2014,"score",3.255,"CAF",140
+"Chad",2014,"rank",143,"TCD",148
+"Chad",2014,"score",2.559,"TCD",148
+"Chile",2014,"rank",31,"CHL",152
+"Chile",2014,"score",1.649,"CHL",152
+"China",2014,"rank",110,"CHN",156
+"China",2014,"score",2.235,"CHN",156
+"Colombia",2014,"rank",150,"COL",170
+"Colombia",2014,"score",2.738,"COL",170
+"Costa Rica",2014,"rank",44,"CRI",188
+"Costa Rica",2014,"score",1.781,"CRI",188
+"Cote d'Ivoire",2014,"rank",123,"CIV",384
+"Cote d'Ivoire",2014,"score",2.315,"CIV",384
+"Croatia",2014,"rank",NA,"HRV",191
+"Croatia",2014,"score",1.656,"HRV",191
+"Cuba",2014,"rank",86,"CUB",192
+"Cuba",2014,"score",2.084,"CUB",192
+"Cyprus",2014,"rank",57,"CYP",196
+"Cyprus",2014,"score",1.875,"CYP",196
+"Czechia",2014,"rank",8,"CZE",203
+"Czechia",2014,"score",1.382,"CZE",203
+"Democratic Republic of the Congo",2014,"rank",153,"COD",180
+"Democratic Republic of the Congo",2014,"score",3.071,"COD",180
+"Denmark",2014,"rank",2,"DNK",208
+"Denmark",2014,"score",1.179,"DNK",208
+"Djibouti",2014,"rank",75,"DJI",262
+"Djibouti",2014,"score",2.007,"DJI",262
+"Dominican Republic",2014,"rank",97,"DOM",214
+"Dominican Republic",2014,"score",2.121,"DOM",214
+"East Timor",2014,"rank",73,"TLS",626
+"East Timor",2014,"score",1.988,"TLS",626
+"Ecuador",2014,"rank",88,"ECU",218
+"Ecuador",2014,"score",2.089,"ECU",218
+"Egypt",2014,"rank",146,"EGY",818
+"Egypt",2014,"score",2.639,"EGY",818
+"El Salvador",2014,"rank",NA,"SLV",222
+"El Salvador",2014,"score",2.178,"SLV",222
+"Equatorial Guinea",2014,"rank",66,"GNQ",226
+"Equatorial Guinea",2014,"score",1.953,"GNQ",226
+"Eritrea",2014,"rank",136,"ERI",232
+"Eritrea",2014,"score",2.445,"ERI",232
+"Estonia",2014,"rank",NA,"EST",233
+"Estonia",2014,"score",1.656,"EST",233
+"Eswatini",2014,"rank",99,"SWZ",748
+"Eswatini",2014,"score",2.134,"SWZ",748
+"Ethiopia",2014,"rank",129,"ETH",231
+"Ethiopia",2014,"score",2.381,"ETH",231
+"Finland",2014,"rank",9,"FIN",246
+"Finland",2014,"score",1.383,"FIN",246
+"France",2014,"rank",52,"FRA",250
+"France",2014,"score",1.842,"FRA",250
+"Gabon",2014,"rank",62,"GAB",266
+"Gabon",2014,"score",1.936,"GAB",266
+"Georgia",2014,"rank",121,"GEO",268
+"Georgia",2014,"score",2.311,"GEO",268
+"Germany",2014,"rank",17,"DEU",276
+"Germany",2014,"score",1.475,"DEU",276
+"Ghana",2014,"rank",47,"GHA",288
+"Ghana",2014,"score",1.805,"GHA",288
+"Greece",2014,"rank",95,"GRC",300
+"Greece",2014,"score",2.108,"GRC",300
+"Guatemala",2014,"rank",112,"GTM",320
+"Guatemala",2014,"score",2.249,"GTM",320
+"Guinea",2014,"rank",109,"GIN",324
+"Guinea",2014,"score",2.211,"GIN",324
+"Guinea-Bissau",2014,"rank",139,"GNB",624
+"Guinea-Bissau",2014,"score",2.469,"GNB",624
+"Guyana",2014,"rank",81,"GUY",328
+"Guyana",2014,"score",2.05,"GUY",328
+"Haiti",2014,"rank",NA,"HTI",332
+"Haiti",2014,"score",2.178,"HTI",332
+"Honduras",2014,"rank",113,"HND",340
+"Honduras",2014,"score",2.251,"HND",340
+"Hungary",2014,"rank",18,"HUN",348
+"Hungary",2014,"score",1.51,"HUN",348
+"Iceland",2014,"rank",1,"ISL",352
+"Iceland",2014,"score",1.16,"ISL",352
+"India",2014,"rank",142,"IND",356
+"India",2014,"score",2.54,"IND",356
+"Indonesia",2014,"rank",54,"IDN",360
+"Indonesia",2014,"score",1.86,"IDN",360
+"Iran",2014,"rank",138,"IRN",364
+"Iran",2014,"score",2.46,"IRN",364
+"Iraq",2014,"rank",162,"IRQ",368
+"Iraq",2014,"score",3.542,"IRQ",368
+"Ireland",2014,"rank",12,"IRL",372
+"Ireland",2014,"score",1.419,"IRL",372
+"Israel",2014,"rank",147,"ISR",376
+"Israel",2014,"score",2.681,"ISR",376
+"Italy",2014,"rank",39,"ITA",380
+"Italy",2014,"score",1.753,"ITA",380
+"Jamaica",2014,"rank",101,"JAM",388
+"Jamaica",2014,"score",2.156,"JAM",388
+"Japan",2014,"rank",6,"JPN",392
+"Japan",2014,"score",1.33,"JPN",392
+"Jordan",2014,"rank",65,"JOR",400
+"Jordan",2014,"score",1.946,"JOR",400
+"Kazakhstan",2014,"rank",92,"KAZ",398
+"Kazakhstan",2014,"score",2.097,"KAZ",398
+"Kenya",2014,"rank",128,"KEN",404
+"Kenya",2014,"score",2.378,"KEN",404
+"Kosovo",2014,"rank",80,NA,NA
+"Kosovo",2014,"score",2.038,NA,NA
+"Kuwait",2014,"rank",NA,"KWT",414
+"Kuwait",2014,"score",1.643,"KWT",414
+"Kyrgyz Republic",2014,"rank",131,"KGZ",417
+"Kyrgyz Republic",2014,"score",2.396,"KGZ",417
+"Laos",2014,"rank",48,"LAO",418
+"Laos",2014,"score",1.809,"LAO",418
+"Latvia",2014,"rank",34,"LVA",428
+"Latvia",2014,"score",1.657,"LVA",428
+"Lebanon",2014,"rank",NA,"LBN",422
+"Lebanon",2014,"score",2.735,"LBN",422
+"Lesotho",2014,"rank",55,"LSO",426
+"Lesotho",2014,"score",1.865,"LSO",426
+"Liberia",2014,"rank",59,"LBR",430
+"Liberia",2014,"score",1.906,"LBR",430
+"Libya",2014,"rank",137,"LBY",434
+"Libya",2014,"score",2.455,"LBY",434
+"Lithuania",2014,"rank",43,"LTU",440
+"Lithuania",2014,"score",1.778,"LTU",440
+"Madagascar",2014,"rank",68,"MDG",450
+"Madagascar",2014,"score",1.966,"MDG",450
+"Malawi",2014,"rank",38,"MWI",454
+"Malawi",2014,"score",1.719,"MWI",454
+"Malaysia",2014,"rank",25,"MYS",458
+"Malaysia",2014,"score",1.579,"MYS",458
+"Mali",2014,"rank",134,"MLI",466
+"Mali",2014,"score",2.418,"MLI",466
+"Mauritania",2014,"rank",124,"MRT",478
+"Mauritania",2014,"score",2.322,"MRT",478
+"Mauritius",2014,"rank",30,"MUS",480
+"Mauritius",2014,"score",1.648,"MUS",480
+"Mexico",2014,"rank",145,"MEX",484
+"Mexico",2014,"score",2.573,"MEX",484
+"Moldova",2014,"rank",63,"MDA",498
+"Moldova",2014,"score",1.939,"MDA",498
+"Mongolia",2014,"rank",41,"MNG",496
+"Mongolia",2014,"score",1.771,"MNG",496
+"Montenegro",2014,"rank",64,"MNE",499
+"Montenegro",2014,"score",1.941,"MNE",499
+"Morocco",2014,"rank",82,"MAR",504
+"Morocco",2014,"score",2.063,"MAR",504
+"Mozambique",2014,"rank",76,"MOZ",508
+"Mozambique",2014,"score",2.012,"MOZ",508
+"Myanmar",2014,"rank",115,"MMR",104
+"Myanmar",2014,"score",2.266,"MMR",104
+"Namibia",2014,"rank",53,"NAM",516
+"Namibia",2014,"score",1.848,"NAM",516
+"Nepal",2014,"rank",70,"NPL",524
+"Nepal",2014,"score",1.981,"NPL",524
+"Netherlands",2014,"rank",21,"NLD",528
+"Netherlands",2014,"score",1.538,"NLD",528
+"New Zealand",2014,"rank",3,"NZL",554
+"New Zealand",2014,"score",1.271,"NZL",554
+"Nicaragua",2014,"rank",61,"NIC",558
+"Nicaragua",2014,"score",1.934,"NIC",558
+"Niger",2014,"rank",NA,"NER",562
+"Niger",2014,"score",2.094,"NER",562
+"Nigeria",2014,"rank",151,"NGA",566
+"Nigeria",2014,"score",2.864,"NGA",566
+"North Korea",2014,"rank",157,"PRK",408
+"North Korea",2014,"score",3.242,"PRK",408
+"North Macedonia",2014,"rank",83,"MKD",807
+"North Macedonia",2014,"score",2.066,"MKD",807
+"Norway",2014,"rank",24,"NOR",578
+"Norway",2014,"score",1.556,"NOR",578
+"Oman",2014,"rank",69,"OMN",512
+"Oman",2014,"score",1.97,"OMN",512
+"Pakistan",2014,"rank",154,"PAK",586
+"Pakistan",2014,"score",3.105,"PAK",586
+"Palestine",2014,"rank",163,"PSE",275
+"Palestine",2014,"score",NA,"PSE",275
+"Panama",2014,"rank",60,"PAN",591
+"Panama",2014,"score",1.907,"PAN",591
+"Papua New Guinea",2014,"rank",78,"PNG",598
+"Papua New Guinea",2014,"score",2.025,"PNG",598
+"Paraguay",2014,"rank",79,"PRY",600
+"Paraguay",2014,"score",2.029,"PRY",600
+"Peru",2014,"rank",102,"PER",604
+"Peru",2014,"score",2.158,"PER",604
+"Philippines",2014,"rank",140,"PHL",608
+"Philippines",2014,"score",2.505,"PHL",608
+"Poland",2014,"rank",20,"POL",616
+"Poland",2014,"score",1.524,"POL",616
+"Portugal",2014,"rank",16,"PRT",620
+"Portugal",2014,"score",1.466,"PRT",620
+"Qatar",2014,"rank",23,"QAT",634
+"Qatar",2014,"score",1.549,"QAT",634
+"Republic of the Congo",2014,"rank",111,"COG",178
+"Republic of the Congo",2014,"score",2.236,"COG",178
+"Romania",2014,"rank",19,"ROU",642
+"Romania",2014,"score",1.511,"ROU",642
+"Russia",2014,"rank",155,"RUS",643
+"Russia",2014,"score",3.125,"RUS",643
+"Rwanda",2014,"rank",125,"RWA",646
+"Rwanda",2014,"score",2.336,"RWA",646
+"Saudi Arabia",2014,"rank",100,"SAU",682
+"Saudi Arabia",2014,"score",2.148,"SAU",682
+"Senegal",2014,"rank",72,"SEN",686
+"Senegal",2014,"score",1.987,"SEN",686
+"Serbia",2014,"rank",74,"SRB",688
+"Serbia",2014,"score",1.999,"SRB",688
+"Sierra Leone",2014,"rank",42,"SLE",694
+"Sierra Leone",2014,"score",1.777,"SLE",694
+"Singapore",2014,"rank",11,"SGP",702
+"Singapore",2014,"score",1.416,"SGP",702
+"Slovakia",2014,"rank",22,"SVK",703
+"Slovakia",2014,"score",1.543,"SVK",703
+"Slovenia",2014,"rank",14,"SVN",705
+"Slovenia",2014,"score",1.43,"SVN",705
+"Somalia",2014,"rank",160,"SOM",706
+"Somalia",2014,"score",3.288,"SOM",706
+"South Africa",2014,"rank",127,"ZAF",710
+"South Africa",2014,"score",2.372,"ZAF",710
+"South Korea",2014,"rank",46,"KOR",410
+"South Korea",2014,"score",1.797,"KOR",410
+"South Sudan",2014,"rank",156,"SSD",728
+"South Sudan",2014,"score",3.23,"SSD",728
+"Spain",2014,"rank",27,"ESP",724
+"Spain",2014,"score",1.63,"ESP",724
+"Sri Lanka",2014,"rank",104,"LKA",144
+"Sri Lanka",2014,"score",2.176,"LKA",144
+"Sudan",2014,"rank",152,"SDN",729
+"Sudan",2014,"score",2.968,"SDN",729
+"Sweden",2014,"rank",7,"SWE",752
+"Sweden",2014,"score",1.375,"SWE",752
+"Switzerland",2014,"rank",13,"CHE",756
+"Switzerland",2014,"score",1.424,"CHE",756
+"Syria",2014,"rank",NA,"SYR",760
+"Syria",2014,"score",2.735,"SYR",760
+"Taiwan",2014,"rank",NA,"TWN",158
+"Taiwan",2014,"score",1.643,"TWN",158
+"Tajikistan",2014,"rank",126,"TJK",762
+"Tajikistan",2014,"score",2.355,"TJK",762
+"Tanzania",2014,"rank",51,"TZA",834
+"Tanzania",2014,"score",1.833,"TZA",834
+"Thailand",2014,"rank",135,"THA",764
+"Thailand",2014,"score",2.444,"THA",764
+"The Gambia",2014,"rank",98,"GMB",270
+"The Gambia",2014,"score",2.123,"GMB",270
+"Togo",2014,"rank",71,"TGO",768
+"Togo",2014,"score",1.985,"TGO",768
+"Trinidad and Tobago",2014,"rank",94,"TTO",780
+"Trinidad and Tobago",2014,"score",2.103,"TTO",780
+"Tunisia",2014,"rank",84,"TUN",788
+"Tunisia",2014,"score",2.077,"TUN",788
+"Turkey",2014,"rank",141,"TUR",792
+"Turkey",2014,"score",2.518,"TUR",792
+"Turkmenistan",2014,"rank",107,"TKM",795
+"Turkmenistan",2014,"score",2.189,"TKM",795
+"Uganda",2014,"rank",118,"UGA",800
+"Uganda",2014,"score",2.281,"UGA",800
+"Ukraine",2014,"rank",144,"UKR",804
+"Ukraine",2014,"score",2.562,"UKR",804
+"United Arab Emirates",2014,"rank",37,"ARE",784
+"United Arab Emirates",2014,"score",1.708,"ARE",784
+"United Kingdom",2014,"rank",56,"GBR",826
+"United Kingdom",2014,"score",1.868,"GBR",826
+"United States",2014,"rank",116,"USA",840
+"United States",2014,"score",2.269,"USA",840
+"Uruguay",2014,"rank",36,"URY",858
+"Uruguay",2014,"score",1.698,"URY",858
+"Uzbekistan",2014,"rank",117,"UZB",860
+"Uzbekistan",2014,"score",2.271,"UZB",860
+"Venezuela",2014,"rank",132,"VEN",862
+"Venezuela",2014,"score",2.401,"VEN",862
+"Vietnam",2014,"rank",50,"VNM",704
+"Vietnam",2014,"score",1.83,"VNM",704
+"Yemen",2014,"rank",159,"YEM",887
+"Yemen",2014,"score",3.266,"YEM",887
+"Zambia",2014,"rank",45,"ZMB",894
+"Zambia",2014,"score",1.793,"ZMB",894
+"Zimbabwe",2014,"rank",130,"ZWE",716
+"Zimbabwe",2014,"score",2.387,"ZWE",716
+"Afghanistan",2015,"rank",157,"AFG",4
+"Afghanistan",2015,"score",3.293,"AFG",4
+"Albania",2015,"rank",NA,"ALB",8
+"Albania",2015,"score",1.948,"ALB",8
+"Algeria",2015,"rank",121,"DZA",12
+"Algeria",2015,"score",2.261,"DZA",12
+"Angola",2015,"rank",77,"AGO",24
+"Angola",2015,"score",2.008,"AGO",24
+"Argentina",2015,"rank",90,"ARG",32
+"Argentina",2015,"score",2.082,"ARG",32
+"Armenia",2015,"rank",NA,"ARM",51
+"Armenia",2015,"score",2.243,"ARM",51
+"Australia",2015,"rank",7,"AUS",36
+"Australia",2015,"score",1.367,"AUS",36
+"Austria",2015,"rank",4,"AUT",40
+"Austria",2015,"score",1.264,"AUT",40
+"Azerbaijan",2015,"rank",133,"AZE",31
+"Azerbaijan",2015,"score",2.425,"AZE",31
+"Bahrain",2015,"rank",NA,"BHR",48
+"Bahrain",2015,"score",2.228,"BHR",48
+"Bangladesh",2015,"rank",79,"BGD",50
+"Bangladesh",2015,"score",2.027,"BGD",50
+"Belarus",2015,"rank",118,"BLR",112
+"Belarus",2015,"score",2.244,"BLR",112
+"Belgium",2015,"rank",15,"BEL",56
+"Belgium",2015,"score",1.437,"BEL",56
+"Benin",2015,"rank",74,"BEN",204
+"Benin",2015,"score",1.975,"BEN",204
+"Bhutan",2015,"rank",NA,"BTN",64
+"Bhutan",2015,"score",1.638,"BTN",64
+"Bolivia",2015,"rank",87,"BOL",68
+"Bolivia",2015,"score",2.071,"BOL",68
+"Bosnia and Herzegovina",2015,"rank",68,"BIH",70
+"Bosnia and Herzegovina",2015,"score",1.955,"BIH",70
+"Botswana",2015,"rank",31,"BWA",72
+"Botswana",2015,"score",1.663,"BWA",72
+"Brazil",2015,"rank",103,"BRA",76
+"Brazil",2015,"score",2.163,"BRA",76
+"Bulgaria",2015,"rank",32,"BGR",100
+"Bulgaria",2015,"score",1.684,"BGR",100
+"Burkina Faso",2015,"rank",56,"BFA",854
+"Burkina Faso",2015,"score",1.896,"BFA",854
+"Burundi",2015,"rank",127,"BDI",108
+"Burundi",2015,"score",2.327,"BDI",108
+"Cambodia",2015,"rank",94,"KHM",116
+"Cambodia",2015,"score",2.105,"KHM",116
+"Cameroon",2015,"rank",125,"CMR",120
+"Cameroon",2015,"score",2.296,"CMR",120
+"Canada",2015,"rank",6,"CAN",124
+"Canada",2015,"score",1.337,"CAN",124
+"Central African Republic",2015,"rank",158,"CAF",140
+"Central African Republic",2015,"score",3.41,"CAF",140
+"Chad",2015,"rank",141,"TCD",148
+"Chad",2015,"score",2.54,"TCD",148
+"Chile",2015,"rank",26,"CHL",152
+"Chile",2015,"score",1.633,"CHL",152
+"China",2015,"rank",124,"CHN",156
+"China",2015,"score",2.284,"CHN",156
+"Colombia",2015,"rank",147,"COL",170
+"Colombia",2015,"score",2.774,"COL",170
+"Costa Rica",2015,"rank",34,"CRI",188
+"Costa Rica",2015,"score",1.706,"CRI",188
+"Cote d'Ivoire",2015,"rank",100,"CIV",384
+"Cote d'Ivoire",2015,"score",2.145,"CIV",384
+"Croatia",2015,"rank",30,"HRV",191
+"Croatia",2015,"score",1.662,"HRV",191
+"Cuba",2015,"rank",89,"CUB",192
+"Cuba",2015,"score",2.079,"CUB",192
+"Cyprus",2015,"rank",59,"CYP",196
+"Cyprus",2015,"score",1.903,"CYP",196
+"Czechia",2015,"rank",8,"CZE",203
+"Czechia",2015,"score",1.372,"CZE",203
+"Democratic Republic of the Congo",2015,"rank",153,"COD",180
+"Democratic Republic of the Congo",2015,"score",3.076,"COD",180
+"Denmark",2015,"rank",2,"DNK",208
+"Denmark",2015,"score",1.179,"DNK",208
+"Djibouti",2015,"rank",104,"DJI",262
+"Djibouti",2015,"score",2.185,"DJI",262
+"Dominican Republic",2015,"rank",98,"DOM",214
+"Dominican Republic",2015,"score",2.134,"DOM",214
+"East Timor",2015,"rank",73,"TLS",626
+"East Timor",2015,"score",1.962,"TLS",626
+"Ecuador",2015,"rank",82,"ECU",218
+"Ecuador",2015,"score",2.04,"ECU",218
+"Egypt",2015,"rank",136,"EGY",818
+"Egypt",2015,"score",2.438,"EGY",818
+"El Salvador",2015,"rank",122,"SLV",222
+"El Salvador",2015,"score",2.281,"SLV",222
+"Equatorial Guinea",2015,"rank",63,"GNQ",226
+"Equatorial Guinea",2015,"score",1.929,"GNQ",226
+"Eritrea",2015,"rank",132,"ERI",232
+"Eritrea",2015,"score",2.422,"ERI",232
+"Estonia",2015,"rank",39,"EST",233
+"Estonia",2015,"score",1.727,"EST",233
+"Eswatini",2015,"rank",97,"SWZ",748
+"Eswatini",2015,"score",2.126,"SWZ",748
+"Ethiopia",2015,"rank",123,"ETH",231
+"Ethiopia",2015,"score",2.283,"ETH",231
+"Finland",2015,"rank",11,"FIN",246
+"Finland",2015,"score",1.399,"FIN",246
+"France",2015,"rank",49,"FRA",250
+"France",2015,"score",1.816,"FRA",250
+"Gabon",2015,"rank",72,"GAB",266
+"Gabon",2015,"score",1.959,"GAB",266
+"Georgia",2015,"rank",102,"GEO",268
+"Georgia",2015,"score",2.159,"GEO",268
+"Germany",2015,"rank",17,"DEU",276
+"Germany",2015,"score",1.482,"DEU",276
+"Ghana",2015,"rank",46,"GHA",288
+"Ghana",2015,"score",1.8,"GHA",288
+"Greece",2015,"rank",NA,"GRC",300
+"Greece",2015,"score",1.958,"GRC",300
+"Guatemala",2015,"rank",112,"GTM",320
+"Guatemala",2015,"score",2.229,"GTM",320
+"Guinea",2015,"rank",106,"GIN",324
+"Guinea",2015,"score",2.207,"GIN",324
+"Guinea-Bissau",2015,"rank",107,"GNB",624
+"Guinea-Bissau",2015,"score",2.219,"GNB",624
+"Guyana",2015,"rank",93,"GUY",328
+"Guyana",2015,"score",2.095,"GUY",328
+"Haiti",2015,"rank",91,"HTI",332
+"Haiti",2015,"score",2.088,"HTI",332
+"Honduras",2015,"rank",109,"HND",340
+"Honduras",2015,"score",2.226,"HND",340
+"Hungary",2015,"rank",20,"HUN",348
+"Hungary",2015,"score",1.519,"HUN",348
+"Iceland",2015,"rank",1,"ISL",352
+"Iceland",2015,"score",1.142,"ISL",352
+"India",2015,"rank",144,"IND",356
+"India",2015,"score",2.557,"IND",356
+"Indonesia",2015,"rank",48,"IDN",360
+"Indonesia",2015,"score",1.812,"IDN",360
+"Iran",2015,"rank",137,"IRN",364
+"Iran",2015,"score",2.453,"IRN",364
+"Iraq",2015,"rank",162,"IRQ",368
+"Iraq",2015,"score",3.628,"IRQ",368
+"Ireland",2015,"rank",14,"IRL",372
+"Ireland",2015,"score",1.422,"IRL",372
+"Israel",2015,"rank",145,"ISR",376
+"Israel",2015,"score",2.721,"ISR",376
+"Italy",2015,"rank",42,"ITA",380
+"Italy",2015,"score",1.761,"ITA",380
+"Jamaica",2015,"rank",96,"JAM",388
+"Jamaica",2015,"score",2.115,"JAM",388
+"Japan",2015,"rank",5,"JPN",392
+"Japan",2015,"score",1.315,"JPN",392
+"Jordan",2015,"rank",80,"JOR",400
+"Jordan",2015,"score",2.028,"JOR",400
+"Kazakhstan",2015,"rank",78,"KAZ",398
+"Kazakhstan",2015,"score",2.021,"KAZ",398
+"Kenya",2015,"rank",129,"KEN",404
+"Kenya",2015,"score",2.332,"KEN",404
+"Kosovo",2015,"rank",86,NA,NA
+"Kosovo",2015,"score",2.058,NA,NA
+"Kuwait",2015,"rank",33,"KWT",414
+"Kuwait",2015,"score",1.696,"KWT",414
+"Kyrgyz Republic",2015,"rank",126,"KGZ",417
+"Kyrgyz Republic",2015,"score",2.303,"KGZ",417
+"Laos",2015,"rank",47,"LAO",418
+"Laos",2015,"score",1.81,"LAO",418
+"Latvia",2015,"rank",35,"LVA",428
+"Latvia",2015,"score",1.707,"LVA",428
+"Lebanon",2015,"rank",146,"LBN",422
+"Lebanon",2015,"score",2.73,"LBN",422
+"Lesotho",2015,"rank",61,"LSO",426
+"Lesotho",2015,"score",1.915,"LSO",426
+"Liberia",2015,"rank",67,"LBR",430
+"Liberia",2015,"score",1.951,"LBR",430
+"Libya",2015,"rank",151,"LBY",434
+"Libya",2015,"score",3.048,"LBY",434
+"Lithuania",2015,"rank",37,"LTU",440
+"Lithuania",2015,"score",1.719,"LTU",440
+"Madagascar",2015,"rank",NA,"MDG",450
+"Madagascar",2015,"score",1.902,"MDG",450
+"Malawi",2015,"rank",36,"MWI",454
+"Malawi",2015,"score",1.715,"MWI",454
+"Malaysia",2015,"rank",25,"MYS",458
+"Malaysia",2015,"score",1.585,"MYS",458
+"Mali",2015,"rank",143,"MLI",466
+"Mali",2015,"score",2.546,"MLI",466
+"Mauritania",2015,"rank",131,"MRT",478
+"Mauritania",2015,"score",2.385,"MRT",478
+"Mauritius",2015,"rank",NA,"MUS",480
+"Mauritius",2015,"score",1.638,"MUS",480
+"Mexico",2015,"rank",142,"MEX",484
+"Mexico",2015,"score",2.544,"MEX",484
+"Moldova",2015,"rank",62,"MDA",498
+"Moldova",2015,"score",1.923,"MDA",498
+"Mongolia",2015,"rank",40,"MNG",496
+"Mongolia",2015,"score",1.75,"MNG",496
+"Montenegro",2015,"rank",66,"MNE",499
+"Montenegro",2015,"score",1.949,"MNE",499
+"Morocco",2015,"rank",85,"MAR",504
+"Morocco",2015,"score",2.051,"MAR",504
+"Mozambique",2015,"rank",69,"MOZ",508
+"Mozambique",2015,"score",1.957,"MOZ",508
+"Myanmar",2015,"rank",130,"MMR",104
+"Myanmar",2015,"score",2.337,"MMR",104
+"Namibia",2015,"rank",53,"NAM",516
+"Namibia",2015,"score",1.863,"NAM",516
+"Nepal",2015,"rank",54,"NPL",524
+"Nepal",2015,"score",1.885,"NPL",524
+"Netherlands",2015,"rank",22,"NLD",528
+"Netherlands",2015,"score",1.527,"NLD",528
+"New Zealand",2015,"rank",3,"NZL",554
+"New Zealand",2015,"score",1.263,"NZL",554
+"Nicaragua",2015,"rank",76,"NIC",558
+"Nicaragua",2015,"score",2.003,"NIC",558
+"Niger",2015,"rank",128,"NER",562
+"Niger",2015,"score",2.329,"NER",562
+"Nigeria",2015,"rank",149,"NGA",566
+"Nigeria",2015,"score",2.936,"NGA",566
+"North Korea",2015,"rank",156,"PRK",408
+"North Korea",2015,"score",3.284,"PRK",408
+"North Macedonia",2015,"rank",83,"MKD",807
+"North Macedonia",2015,"score",2.041,"MKD",807
+"Norway",2015,"rank",18,"NOR",578
+"Norway",2015,"score",1.483,"NOR",578
+"Oman",2015,"rank",81,"OMN",512
+"Oman",2015,"score",2.038,"OMN",512
+"Pakistan",2015,"rank",NA,"PAK",586
+"Pakistan",2015,"score",3.138,"PAK",586
+"Palestine",2015,"rank",163,"PSE",275
+"Palestine",2015,"score",NA,"PSE",275
+"Panama",2015,"rank",NA,"PAN",591
+"Panama",2015,"score",1.948,"PAN",591
+"Papua New Guinea",2015,"rank",84,"PNG",598
+"Papua New Guinea",2015,"score",2.048,"PNG",598
+"Paraguay",2015,"rank",88,"PRY",600
+"Paraguay",2015,"score",2.077,"PRY",600
+"Peru",2015,"rank",92,"PER",604
+"Peru",2015,"score",2.093,"PER",604
+"Philippines",2015,"rank",140,"PHL",608
+"Philippines",2015,"score",2.514,"PHL",608
+"Poland",2015,"rank",19,"POL",616
+"Poland",2015,"score",1.503,"POL",616
+"Portugal",2015,"rank",12,"PRT",620
+"Portugal",2015,"score",1.418,"PRT",620
+"Qatar",2015,"rank",29,"QAT",634
+"Qatar",2015,"score",1.64,"QAT",634
+"Republic of the Congo",2015,"rank",NA,"COG",178
+"Republic of the Congo",2015,"score",2.243,"COG",178
+"Romania",2015,"rank",21,"ROU",642
+"Romania",2015,"score",1.526,"ROU",642
+"Russia",2015,"rank",NA,"RUS",643
+"Russia",2015,"score",3.138,"RUS",643
+"Rwanda",2015,"rank",NA,"RWA",646
+"Rwanda",2015,"score",2.228,"RWA",646
+"Saudi Arabia",2015,"rank",99,"SAU",682
+"Saudi Arabia",2015,"score",2.139,"SAU",682
+"Senegal",2015,"rank",NA,"SEN",686
+"Senegal",2015,"score",1.902,"SEN",686
+"Serbia",2015,"rank",60,"SRB",688
+"Serbia",2015,"score",1.914,"SRB",688
+"Sierra Leone",2015,"rank",45,"SLE",694
+"Sierra Leone",2015,"score",1.792,"SLE",694
+"Singapore",2015,"rank",10,"SGP",702
+"Singapore",2015,"score",1.387,"SGP",702
+"Slovakia",2015,"rank",23,"SVK",703
+"Slovakia",2015,"score",1.539,"SVK",703
+"Slovenia",2015,"rank",13,"SVN",705
+"Slovenia",2015,"score",1.421,"SVN",705
+"Somalia",2015,"rank",159,"SOM",706
+"Somalia",2015,"score",3.425,"SOM",706
+"South Africa",2015,"rank",134,"ZAF",710
+"South Africa",2015,"score",2.428,"ZAF",710
+"South Korea",2015,"rank",43,"KOR",410
+"South Korea",2015,"score",1.762,"KOR",410
+"South Sudan",2015,"rank",161,"SSD",728
+"South Sudan",2015,"score",3.491,"SSD",728
+"Spain",2015,"rank",24,"ESP",724
+"Spain",2015,"score",1.556,"ESP",724
+"Sri Lanka",2015,"rank",108,"LKA",144
+"Sri Lanka",2015,"score",2.225,"LKA",144
+"Sudan",2015,"rank",150,"SDN",729
+"Sudan",2015,"score",2.976,"SDN",729
+"Sweden",2015,"rank",9,"SWE",752
+"Sweden",2015,"score",1.383,"SWE",752
+"Switzerland",2015,"rank",16,"CHE",756
+"Switzerland",2015,"score",1.443,"CHE",756
+"Syria",2015,"rank",148,"SYR",760
+"Syria",2015,"score",2.84,"SYR",760
+"Taiwan",2015,"rank",38,"TWN",158
+"Taiwan",2015,"score",1.721,"TWN",158
+"Tajikistan",2015,"rank",114,"TJK",762
+"Tajikistan",2015,"score",2.237,"TJK",762
+"Tanzania",2015,"rank",52,"TZA",834
+"Tanzania",2015,"score",1.857,"TZA",834
+"Thailand",2015,"rank",135,"THA",764
+"Thailand",2015,"score",2.43,"THA",764
+"The Gambia",2015,"rank",101,"GMB",270
+"The Gambia",2015,"score",2.151,"GMB",270
+"Togo",2015,"rank",NA,"TGO",768
+"Togo",2015,"score",1.958,"TGO",768
+"Trinidad and Tobago",2015,"rank",95,"TTO",780
+"Trinidad and Tobago",2015,"score",2.111,"TTO",780
+"Tunisia",2015,"rank",75,"TUN",788
+"Tunisia",2015,"score",1.997,"TUN",788
+"Turkey",2015,"rank",138,"TUR",792
+"Turkey",2015,"score",2.496,"TUR",792
+"Turkmenistan",2015,"rank",105,"TKM",795
+"Turkmenistan",2015,"score",2.198,"TKM",795
+"Uganda",2015,"rank",115,"UGA",800
+"Uganda",2015,"score",2.239,"UGA",800
+"Ukraine",2015,"rank",152,"UKR",804
+"Ukraine",2015,"score",3.059,"UKR",804
+"United Arab Emirates",2015,"rank",44,"ARE",784
+"United Arab Emirates",2015,"score",1.767,"ARE",784
+"United Kingdom",2015,"rank",51,"GBR",826
+"United Kingdom",2015,"score",1.844,"GBR",826
+"United States",2015,"rank",119,"USA",840
+"United States",2015,"score",2.256,"USA",840
+"Uruguay",2015,"rank",41,"URY",858
+"Uruguay",2015,"score",1.759,"URY",858
+"Uzbekistan",2015,"rank",120,"UZB",860
+"Uzbekistan",2015,"score",2.258,"UZB",860
+"Venezuela",2015,"rank",139,"VEN",862
+"Venezuela",2015,"score",2.51,"VEN",862
+"Vietnam",2015,"rank",55,"VNM",704
+"Vietnam",2015,"score",1.888,"VNM",704
+"Yemen",2015,"rank",160,"YEM",887
+"Yemen",2015,"score",3.481,"YEM",887
+"Zambia",2015,"rank",50,"ZMB",894
+"Zambia",2015,"score",1.817,"ZMB",894
+"Zimbabwe",2015,"rank",113,"ZWE",716
+"Zimbabwe",2015,"score",2.235,"ZWE",716
+"Afghanistan",2016,"rank",159,"AFG",4
+"Afghanistan",2016,"score",3.391,"AFG",4
+"Albania",2016,"rank",61,"ALB",8
+"Albania",2016,"score",1.9,"ALB",8
+"Algeria",2016,"rank",106,"DZA",12
+"Algeria",2016,"score",2.197,"DZA",12
+"Angola",2016,"rank",NA,"AGO",24
+"Angola",2016,"score",2.073,"AGO",24
+"Argentina",2016,"rank",93,"ARG",32
+"Argentina",2016,"score",2.096,"ARG",32
+"Armenia",2016,"rank",114,"ARM",51
+"Armenia",2016,"score",2.225,"ARM",51
+"Australia",2016,"rank",12,"AUS",36
+"Australia",2016,"score",1.4,"AUS",36
+"Austria",2016,"rank",4,"AUT",40
+"Austria",2016,"score",1.249,"AUT",40
+"Azerbaijan",2016,"rank",134,"AZE",31
+"Azerbaijan",2016,"score",2.441,"AZE",31
+"Bahrain",2016,"rank",132,"BHR",48
+"Bahrain",2016,"score",2.347,"BHR",48
+"Bangladesh",2016,"rank",81,"BGD",50
+"Bangladesh",2016,"score",2.046,"BGD",50
+"Belarus",2016,"rank",105,"BLR",112
+"Belarus",2016,"score",2.18,"BLR",112
+"Belgium",2016,"rank",16,"BEL",56
+"Belgium",2016,"score",1.47,"BEL",56
+"Benin",2016,"rank",73,"BEN",204
+"Benin",2016,"score",1.997,"BEN",204
+"Bhutan",2016,"rank",23,"BTN",64
+"Bhutan",2016,"score",1.572,"BTN",64
+"Bolivia",2016,"rank",78,"BOL",68
+"Bolivia",2016,"score",2.017,"BOL",68
+"Bosnia and Herzegovina",2016,"rank",62,"BIH",70
+"Bosnia and Herzegovina",2016,"score",1.942,"BIH",70
+"Botswana",2016,"rank",28,"BWA",72
+"Botswana",2016,"score",1.633,"BWA",72
+"Brazil",2016,"rank",104,"BRA",76
+"Brazil",2016,"score",2.169,"BRA",76
+"Bulgaria",2016,"rank",30,"BGR",100
+"Bulgaria",2016,"score",1.641,"BGR",100
+"Burkina Faso",2016,"rank",82,"BFA",854
+"Burkina Faso",2016,"score",2.047,"BFA",854
+"Burundi",2016,"rank",138,"BDI",108
+"Burundi",2016,"score",2.507,"BDI",108
+"Cambodia",2016,"rank",NA,"KHM",116
+"Cambodia",2016,"score",2.101,"KHM",116
+"Cameroon",2016,"rank",127,"CMR",120
+"Cameroon",2016,"score",2.3,"CMR",120
+"Canada",2016,"rank",6,"CAN",124
+"Canada",2016,"score",1.337,"CAN",124
+"Central African Republic",2016,"rank",158,"CAF",140
+"Central African Republic",2016,"score",3.313,"CAF",140
+"Chad",2016,"rank",136,"TCD",148
+"Chad",2016,"score",2.476,"TCD",148
+"Chile",2016,"rank",27,"CHL",152
+"Chile",2016,"score",1.623,"CHL",152
+"China",2016,"rank",NA,"CHN",156
+"China",2016,"score",2.276,"CHN",156
+"Colombia",2016,"rank",145,"COL",170
+"Colombia",2016,"score",2.74,"COL",170
+"Costa Rica",2016,"rank",34,"CRI",188
+"Costa Rica",2016,"score",1.705,"CRI",188
+"Cote d'Ivoire",2016,"rank",112,"CIV",384
+"Cote d'Ivoire",2016,"score",2.218,"CIV",384
+"Croatia",2016,"rank",32,"HRV",191
+"Croatia",2016,"score",1.665,"HRV",191
+"Cuba",2016,"rank",87,"CUB",192
+"Cuba",2016,"score",2.072,"CUB",192
+"Cyprus",2016,"rank",56,"CYP",196
+"Cyprus",2016,"score",1.876,"CYP",196
+"Czechia",2016,"rank",7,"CZE",203
+"Czechia",2016,"score",1.367,"CZE",203
+"Democratic Republic of the Congo",2016,"rank",151,"COD",180
+"Democratic Republic of the Congo",2016,"score",3.064,"COD",180
+"Denmark",2016,"rank",2,"DNK",208
+"Denmark",2016,"score",1.201,"DNK",208
+"Djibouti",2016,"rank",125,"DJI",262
+"Djibouti",2016,"score",2.282,"DJI",262
+"Dominican Republic",2016,"rank",NA,"DOM",214
+"Dominican Republic",2016,"score",2.129,"DOM",214
+"East Timor",2016,"rank",NA,"TLS",626
+"East Timor",2016,"score",1.959,"TLS",626
+"Ecuador",2016,"rank",77,"ECU",218
+"Ecuador",2016,"score",2.015,"ECU",218
+"Egypt",2016,"rank",140,"EGY",818
+"Egypt",2016,"score",2.562,"EGY",818
+"El Salvador",2016,"rank",116,"SLV",222
+"El Salvador",2016,"score",2.237,"SLV",222
+"Equatorial Guinea",2016,"rank",60,"GNQ",226
+"Equatorial Guinea",2016,"score",1.895,"GNQ",226
+"Eritrea",2016,"rank",135,"ERI",232
+"Eritrea",2016,"score",2.474,"ERI",232
+"Estonia",2016,"rank",36,"EST",233
+"Estonia",2016,"score",1.72,"EST",233
+"Eswatini",2016,"rank",91,"SWZ",748
+"Eswatini",2016,"score",2.091,"SWZ",748
+"Ethiopia",2016,"rank",121,"ETH",231
+"Ethiopia",2016,"score",2.275,"ETH",231
+"Finland",2016,"rank",15,"FIN",246
+"Finland",2016,"score",1.447,"FIN",246
+"France",2016,"rank",55,"FRA",250
+"France",2016,"score",1.873,"FRA",250
+"Gabon",2016,"rank",75,"GAB",266
+"Gabon",2016,"score",2.007,"GAB",266
+"Georgia",2016,"rank",NA,"GEO",268
+"Georgia",2016,"score",2.129,"GEO",268
+"Germany",2016,"rank",17,"DEU",276
+"Germany",2016,"score",1.487,"DEU",276
+"Ghana",2016,"rank",44,"GHA",288
+"Ghana",2016,"score",1.796,"GHA",288
+"Greece",2016,"rank",80,"GRC",300
+"Greece",2016,"score",2.038,"GRC",300
+"Guatemala",2016,"rank",NA,"GTM",320
+"Guatemala",2016,"score",2.276,"GTM",320
+"Guinea",2016,"rank",103,"GIN",324
+"Guinea",2016,"score",2.159,"GIN",324
+"Guinea-Bissau",2016,"rank",113,"GNB",624
+"Guinea-Bissau",2016,"score",2.224,"GNB",624
+"Guyana",2016,"rank",99,"GUY",328
+"Guyana",2016,"score",2.122,"GUY",328
+"Haiti",2016,"rank",85,"HTI",332
+"Haiti",2016,"score",2.065,"HTI",332
+"Honduras",2016,"rank",115,"HND",340
+"Honduras",2016,"score",2.232,"HND",340
+"Hungary",2016,"rank",19,"HUN",348
+"Hungary",2016,"score",1.502,"HUN",348
+"Iceland",2016,"rank",1,"ISL",352
+"Iceland",2016,"score",1.138,"ISL",352
+"India",2016,"rank",NA,"IND",356
+"India",2016,"score",2.565,"IND",356
+"Indonesia",2016,"rank",45,"IDN",360
+"Indonesia",2016,"score",1.798,"IDN",360
+"Iran",2016,"rank",133,"IRN",364
+"Iran",2016,"score",2.37,"IRN",364
+"Iraq",2016,"rank",163,"IRQ",368
+"Iraq",2016,"score",3.653,"IRQ",368
+"Ireland",2016,"rank",14,"IRL",372
+"Ireland",2016,"score",1.423,"IRL",372
+"Israel",2016,"rank",146,"ISR",376
+"Israel",2016,"score",2.741,"ISR",376
+"Italy",2016,"rank",40,"ITA",380
+"Italy",2016,"score",1.761,"ITA",380
+"Jamaica",2016,"rank",92,"JAM",388
+"Jamaica",2016,"score",2.094,"JAM",388
+"Japan",2016,"rank",9,"JPN",392
+"Japan",2016,"score",1.374,"JPN",392
+"Jordan",2016,"rank",83,"JOR",400
+"Jordan",2016,"score",2.049,"JOR",400
+"Kazakhstan",2016,"rank",76,"KAZ",398
+"Kazakhstan",2016,"score",2.01,"KAZ",398
+"Kenya",2016,"rank",131,"KEN",404
+"Kenya",2016,"score",2.339,"KEN",404
+"Kosovo",2016,"rank",86,NA,NA
+"Kosovo",2016,"score",2.07,NA,NA
+"Kuwait",2016,"rank",38,"KWT",414
+"Kuwait",2016,"score",1.749,"KWT",414
+"Kyrgyz Republic",2016,"rank",120,"KGZ",417
+"Kyrgyz Republic",2016,"score",2.274,"KGZ",417
+"Laos",2016,"rank",NA,"LAO",418
+"Laos",2016,"score",1.857,"LAO",418
+"Latvia",2016,"rank",33,"LVA",428
+"Latvia",2016,"score",1.666,"LVA",428
+"Lebanon",2016,"rank",148,"LBN",422
+"Lebanon",2016,"score",2.755,"LBN",422
+"Lesotho",2016,"rank",67,"LSO",426
+"Lesotho",2016,"score",1.955,"LSO",426
+"Liberia",2016,"rank",71,"LBR",430
+"Liberia",2016,"score",1.988,"LBR",430
+"Libya",2016,"rank",155,"LBY",434
+"Libya",2016,"score",3.219,"LBY",434
+"Lithuania",2016,"rank",48,"LTU",440
+"Lithuania",2016,"score",1.813,"LTU",440
+"Madagascar",2016,"rank",54,"MDG",450
+"Madagascar",2016,"score",1.866,"MDG",450
+"Malawi",2016,"rank",37,"MWI",454
+"Malawi",2016,"score",1.726,"MWI",454
+"Malaysia",2016,"rank",29,"MYS",458
+"Malaysia",2016,"score",1.635,"MYS",458
+"Mali",2016,"rank",NA,"MLI",466
+"Mali",2016,"score",2.565,"MLI",466
+"Mauritania",2016,"rank",124,"MRT",478
+"Mauritania",2016,"score",2.279,"MRT",478
+"Mauritius",2016,"rank",31,"MUS",480
+"Mauritius",2016,"score",1.648,"MUS",480
+"Mexico",2016,"rank",139,"MEX",484
+"Mexico",2016,"score",2.548,"MEX",484
+"Moldova",2016,"rank",NA,"MDA",498
+"Moldova",2016,"score",1.949,"MDA",498
+"Mongolia",2016,"rank",49,"MNG",496
+"Mongolia",2016,"score",1.83,"MNG",496
+"Montenegro",2016,"rank",57,"MNE",499
+"Montenegro",2016,"score",1.878,"MNE",499
+"Morocco",2016,"rank",90,"MAR",504
+"Morocco",2016,"score",2.082,"MAR",504
+"Mozambique",2016,"rank",NA,"MOZ",508
+"Mozambique",2016,"score",1.951,"MOZ",508
+"Myanmar",2016,"rank",NA,"MMR",104
+"Myanmar",2016,"score",2.25,"MMR",104
+"Namibia",2016,"rank",NA,"NAM",516
+"Namibia",2016,"score",1.857,"NAM",516
+"Nepal",2016,"rank",74,"NPL",524
+"Nepal",2016,"score",2.003,"NPL",524
+"Netherlands",2016,"rank",20,"NLD",528
+"Netherlands",2016,"score",1.526,"NLD",528
+"New Zealand",2016,"rank",3,"NZL",554
+"New Zealand",2016,"score",1.238,"NZL",554
+"Nicaragua",2016,"rank",NA,"NIC",558
+"Nicaragua",2016,"score",1.959,"NIC",558
+"Niger",2016,"rank",119,"NER",562
+"Niger",2016,"score",2.268,"NER",562
+"Nigeria",2016,"rank",149,"NGA",566
+"Nigeria",2016,"score",2.871,"NGA",566
+"North Korea",2016,"rank",154,"PRK",408
+"North Korea",2016,"score",3.218,"PRK",408
+"North Macedonia",2016,"rank",98,"MKD",807
+"North Macedonia",2016,"score",2.118,"MKD",807
+"Norway",2016,"rank",18,"NOR",578
+"Norway",2016,"score",1.488,"NOR",578
+"Oman",2016,"rank",72,"OMN",512
+"Oman",2016,"score",1.995,"OMN",512
+"Pakistan",2016,"rank",153,"PAK",586
+"Pakistan",2016,"score",3.132,"PAK",586
+"Palestine",2016,"rank",147,"PSE",275
+"Palestine",2016,"score",2.746,"PSE",275
+"Panama",2016,"rank",50,"PAN",591
+"Panama",2016,"score",1.831,"PAN",591
+"Papua New Guinea",2016,"rank",97,"PNG",598
+"Papua New Guinea",2016,"score",2.114,"PNG",598
+"Paraguay",2016,"rank",79,"PRY",600
+"Paraguay",2016,"score",2.027,"PRY",600
+"Peru",2016,"rank",84,"PER",604
+"Peru",2016,"score",2.062,"PER",604
+"Philippines",2016,"rank",137,"PHL",608
+"Philippines",2016,"score",2.501,"PHL",608
+"Poland",2016,"rank",21,"POL",616
+"Poland",2016,"score",1.549,"POL",616
+"Portugal",2016,"rank",5,"PRT",620
+"Portugal",2016,"score",1.324,"PRT",620
+"Qatar",2016,"rank",26,"QAT",634
+"Qatar",2016,"score",1.603,"QAT",634
+"Republic of the Congo",2016,"rank",126,"COG",178
+"Republic of the Congo",2016,"score",2.299,"COG",178
+"Romania",2016,"rank",22,"ROU",642
+"Romania",2016,"score",1.557,"ROU",642
+"Russia",2016,"rank",152,"RUS",643
+"Russia",2016,"score",3.118,"RUS",643
+"Rwanda",2016,"rank",111,"RWA",646
+"Rwanda",2016,"score",2.215,"RWA",646
+"Saudi Arabia",2016,"rank",110,"SAU",682
+"Saudi Arabia",2016,"score",2.212,"SAU",682
+"Senegal",2016,"rank",70,"SEN",686
+"Senegal",2016,"score",1.972,"SEN",686
+"Serbia",2016,"rank",58,"SRB",688
+"Serbia",2016,"score",1.888,"SRB",688
+"Sierra Leone",2016,"rank",41,"SLE",694
+"Sierra Leone",2016,"score",1.772,"SLE",694
+"Singapore",2016,"rank",11,"SGP",702
+"Singapore",2016,"score",1.393,"SGP",702
+"Slovakia",2016,"rank",25,"SVK",703
+"Slovakia",2016,"score",1.594,"SVK",703
+"Slovenia",2016,"rank",10,"SVN",705
+"Slovenia",2016,"score",1.39,"SVN",705
+"Somalia",2016,"rank",160,"SOM",706
+"Somalia",2016,"score",3.465,"SOM",706
+"South Africa",2016,"rank",130,"ZAF",710
+"South Africa",2016,"score",2.309,"ZAF",710
+"South Korea",2016,"rank",46,"KOR",410
+"South Korea",2016,"score",1.8,"KOR",410
+"South Sudan",2016,"rank",161,"SSD",728
+"South Sudan",2016,"score",3.524,"SSD",728
+"Spain",2016,"rank",24,"ESP",724
+"Spain",2016,"score",1.582,"ESP",724
+"Sri Lanka",2016,"rank",NA,"LKA",144
+"Sri Lanka",2016,"score",2.101,"LKA",144
+"Sudan",2016,"rank",150,"SDN",729
+"Sudan",2016,"score",2.945,"SDN",729
+"Sweden",2016,"rank",13,"SWE",752
+"Sweden",2016,"score",1.42,"SWE",752
+"Switzerland",2016,"rank",8,"CHE",756
+"Switzerland",2016,"score",1.369,"CHE",756
+"Syria",2016,"rank",157,"SYR",760
+"Syria",2016,"score",3.287,"SYR",760
+"Taiwan",2016,"rank",39,"TWN",158
+"Taiwan",2016,"score",1.751,"TWN",158
+"Tajikistan",2016,"rank",NA,"TJK",762
+"Tajikistan",2016,"score",2.304,"TJK",762
+"Tanzania",2016,"rank",51,"TZA",834
+"Tanzania",2016,"score",1.847,"TZA",834
+"Thailand",2016,"rank",NA,"THA",764
+"Thailand",2016,"score",2.304,"THA",764
+"The Gambia",2016,"rank",94,"GMB",270
+"The Gambia",2016,"score",2.099,"GMB",270
+"Togo",2016,"rank",NA,"TGO",768
+"Togo",2016,"score",1.951,"TGO",768
+"Trinidad and Tobago",2016,"rank",NA,"TTO",780
+"Trinidad and Tobago",2016,"score",2.073,"TTO",780
+"Tunisia",2016,"rank",NA,"TUN",788
+"Tunisia",2016,"score",1.949,"TUN",788
+"Turkey",2016,"rank",144,"TUR",792
+"Turkey",2016,"score",2.714,"TUR",792
+"Turkmenistan",2016,"rank",108,"TKM",795
+"Turkmenistan",2016,"score",2.2,"TKM",795
+"Uganda",2016,"rank",102,"UGA",800
+"Uganda",2016,"score",2.138,"UGA",800
+"Ukraine",2016,"rank",156,"UKR",804
+"Ukraine",2016,"score",3.28,"UKR",804
+"United Arab Emirates",2016,"rank",43,"ARE",784
+"United Arab Emirates",2016,"score",1.783,"ARE",784
+"United Kingdom",2016,"rank",47,"GBR",826
+"United Kingdom",2016,"score",1.806,"GBR",826
+"United States",2016,"rank",109,"USA",840
+"United States",2016,"score",2.203,"USA",840
+"Uruguay",2016,"rank",35,"URY",858
+"Uruguay",2016,"score",1.715,"URY",858
+"Uzbekistan",2016,"rank",107,"UZB",860
+"Uzbekistan",2016,"score",2.198,"UZB",860
+"Venezuela",2016,"rank",143,"VEN",862
+"Venezuela",2016,"score",2.601,"VEN",862
+"Vietnam",2016,"rank",59,"VNM",704
+"Vietnam",2016,"score",1.894,"VNM",704
+"Yemen",2016,"rank",162,"YEM",887
+"Yemen",2016,"score",3.53,"YEM",887
+"Zambia",2016,"rank",42,"ZMB",894
+"Zambia",2016,"score",1.774,"ZMB",894
+"Zimbabwe",2016,"rank",NA,"ZWE",716
+"Zimbabwe",2016,"score",2.25,"ZWE",716
+"Afghanistan",2017,"rank",159,"AFG",4
+"Afghanistan",2017,"score",3.347,"AFG",4
+"Albania",2017,"rank",60,"ALB",8
+"Albania",2017,"score",1.92,"ALB",8
+"Algeria",2017,"rank",107,"DZA",12
+"Algeria",2017,"score",2.188,"DZA",12
+"Angola",2017,"rank",74,"AGO",24
+"Angola",2017,"score",2.007,"AGO",24
+"Argentina",2017,"rank",NA,"ARG",32
+"Argentina",2017,"score",2.012,"ARG",32
+"Armenia",2017,"rank",117,"ARM",51
+"Armenia",2017,"score",2.258,"ARM",51
+"Australia",2017,"rank",11,"AUS",36
+"Australia",2017,"score",1.387,"AUS",36
+"Austria",2017,"rank",4,"AUT",40
+"Austria",2017,"score",1.292,"AUT",40
+"Azerbaijan",2017,"rank",134,"AZE",31
+"Azerbaijan",2017,"score",2.457,"AZE",31
+"Bahrain",2017,"rank",132,"BHR",48
+"Bahrain",2017,"score",2.41,"BHR",48
+"Bangladesh",2017,"rank",86,"BGD",50
+"Bangladesh",2017,"score",2.036,"BGD",50
+"Belarus",2017,"rank",99,"BLR",112
+"Belarus",2017,"score",2.106,"BLR",112
+"Belgium",2017,"rank",20,"BEL",56
+"Belgium",2017,"score",1.536,"BEL",56
+"Benin",2017,"rank",83,"BEN",204
+"Benin",2017,"score",2.028,"BEN",204
+"Bhutan",2017,"rank",25,"BTN",64
+"Bhutan",2017,"score",1.604,"BTN",64
+"Bolivia",2017,"rank",NA,"BOL",68
+"Bolivia",2017,"score",2.012,"BOL",68
+"Bosnia and Herzegovina",2017,"rank",87,"BIH",70
+"Bosnia and Herzegovina",2017,"score",2.042,"BIH",70
+"Botswana",2017,"rank",29,"BWA",72
+"Botswana",2017,"score",1.641,"BWA",72
+"Brazil",2017,"rank",109,"BRA",76
+"Brazil",2017,"score",2.195,"BRA",76
+"Bulgaria",2017,"rank",28,"BGR",100
+"Bulgaria",2017,"score",1.631,"BGR",100
+"Burkina Faso",2017,"rank",95,"BFA",854
+"Burkina Faso",2017,"score",2.074,"BFA",854
+"Burundi",2017,"rank",140,"BDI",108
+"Burundi",2017,"score",2.605,"BDI",108
+"Cambodia",2017,"rank",75,"KHM",116
+"Cambodia",2017,"score",2.01,"KHM",116
+"Cameroon",2017,"rank",131,"CMR",120
+"Cameroon",2017,"score",2.373,"CMR",120
+"Canada",2017,"rank",6,"CAN",124
+"Canada",2017,"score",1.332,"CAN",124
+"Central African Republic",2017,"rank",156,"CAF",140
+"Central African Republic",2017,"score",3.242,"CAF",140
+"Chad",2017,"rank",138,"TCD",148
+"Chad",2017,"score",2.56,"TCD",148
+"Chile",2017,"rank",24,"CHL",152
+"Chile",2017,"score",1.603,"CHL",152
+"China",2017,"rank",115,"CHN",156
+"China",2017,"score",2.254,"CHN",156
+"Colombia",2017,"rank",146,"COL",170
+"Colombia",2017,"score",2.754,"COL",170
+"Costa Rica",2017,"rank",34,"CRI",188
+"Costa Rica",2017,"score",1.7,"CRI",188
+"Cote d'Ivoire",2017,"rank",119,"CIV",384
+"Cote d'Ivoire",2017,"score",2.265,"CIV",384
+"Croatia",2017,"rank",32,"HRV",191
+"Croatia",2017,"score",1.674,"HRV",191
+"Cuba",2017,"rank",91,"CUB",192
+"Cuba",2017,"score",2.063,"CUB",192
+"Cyprus",2017,"rank",54,"CYP",196
+"Cyprus",2017,"score",1.87,"CYP",196
+"Czechia",2017,"rank",8,"CZE",203
+"Czechia",2017,"score",1.369,"CZE",203
+"Democratic Republic of the Congo",2017,"rank",151,"COD",180
+"Democratic Republic of the Congo",2017,"score",3.059,"COD",180
+"Denmark",2017,"rank",5,"DNK",208
+"Denmark",2017,"score",1.299,"DNK",208
+"Djibouti",2017,"rank",110,"DJI",262
+"Djibouti",2017,"score",2.209,"DJI",262
+"Dominican Republic",2017,"rank",100,"DOM",214
+"Dominican Republic",2017,"score",2.11,"DOM",214
+"East Timor",2017,"rank",62,"TLS",626
+"East Timor",2017,"score",1.94,"TLS",626
+"Ecuador",2017,"rank",66,"ECU",218
+"Ecuador",2017,"score",1.952,"ECU",218
+"Egypt",2017,"rank",139,"EGY",818
+"Egypt",2017,"score",2.602,"EGY",818
+"El Salvador",2017,"rank",114,"SLV",222
+"El Salvador",2017,"score",2.252,"SLV",222
+"Equatorial Guinea",2017,"rank",57,"GNQ",226
+"Equatorial Guinea",2017,"score",1.888,"GNQ",226
+"Eritrea",2017,"rank",135,"ERI",232
+"Eritrea",2017,"score",2.494,"ERI",232
+"Estonia",2017,"rank",36,"EST",233
+"Estonia",2017,"score",1.716,"EST",233
+"Eswatini",2017,"rank",82,"SWZ",748
+"Eswatini",2017,"score",2.026,"SWZ",748
+"Ethiopia",2017,"rank",127,"ETH",231
+"Ethiopia",2017,"score",2.345,"ETH",231
+"Finland",2017,"rank",18,"FIN",246
+"Finland",2017,"score",1.527,"FIN",246
+"France",2017,"rank",53,"FRA",250
+"France",2017,"score",1.869,"FRA",250
+"Gabon",2017,"rank",85,"GAB",266
+"Gabon",2017,"score",2.032,"GAB",266
+"Georgia",2017,"rank",97,"GEO",268
+"Georgia",2017,"score",2.096,"GEO",268
+"Germany",2017,"rank",17,"DEU",276
+"Germany",2017,"score",1.515,"DEU",276
+"Ghana",2017,"rank",45,"GHA",288
+"Ghana",2017,"score",1.808,"GHA",288
+"Greece",2017,"rank",NA,"GRC",300
+"Greece",2017,"score",2.02,"GRC",300
+"Guatemala",2017,"rank",113,"GTM",320
+"Guatemala",2017,"score",2.243,"GTM",320
+"Guinea",2017,"rank",98,"GIN",324
+"Guinea",2017,"score",2.1,"GIN",324
+"Guinea-Bissau",2017,"rank",121,"GNB",624
+"Guinea-Bissau",2017,"score",2.286,"GNB",624
+"Guyana",2017,"rank",84,"GUY",328
+"Guyana",2017,"score",2.029,"GUY",328
+"Haiti",2017,"rank",89,"HTI",332
+"Haiti",2017,"score",2.05,"HTI",332
+"Honduras",2017,"rank",108,"HND",340
+"Honduras",2017,"score",2.193,"HND",340
+"Hungary",2017,"rank",15,"HUN",348
+"Hungary",2017,"score",1.503,"HUN",348
+"Iceland",2017,"rank",1,"ISL",352
+"Iceland",2017,"score",1.084,"ISL",352
+"India",2017,"rank",137,"IND",356
+"India",2017,"score",2.545,"IND",356
+"Indonesia",2017,"rank",52,"IDN",360
+"Indonesia",2017,"score",1.84,"IDN",360
+"Iran",2017,"rank",126,"IRN",364
+"Iran",2017,"score",2.344,"IRN",364
+"Iraq",2017,"rank",163,"IRQ",368
+"Iraq",2017,"score",3.66,"IRQ",368
+"Ireland",2017,"rank",13,"IRL",372
+"Ireland",2017,"score",1.417,"IRL",372
+"Israel",2017,"rank",145,"ISR",376
+"Israel",2017,"score",2.745,"ISR",376
+"Italy",2017,"rank",39,"ITA",380
+"Italy",2017,"score",1.744,"ITA",380
+"Jamaica",2017,"rank",94,"JAM",388
+"Jamaica",2017,"score",2.072,"JAM",388
+"Japan",2017,"rank",10,"JPN",392
+"Japan",2017,"score",1.377,"JPN",392
+"Jordan",2017,"rank",102,"JOR",400
+"Jordan",2017,"score",2.12,"JOR",400
+"Kazakhstan",2017,"rank",69,"KAZ",398
+"Kazakhstan",2017,"score",1.958,"KAZ",398
+"Kenya",2017,"rank",124,"KEN",404
+"Kenya",2017,"score",2.33,"KEN",404
+"Kosovo",2017,"rank",NA,NA,NA
+"Kosovo",2017,"score",2.02,NA,NA
+"Kuwait",2017,"rank",49,"KWT",414
+"Kuwait",2017,"score",1.823,"KWT",414
+"Kyrgyz Republic",2017,"rank",111,"KGZ",417
+"Kyrgyz Republic",2017,"score",2.219,"KGZ",417
+"Laos",2017,"rank",46,"LAO",418
+"Laos",2017,"score",1.813,"LAO",418
+"Latvia",2017,"rank",31,"LVA",428
+"Latvia",2017,"score",1.671,"LVA",428
+"Lebanon",2017,"rank",148,"LBN",422
+"Lebanon",2017,"score",2.804,"LBN",422
+"Lesotho",2017,"rank",NA,"LSO",426
+"Lesotho",2017,"score",2.065,"LSO",426
+"Liberia",2017,"rank",90,"LBR",430
+"Liberia",2017,"score",2.059,"LBR",430
+"Libya",2017,"rank",158,"LBY",434
+"Libya",2017,"score",3.34,"LBY",434
+"Lithuania",2017,"rank",50,"LTU",440
+"Lithuania",2017,"score",1.824,"LTU",440
+"Madagascar",2017,"rank",59,"MDG",450
+"Madagascar",2017,"score",1.914,"MDG",450
+"Malawi",2017,"rank",38,"MWI",454
+"Malawi",2017,"score",1.734,"MWI",454
+"Malaysia",2017,"rank",30,"MYS",458
+"Malaysia",2017,"score",1.65,"MYS",458
+"Mali",2017,"rank",144,"MLI",466
+"Mali",2017,"score",2.696,"MLI",466
+"Mauritania",2017,"rank",NA,"MRT",478
+"Mauritania",2017,"score",2.361,"MRT",478
+"Mauritius",2017,"rank",26,"MUS",480
+"Mauritius",2017,"score",1.616,"MUS",480
+"Mexico",2017,"rank",142,"MEX",484
+"Mexico",2017,"score",2.631,"MEX",484
+"Moldova",2017,"rank",64,"MDA",498
+"Moldova",2017,"score",1.944,"MDA",498
+"Mongolia",2017,"rank",44,"MNG",496
+"Mongolia",2017,"score",1.802,"MNG",496
+"Montenegro",2017,"rank",65,"MNE",499
+"Montenegro",2017,"score",1.949,"MNE",499
+"Morocco",2017,"rank",78,"MAR",504
+"Morocco",2017,"score",2.018,"MAR",504
+"Mozambique",2017,"rank",79,"MOZ",508
+"Mozambique",2017,"score",2.019,"MOZ",508
+"Myanmar",2017,"rank",106,"MMR",104
+"Myanmar",2017,"score",2.187,"MMR",104
+"Namibia",2017,"rank",NA,"NAM",516
+"Namibia",2017,"score",1.822,"NAM",516
+"Nepal",2017,"rank",88,"NPL",524
+"Nepal",2017,"score",2.048,"NPL",524
+"Netherlands",2017,"rank",21,"NLD",528
+"Netherlands",2017,"score",1.54,"NLD",528
+"New Zealand",2017,"rank",2,"NZL",554
+"New Zealand",2017,"score",1.216,"NZL",554
+"Nicaragua",2017,"rank",71,"NIC",558
+"Nicaragua",2017,"score",1.978,"NIC",558
+"Niger",2017,"rank",133,"NER",562
+"Niger",2017,"score",2.415,"NER",562
+"Nigeria",2017,"rank",149,"NGA",566
+"Nigeria",2017,"score",2.871,"NGA",566
+"North Korea",2017,"rank",154,"PRK",408
+"North Korea",2017,"score",3.2,"PRK",408
+"North Macedonia",2017,"rank",103,"MKD",807
+"North Macedonia",2017,"score",2.129,"MKD",807
+"Norway",2017,"rank",16,"NOR",578
+"Norway",2017,"score",1.504,"NOR",578
+"Oman",2017,"rank",61,"OMN",512
+"Oman",2017,"score",1.922,"OMN",512
+"Pakistan",2017,"rank",152,"PAK",586
+"Pakistan",2017,"score",3.08,"PAK",586
+"Palestine",2017,"rank",143,"PSE",275
+"Palestine",2017,"score",2.69,"PSE",275
+"Panama",2017,"rank",NA,"PAN",591
+"Panama",2017,"score",1.822,"PAN",591
+"Papua New Guinea",2017,"rank",NA,"PNG",598
+"Papua New Guinea",2017,"score",2.065,"PNG",598
+"Paraguay",2017,"rank",68,"PRY",600
+"Paraguay",2017,"score",1.956,"PRY",600
+"Peru",2017,"rank",73,"PER",604
+"Peru",2017,"score",1.985,"PER",604
+"Philippines",2017,"rank",136,"PHL",608
+"Philippines",2017,"score",2.518,"PHL",608
+"Poland",2017,"rank",33,"POL",616
+"Poland",2017,"score",1.688,"POL",616
+"Portugal",2017,"rank",3,"PRT",620
+"Portugal",2017,"score",1.273,"PRT",620
+"Qatar",2017,"rank",23,"QAT",634
+"Qatar",2017,"score",1.562,"QAT",634
+"Republic of the Congo",2017,"rank",NA,"COG",178
+"Republic of the Congo",2017,"score",2.361,"COG",178
+"Romania",2017,"rank",19,"ROU",642
+"Romania",2017,"score",1.528,"ROU",642
+"Russia",2017,"rank",153,"RUS",643
+"Russia",2017,"score",3.117,"RUS",643
+"Rwanda",2017,"rank",104,"RWA",646
+"Rwanda",2017,"score",2.132,"RWA",646
+"Saudi Arabia",2017,"rank",128,"SAU",682
+"Saudi Arabia",2017,"score",2.346,"SAU",682
+"Senegal",2017,"rank",63,"SEN",686
+"Senegal",2017,"score",1.941,"SEN",686
+"Serbia",2017,"rank",55,"SRB",688
+"Serbia",2017,"score",1.88,"SRB",688
+"Sierra Leone",2017,"rank",40,"SLE",694
+"Sierra Leone",2017,"score",1.751,"SLE",694
+"Singapore",2017,"rank",12,"SGP",702
+"Singapore",2017,"score",1.4,"SGP",702
+"Slovakia",2017,"rank",27,"SVK",703
+"Slovakia",2017,"score",1.627,"SVK",703
+"Slovenia",2017,"rank",9,"SVN",705
+"Slovenia",2017,"score",1.373,"SVN",705
+"Somalia",2017,"rank",162,"SOM",706
+"Somalia",2017,"score",3.519,"SOM",706
+"South Africa",2017,"rank",125,"ZAF",710
+"South Africa",2017,"score",2.336,"ZAF",710
+"South Korea",2017,"rank",43,"KOR",410
+"South Korea",2017,"score",1.793,"KOR",410
+"South Sudan",2017,"rank",160,"SSD",728
+"South Sudan",2017,"score",3.462,"SSD",728
+"Spain",2017,"rank",22,"ESP",724
+"Spain",2017,"score",1.552,"ESP",724
+"Sri Lanka",2017,"rank",72,"LKA",144
+"Sri Lanka",2017,"score",1.98,"LKA",144
+"Sudan",2017,"rank",150,"SDN",729
+"Sudan",2017,"score",2.968,"SDN",729
+"Sweden",2017,"rank",14,"SWE",752
+"Sweden",2017,"score",1.489,"SWE",752
+"Switzerland",2017,"rank",7,"CHE",756
+"Switzerland",2017,"score",1.368,"CHE",756
+"Syria",2017,"rank",157,"SYR",760
+"Syria",2017,"score",3.316,"SYR",760
+"Taiwan",2017,"rank",37,"TWN",158
+"Taiwan",2017,"score",1.725,"TWN",158
+"Tajikistan",2017,"rank",118,"TJK",762
+"Tajikistan",2017,"score",2.264,"TJK",762
+"Tanzania",2017,"rank",51,"TZA",834
+"Tanzania",2017,"score",1.825,"TZA",834
+"Thailand",2017,"rank",120,"THA",764
+"Thailand",2017,"score",2.285,"THA",764
+"The Gambia",2017,"rank",112,"GMB",270
+"The Gambia",2017,"score",2.221,"GMB",270
+"Togo",2017,"rank",67,"TGO",768
+"Togo",2017,"score",1.954,"TGO",768
+"Trinidad and Tobago",2017,"rank",96,"TTO",780
+"Trinidad and Tobago",2017,"score",2.089,"TTO",780
+"Tunisia",2017,"rank",70,"TUN",788
+"Tunisia",2017,"score",1.976,"TUN",788
+"Turkey",2017,"rank",147,"TUR",792
+"Turkey",2017,"score",2.802,"TUR",792
+"Turkmenistan",2017,"rank",116,"TKM",795
+"Turkmenistan",2017,"score",2.256,"TKM",795
+"Uganda",2017,"rank",105,"UGA",800
+"Uganda",2017,"score",2.179,"UGA",800
+"Ukraine",2017,"rank",155,"UKR",804
+"Ukraine",2017,"score",3.213,"UKR",804
+"United Arab Emirates",2017,"rank",56,"ARE",784
+"United Arab Emirates",2017,"score",1.883,"ARE",784
+"United Kingdom",2017,"rank",42,"GBR",826
+"United Kingdom",2017,"score",1.789,"GBR",826
+"United States",2017,"rank",123,"USA",840
+"United States",2017,"score",2.311,"USA",840
+"Uruguay",2017,"rank",35,"URY",858
+"Uruguay",2017,"score",1.703,"URY",858
+"Uzbekistan",2017,"rank",101,"UZB",860
+"Uzbekistan",2017,"score",2.117,"UZB",860
+"Venezuela",2017,"rank",141,"VEN",862
+"Venezuela",2017,"score",2.608,"VEN",862
+"Vietnam",2017,"rank",58,"VNM",704
+"Vietnam",2017,"score",1.91,"VNM",704
+"Yemen",2017,"rank",161,"YEM",887
+"Yemen",2017,"score",3.516,"YEM",887
+"Zambia",2017,"rank",41,"ZMB",894
+"Zambia",2017,"score",1.78,"ZMB",894
+"Zimbabwe",2017,"rank",122,"ZWE",716
+"Zimbabwe",2017,"score",2.297,"ZWE",716
+"Afghanistan",2018,"rank",159,"AFG",4
+"Afghanistan",2018,"score",3.35,"AFG",4
+"Albania",2018,"rank",53,"ALB",8
+"Albania",2018,"score",1.843,"ALB",8
+"Algeria",2018,"rank",109,"DZA",12
+"Algeria",2018,"score",2.188,"DZA",12
+"Angola",2018,"rank",80,"AGO",24
+"Angola",2018,"score",2.031,"AGO",24
+"Argentina",2018,"rank",67,"ARG",32
+"Argentina",2018,"score",1.955,"ARG",32
+"Armenia",2018,"rank",121,"ARM",51
+"Armenia",2018,"score",2.302,"ARM",51
+"Australia",2018,"rank",12,"AUS",36
+"Australia",2018,"score",1.398,"AUS",36
+"Austria",2018,"rank",3,"AUT",40
+"Austria",2018,"score",1.273,"AUT",40
+"Azerbaijan",2018,"rank",133,"AZE",31
+"Azerbaijan",2018,"score",2.447,"AZE",31
+"Bahrain",2018,"rank",129,"BHR",48
+"Bahrain",2018,"score",2.404,"BHR",48
+"Bangladesh",2018,"rank",92,"BGD",50
+"Bangladesh",2018,"score",2.078,"BGD",50
+"Belarus",2018,"rank",101,"BLR",112
+"Belarus",2018,"score",2.112,"BLR",112
+"Belgium",2018,"rank",21,"BEL",56
+"Belgium",2018,"score",1.538,"BEL",56
+"Benin",2018,"rank",72,"BEN",204
+"Benin",2018,"score",1.975,"BEN",204
+"Bhutan",2018,"rank",17,"BTN",64
+"Bhutan",2018,"score",1.521,"BTN",64
+"Bolivia",2018,"rank",81,"BOL",68
+"Bolivia",2018,"score",2.033,"BOL",68
+"Bosnia and Herzegovina",2018,"rank",90,"BIH",70
+"Bosnia and Herzegovina",2018,"score",2.063,"BIH",70
+"Botswana",2018,"rank",31,"BWA",72
+"Botswana",2018,"score",1.682,"BWA",72
+"Brazil",2018,"rank",106,"BRA",76
+"Brazil",2018,"score",2.159,"BRA",76
+"Bulgaria",2018,"rank",26,"BGR",100
+"Bulgaria",2018,"score",1.632,"BGR",100
+"Burkina Faso",2018,"rank",78,"BFA",854
+"Burkina Faso",2018,"score",2.023,"BFA",854
+"Burundi",2018,"rank",136,"BDI",108
+"Burundi",2018,"score",2.502,"BDI",108
+"Cambodia",2018,"rank",NA,"KHM",116
+"Cambodia",2018,"score",2.101,"KHM",116
+"Cameroon",2018,"rank",134,"CMR",120
+"Cameroon",2018,"score",2.473,"CMR",120
+"Canada",2018,"rank",6,"CAN",124
+"Canada",2018,"score",1.338,"CAN",124
+"Central African Republic",2018,"rank",156,"CAF",140
+"Central African Republic",2018,"score",3.276,"CAF",140
+"Chad",2018,"rank",135,"TCD",148
+"Chad",2018,"score",2.496,"TCD",148
+"Chile",2018,"rank",28,"CHL",152
+"Chile",2018,"score",1.646,"CHL",152
+"China",2018,"rank",112,"CHN",156
+"China",2018,"score",2.247,"CHN",156
+"Colombia",2018,"rank",145,"COL",170
+"Colombia",2018,"score",2.729,"COL",170
+"Costa Rica",2018,"rank",38,"CRI",188
+"Costa Rica",2018,"score",1.766,"CRI",188
+"Cote d'Ivoire",2018,"rank",111,"CIV",384
+"Cote d'Ivoire",2018,"score",2.213,"CIV",384
+"Croatia",2018,"rank",27,"HRV",191
+"Croatia",2018,"score",1.639,"HRV",191
+"Cuba",2018,"rank",84,"CUB",192
+"Cuba",2018,"score",2.046,"CUB",192
+"Cyprus",2018,"rank",60,"CYP",196
+"Cyprus",2018,"score",1.898,"CYP",196
+"Czechia",2018,"rank",13,"CZE",203
+"Czechia",2018,"score",1.403,"CZE",203
+"Democratic Republic of the Congo",2018,"rank",155,"COD",180
+"Democratic Republic of the Congo",2018,"score",3.249,"COD",180
+"Denmark",2018,"rank",4,"DNK",208
+"Denmark",2018,"score",1.313,"DNK",208
+"Djibouti",2018,"rank",113,"DJI",262
+"Djibouti",2018,"score",2.265,"DJI",262
+"Dominican Republic",2018,"rank",91,"DOM",214
+"Dominican Republic",2018,"score",2.073,"DOM",214
+"East Timor",2018,"rank",61,"TLS",626
+"East Timor",2018,"score",1.907,"TLS",626
+"Ecuador",2018,"rank",68,"ECU",218
+"Ecuador",2018,"score",1.962,"ECU",218
+"Egypt",2018,"rank",143,"EGY",818
+"Egypt",2018,"score",2.657,"EGY",818
+"El Salvador",2018,"rank",115,"SLV",222
+"El Salvador",2018,"score",2.272,"SLV",222
+"Equatorial Guinea",2018,"rank",65,"GNQ",226
+"Equatorial Guinea",2018,"score",1.934,"GNQ",226
+"Eritrea",2018,"rank",139,"ERI",232
+"Eritrea",2018,"score",2.529,"ERI",232
+"Estonia",2018,"rank",33,"EST",233
+"Estonia",2018,"score",1.732,"EST",233
+"Eswatini",2018,"rank",82,"SWZ",748
+"Eswatini",2018,"score",2.04,"SWZ",748
+"Ethiopia",2018,"rank",131,"ETH",231
+"Ethiopia",2018,"score",2.426,"ETH",231
+"Finland",2018,"rank",14,"FIN",246
+"Finland",2018,"score",1.505,"FIN",246
+"France",2018,"rank",58,"FRA",250
+"France",2018,"score",1.887,"FRA",250
+"Gabon",2018,"rank",95,"GAB",266
+"Gabon",2018,"score",2.096,"GAB",266
+"Georgia",2018,"rank",102,"GEO",268
+"Georgia",2018,"score",2.118,"GEO",268
+"Germany",2018,"rank",18,"DEU",276
+"Germany",2018,"score",1.527,"DEU",276
+"Ghana",2018,"rank",NA,"GHA",288
+"Ghana",2018,"score",1.772,"GHA",288
+"Greece",2018,"rank",79,"GRC",300
+"Greece",2018,"score",2.028,"GRC",300
+"Guatemala",2018,"rank",110,"GTM",320
+"Guatemala",2018,"score",2.21,"GTM",320
+"Guinea",2018,"rank",100,"GIN",324
+"Guinea",2018,"score",2.106,"GIN",324
+"Guinea-Bissau",2018,"rank",118,"GNB",624
+"Guinea-Bissau",2018,"score",2.28,"GNB",624
+"Guyana",2018,"rank",83,"GUY",328
+"Guyana",2018,"score",2.041,"GUY",328
+"Haiti",2018,"rank",87,"HTI",332
+"Haiti",2018,"score",2.054,"HTI",332
+"Honduras",2018,"rank",116,"HND",340
+"Honduras",2018,"score",2.276,"HND",340
+"Hungary",2018,"rank",22,"HUN",348
+"Hungary",2018,"score",1.542,"HUN",348
+"Iceland",2018,"rank",1,"ISL",352
+"Iceland",2018,"score",1.096,"ISL",352
+"India",2018,"rank",137,"IND",356
+"India",2018,"score",2.517,"IND",356
+"Indonesia",2018,"rank",NA,"IDN",360
+"Indonesia",2018,"score",1.854,"IDN",360
+"Iran",2018,"rank",130,"IRN",364
+"Iran",2018,"score",2.419,"IRN",364
+"Iraq",2018,"rank",163,"IRQ",368
+"Iraq",2018,"score",3.599,"IRQ",368
+"Ireland",2018,"rank",11,"IRL",372
+"Ireland",2018,"score",1.394,"IRL",372
+"Israel",2018,"rank",146,"ISR",376
+"Israel",2018,"score",2.756,"ISR",376
+"Italy",2018,"rank",NA,"ITA",380
+"Italy",2018,"score",1.772,"ITA",380
+"Jamaica",2018,"rank",93,"JAM",388
+"Jamaica",2018,"score",2.079,"JAM",388
+"Japan",2018,"rank",8,"JPN",392
+"Japan",2018,"score",1.381,"JPN",392
+"Jordan",2018,"rank",NA,"JOR",400
+"Jordan",2018,"score",2.101,"JOR",400
+"Kazakhstan",2018,"rank",69,"KAZ",398
+"Kazakhstan",2018,"score",1.963,"KAZ",398
+"Kenya",2018,"rank",120,"KEN",404
+"Kenya",2018,"score",2.3,"KEN",404
+"Kosovo",2018,"rank",94,NA,NA
+"Kosovo",2018,"score",2.08,NA,NA
+"Kuwait",2018,"rank",NA,"KWT",414
+"Kuwait",2018,"score",1.831,"KWT",414
+"Kyrgyz Republic",2018,"rank",108,"KGZ",417
+"Kyrgyz Republic",2018,"score",2.178,"KGZ",417
+"Laos",2018,"rank",47,"LAO",418
+"Laos",2018,"score",1.818,"LAO",418
+"Latvia",2018,"rank",30,"LVA",428
+"Latvia",2018,"score",1.679,"LVA",428
+"Lebanon",2018,"rank",147,"LBN",422
+"Lebanon",2018,"score",2.79,"LBN",422
+"Lesotho",2018,"rank",NA,"LSO",426
+"Lesotho",2018,"score",2.144,"LSO",426
+"Liberia",2018,"rank",NA,"LBR",430
+"Liberia",2018,"score",1.933,"LBR",430
+"Libya",2018,"rank",157,"LBY",434
+"Libya",2018,"score",3.283,"LBY",434
+"Lithuania",2018,"rank",44,"LTU",440
+"Lithuania",2018,"score",1.814,"LTU",440
+"Madagascar",2018,"rank",57,"MDG",450
+"Madagascar",2018,"score",1.86,"MDG",450
+"Malawi",2018,"rank",36,"MWI",454
+"Malawi",2018,"score",1.749,"MWI",454
+"Malaysia",2018,"rank",25,"MYS",458
+"Malaysia",2018,"score",1.616,"MYS",458
+"Mali",2018,"rank",144,"MLI",466
+"Mali",2018,"score",2.685,"MLI",466
+"Mauritania",2018,"rank",127,"MRT",478
+"Mauritania",2018,"score",2.353,"MRT",478
+"Mauritius",2018,"rank",24,"MUS",480
+"Mauritius",2018,"score",1.592,"MUS",480
+"Mexico",2018,"rank",141,"MEX",484
+"Mexico",2018,"score",2.64,"MEX",484
+"Moldova",2018,"rank",NA,"MDA",498
+"Moldova",2018,"score",1.933,"MDA",498
+"Mongolia",2018,"rank",NA,"MNG",496
+"Mongolia",2018,"score",1.807,"MNG",496
+"Montenegro",2018,"rank",59,"MNE",499
+"Montenegro",2018,"score",1.892,"MNE",499
+"Morocco",2018,"rank",77,"MAR",504
+"Morocco",2018,"score",2.017,"MAR",504
+"Mozambique",2018,"rank",85,"MOZ",508
+"Mozambique",2018,"score",2.051,"MOZ",508
+"Myanmar",2018,"rank",123,"MMR",104
+"Myanmar",2018,"score",2.328,"MMR",104
+"Namibia",2018,"rank",NA,"NAM",516
+"Namibia",2018,"score",1.807,"NAM",516
+"Nepal",2018,"rank",NA,"NPL",524
+"Nepal",2018,"score",2.06,"NPL",524
+"Netherlands",2018,"rank",19,"NLD",528
+"Netherlands",2018,"score",1.528,"NLD",528
+"New Zealand",2018,"rank",2,"NZL",554
+"New Zealand",2018,"score",1.188,"NZL",554
+"Nicaragua",2018,"rank",66,"NIC",558
+"Nicaragua",2018,"score",1.935,"NIC",558
+"Niger",2018,"rank",132,"NER",562
+"Niger",2018,"score",2.444,"NER",562
+"Nigeria",2018,"rank",148,"NGA",566
+"Nigeria",2018,"score",2.883,"NGA",566
+"North Korea",2018,"rank",154,"PRK",408
+"North Korea",2018,"score",3.171,"PRK",408
+"North Macedonia",2018,"rank",NA,"MKD",807
+"North Macedonia",2018,"score",2.06,"MKD",807
+"Norway",2018,"rank",16,"NOR",578
+"Norway",2018,"score",1.515,"NOR",578
+"Oman",2018,"rank",71,"OMN",512
+"Oman",2018,"score",1.974,"OMN",512
+"Pakistan",2018,"rank",151,"PAK",586
+"Pakistan",2018,"score",3.094,"PAK",586
+"Palestine",2018,"rank",140,"PSE",275
+"Palestine",2018,"score",2.619,"PSE",275
+"Panama",2018,"rank",49,"PAN",591
+"Panama",2018,"score",1.824,"PAN",591
+"Papua New Guinea",2018,"rank",96,"PNG",598
+"Papua New Guinea",2018,"score",2.1,"PNG",598
+"Paraguay",2018,"rank",76,"PRY",600
+"Paraguay",2018,"score",2.001,"PRY",600
+"Peru",2018,"rank",73,"PER",604
+"Peru",2018,"score",1.982,"PER",604
+"Philippines",2018,"rank",138,"PHL",608
+"Philippines",2018,"score",2.523,"PHL",608
+"Poland",2018,"rank",32,"POL",616
+"Poland",2018,"score",1.728,"POL",616
+"Portugal",2018,"rank",5,"PRT",620
+"Portugal",2018,"score",1.315,"PRT",620
+"Qatar",2018,"rank",41,"QAT",634
+"Qatar",2018,"score",1.785,"QAT",634
+"Republic of the Congo",2018,"rank",122,"COG",178
+"Republic of the Congo",2018,"score",2.326,"COG",178
+"Romania",2018,"rank",20,"ROU",642
+"Romania",2018,"score",1.53,"ROU",642
+"Russia",2018,"rank",153,"RUS",643
+"Russia",2018,"score",3.163,"RUS",643
+"Rwanda",2018,"rank",103,"RWA",646
+"Rwanda",2018,"score",2.139,"RWA",646
+"Saudi Arabia",2018,"rank",128,"SAU",682
+"Saudi Arabia",2018,"score",2.382,"SAU",682
+"Senegal",2018,"rank",54,"SEN",686
+"Senegal",2018,"score",1.85,"SEN",686
+"Serbia",2018,"rank",NA,"SRB",688
+"Serbia",2018,"score",1.854,"SRB",688
+"Sierra Leone",2018,"rank",NA,"SLE",694
+"Sierra Leone",2018,"score",1.737,"SLE",694
+"Singapore",2018,"rank",9,"SGP",702
+"Singapore",2018,"score",1.382,"SGP",702
+"Slovakia",2018,"rank",23,"SVK",703
+"Slovakia",2018,"score",1.564,"SVK",703
+"Slovenia",2018,"rank",10,"SVN",705
+"Slovenia",2018,"score",1.39,"SVN",705
+"Somalia",2018,"rank",162,"SOM",706
+"Somalia",2018,"score",3.576,"SOM",706
+"South Africa",2018,"rank",125,"ZAF",710
+"South Africa",2018,"score",2.335,"ZAF",710
+"South Korea",2018,"rank",46,"KOR",410
+"South Korea",2018,"score",1.817,"KOR",410
+"South Sudan",2018,"rank",161,"SSD",728
+"South Sudan",2018,"score",3.525,"SSD",728
+"Spain",2018,"rank",29,"ESP",724
+"Spain",2018,"score",1.676,"ESP",724
+"Sri Lanka",2018,"rank",70,"LKA",144
+"Sri Lanka",2018,"score",1.964,"LKA",144
+"Sudan",2018,"rank",150,"SDN",729
+"Sudan",2018,"score",2.95,"SDN",729
+"Sweden",2018,"rank",15,"SWE",752
+"Sweden",2018,"score",1.507,"SWE",752
+"Switzerland",2018,"rank",7,"CHE",756
+"Switzerland",2018,"score",1.379,"CHE",756
+"Syria",2018,"rank",158,"SYR",760
+"Syria",2018,"score",3.308,"SYR",760
+"Taiwan",2018,"rank",NA,"TWN",158
+"Taiwan",2018,"score",1.737,"TWN",158
+"Tajikistan",2018,"rank",117,"TJK",762
+"Tajikistan",2018,"score",2.279,"TJK",762
+"Tanzania",2018,"rank",52,"TZA",834
+"Tanzania",2018,"score",1.84,"TZA",834
+"Thailand",2018,"rank",114,"THA",764
+"Thailand",2018,"score",2.266,"THA",764
+"The Gambia",2018,"rank",74,"GMB",270
+"The Gambia",2018,"score",1.987,"GMB",270
+"Togo",2018,"rank",99,"TGO",768
+"Togo",2018,"score",2.103,"TGO",768
+"Trinidad and Tobago",2018,"rank",86,"TTO",780
+"Trinidad and Tobago",2018,"score",2.053,"TTO",780
+"Tunisia",2018,"rank",75,"TUN",788
+"Tunisia",2018,"score",2,"TUN",788
+"Turkey",2018,"rank",149,"TUR",792
+"Turkey",2018,"score",2.909,"TUR",792
+"Turkmenistan",2018,"rank",119,"TKM",795
+"Turkmenistan",2018,"score",2.283,"TKM",795
+"Uganda",2018,"rank",107,"UGA",800
+"Uganda",2018,"score",2.176,"UGA",800
+"Ukraine",2018,"rank",152,"UKR",804
+"Ukraine",2018,"score",3.147,"UKR",804
+"United Arab Emirates",2018,"rank",45,"ARE",784
+"United Arab Emirates",2018,"score",1.816,"ARE",784
+"United Kingdom",2018,"rank",NA,"GBR",826
+"United Kingdom",2018,"score",1.831,"GBR",826
+"United States",2018,"rank",124,"USA",840
+"United States",2018,"score",2.332,"USA",840
+"Uruguay",2018,"rank",37,"URY",858
+"Uruguay",2018,"score",1.754,"URY",858
+"Uzbekistan",2018,"rank",NA,"UZB",860
+"Uzbekistan",2018,"score",2.144,"UZB",860
+"Venezuela",2018,"rank",142,"VEN",862
+"Venezuela",2018,"score",2.643,"VEN",862
+"Vietnam",2018,"rank",62,"VNM",704
+"Vietnam",2018,"score",1.911,"VNM",704
+"Yemen",2018,"rank",160,"YEM",887
+"Yemen",2018,"score",3.436,"YEM",887
+"Zambia",2018,"rank",48,"ZMB",894
+"Zambia",2018,"score",1.821,"ZMB",894
+"Zimbabwe",2018,"rank",126,"ZWE",716
+"Zimbabwe",2018,"score",2.34,"ZWE",716
+"Afghanistan",2019,"rank",158,"AFG",4
+"Afghanistan",2019,"score",3.3,"AFG",4
+"Albania",2019,"rank",51,"ALB",8
+"Albania",2019,"score",1.821,"ALB",8
+"Algeria",2019,"rank",111,"DZA",12
+"Algeria",2019,"score",2.219,"DZA",12
+"Angola",2019,"rank",NA,"AGO",24
+"Angola",2019,"score",2.012,"AGO",24
+"Argentina",2019,"rank",75,"ARG",32
+"Argentina",2019,"score",1.989,"ARG",32
+"Armenia",2019,"rank",118,"ARM",51
+"Armenia",2019,"score",2.294,"ARM",51
+"Australia",2019,"rank",13,"AUS",36
+"Australia",2019,"score",1.419,"AUS",36
+"Austria",2019,"rank",4,"AUT",40
+"Austria",2019,"score",1.291,"AUT",40
+"Azerbaijan",2019,"rank",130,"AZE",31
+"Azerbaijan",2019,"score",2.425,"AZE",31
+"Bahrain",2019,"rank",124,"BHR",48
+"Bahrain",2019,"score",2.357,"BHR",48
+"Bangladesh",2019,"rank",101,"BGD",50
+"Bangladesh",2019,"score",2.128,"BGD",50
+"Belarus",2019,"rank",97,"BLR",112
+"Belarus",2019,"score",2.115,"BLR",112
+"Belgium",2019,"rank",NA,"BEL",56
+"Belgium",2019,"score",1.533,"BEL",56
+"Benin",2019,"rank",NA,"BEN",204
+"Benin",2019,"score",1.986,"BEN",204
+"Bhutan",2019,"rank",15,"BTN",64
+"Bhutan",2019,"score",1.506,"BTN",64
+"Bolivia",2019,"rank",85,"BOL",68
+"Bolivia",2019,"score",2.044,"BOL",68
+"Bosnia and Herzegovina",2019,"rank",81,"BIH",70
+"Bosnia and Herzegovina",2019,"score",2.019,"BIH",70
+"Botswana",2019,"rank",30,"BWA",72
+"Botswana",2019,"score",1.676,"BWA",72
+"Brazil",2019,"rank",116,"BRA",76
+"Brazil",2019,"score",2.271,"BRA",76
+"Bulgaria",2019,"rank",26,"BGR",100
+"Bulgaria",2019,"score",1.607,"BGR",100
+"Burkina Faso",2019,"rank",104,"BFA",854
+"Burkina Faso",2019,"score",2.176,"BFA",854
+"Burundi",2019,"rank",135,"BDI",108
+"Burundi",2019,"score",2.52,"BDI",108
+"Cambodia",2019,"rank",89,"KHM",116
+"Cambodia",2019,"score",2.066,"KHM",116
+"Cameroon",2019,"rank",138,"CMR",120
+"Cameroon",2019,"score",2.538,"CMR",120
+"Canada",2019,"rank",6,"CAN",124
+"Canada",2019,"score",1.327,"CAN",124
+"Central African Republic",2019,"rank",157,"CAF",140
+"Central African Republic",2019,"score",3.296,"CAF",140
+"Chad",2019,"rank",137,"TCD",148
+"Chad",2019,"score",2.522,"TCD",148
+"Chile",2019,"rank",27,"CHL",152
+"Chile",2019,"score",1.634,"CHL",152
+"China",2019,"rank",110,"CHN",156
+"China",2019,"score",2.217,"CHN",156
+"Colombia",2019,"rank",143,"COL",170
+"Colombia",2019,"score",2.661,"COL",170
+"Costa Rica",2019,"rank",33,"CRI",188
+"Costa Rica",2019,"score",1.706,"CRI",188
+"Cote d'Ivoire",2019,"rank",107,"CIV",384
+"Cote d'Ivoire",2019,"score",2.203,"CIV",384
+"Croatia",2019,"rank",28,"HRV",191
+"Croatia",2019,"score",1.645,"HRV",191
+"Cuba",2019,"rank",91,"CUB",192
+"Cuba",2019,"score",2.073,"CUB",192
+"Cyprus",2019,"rank",NA,"CYP",196
+"Cyprus",2019,"score",1.805,"CYP",196
+"Czechia",2019,"rank",11,"CZE",203
+"Czechia",2019,"score",1.383,"CZE",203
+"Democratic Republic of the Congo",2019,"rank",155,"COD",180
+"Democratic Republic of the Congo",2019,"score",3.218,"COD",180
+"Denmark",2019,"rank",5,"DNK",208
+"Denmark",2019,"score",1.316,"DNK",208
+"Djibouti",2019,"rank",109,"DJI",262
+"Djibouti",2019,"score",2.207,"DJI",262
+"Dominican Republic",2019,"rank",84,"DOM",214
+"Dominican Republic",2019,"score",2.041,"DOM",214
+"East Timor",2019,"rank",63,"TLS",626
+"East Timor",2019,"score",1.914,"TLS",626
+"Ecuador",2019,"rank",71,"ECU",218
+"Ecuador",2019,"score",1.98,"ECU",218
+"Egypt",2019,"rank",136,"EGY",818
+"Egypt",2019,"score",2.521,"EGY",818
+"El Salvador",2019,"rank",113,"SLV",222
+"El Salvador",2019,"score",2.262,"SLV",222
+"Equatorial Guinea",2019,"rank",70,"GNQ",226
+"Equatorial Guinea",2019,"score",1.957,"GNQ",226
+"Eritrea",2019,"rank",133,"ERI",232
+"Eritrea",2019,"score",2.504,"ERI",232
+"Estonia",2019,"rank",37,"EST",233
+"Estonia",2019,"score",1.727,"EST",233
+"Eswatini",2019,"rank",NA,"SWZ",748
+"Eswatini",2019,"score",1.986,"SWZ",748
+"Ethiopia",2019,"rank",131,"ETH",231
+"Ethiopia",2019,"score",2.434,"ETH",231
+"Finland",2019,"rank",14,"FIN",246
+"Finland",2019,"score",1.488,"FIN",246
+"France",2019,"rank",NA,"FRA",250
+"France",2019,"score",1.892,"FRA",250
+"Gabon",2019,"rank",96,"GAB",266
+"Gabon",2019,"score",2.112,"GAB",266
+"Georgia",2019,"rank",99,"GEO",268
+"Georgia",2019,"score",2.122,"GEO",268
+"Germany",2019,"rank",22,"DEU",276
+"Germany",2019,"score",1.547,"DEU",276
+"Ghana",2019,"rank",44,"GHA",288
+"Ghana",2019,"score",1.796,"GHA",288
+"Greece",2019,"rank",NA,"GRC",300
+"Greece",2019,"score",1.933,"GRC",300
+"Guatemala",2019,"rank",114,"GTM",320
+"Guatemala",2019,"score",2.264,"GTM",320
+"Guinea",2019,"rank",100,"GIN",324
+"Guinea",2019,"score",2.125,"GIN",324
+"Guinea-Bissau",2019,"rank",112,"GNB",624
+"Guinea-Bissau",2019,"score",2.237,"GNB",624
+"Guyana",2019,"rank",92,"GUY",328
+"Guyana",2019,"score",2.075,"GUY",328
+"Haiti",2019,"rank",87,"HTI",332
+"Haiti",2019,"score",2.052,"HTI",332
+"Honduras",2019,"rank",123,"HND",340
+"Honduras",2019,"score",2.341,"HND",340
+"Hungary",2019,"rank",21,"HUN",348
+"Hungary",2019,"score",1.54,"HUN",348
+"Iceland",2019,"rank",1,"ISL",352
+"Iceland",2019,"score",1.072,"ISL",352
+"India",2019,"rank",141,"IND",356
+"India",2019,"score",2.605,"IND",356
+"Indonesia",2019,"rank",41,"IDN",360
+"Indonesia",2019,"score",1.785,"IDN",360
+"Iran",2019,"rank",139,"IRN",364
+"Iran",2019,"score",2.542,"IRN",364
+"Iraq",2019,"rank",162,"IRQ",368
+"Iraq",2019,"score",3.573,"IRQ",368
+"Ireland",2019,"rank",12,"IRL",372
+"Ireland",2019,"score",1.39,"IRL",372
+"Israel",2019,"rank",146,"ISR",376
+"Israel",2019,"score",2.735,"ISR",376
+"Italy",2019,"rank",39,"ITA",380
+"Italy",2019,"score",1.754,"ITA",380
+"Jamaica",2019,"rank",83,"JAM",388
+"Jamaica",2019,"score",2.038,"JAM",388
+"Japan",2019,"rank",9,"JPN",392
+"Japan",2019,"score",1.369,"JPN",392
+"Jordan",2019,"rank",NA,"JOR",400
+"Jordan",2019,"score",2.012,"JOR",400
+"Kazakhstan",2019,"rank",64,"KAZ",398
+"Kazakhstan",2019,"score",1.932,"KAZ",398
+"Kenya",2019,"rank",119,"KEN",404
+"Kenya",2019,"score",2.3,"KEN",404
+"Kosovo",2019,"rank",86,NA,NA
+"Kosovo",2019,"score",2.049,NA,NA
+"Kuwait",2019,"rank",43,"KWT",414
+"Kuwait",2019,"score",1.794,"KWT",414
+"Kyrgyz Republic",2019,"rank",95,"KGZ",417
+"Kyrgyz Republic",2019,"score",2.105,"KGZ",417
+"Laos",2019,"rank",46,"LAO",418
+"Laos",2019,"score",1.801,"LAO",418
+"Latvia",2019,"rank",35,"LVA",428
+"Latvia",2019,"score",1.718,"LVA",428
+"Lebanon",2019,"rank",147,"LBN",422
+"Lebanon",2019,"score",2.8,"LBN",422
+"Lesotho",2019,"rank",103,"LSO",426
+"Lesotho",2019,"score",2.167,"LSO",426
+"Liberia",2019,"rank",59,"LBR",430
+"Liberia",2019,"score",1.889,"LBR",430
+"Libya",2019,"rank",156,"LBY",434
+"Libya",2019,"score",3.285,"LBY",434
+"Lithuania",2019,"rank",40,"LTU",440
+"Lithuania",2019,"score",1.779,"LTU",440
+"Madagascar",2019,"rank",NA,"MDG",450
+"Madagascar",2019,"score",1.867,"MDG",450
+"Malawi",2019,"rank",38,"MWI",454
+"Malawi",2019,"score",1.728,"MWI",454
+"Malaysia",2019,"rank",16,"MYS",458
+"Malaysia",2019,"score",1.529,"MYS",458
+"Mali",2019,"rank",145,"MLI",466
+"Mali",2019,"score",2.71,"MLI",466
+"Mauritania",2019,"rank",122,"MRT",478
+"Mauritania",2019,"score",2.333,"MRT",478
+"Mauritius",2019,"rank",25,"MUS",480
+"Mauritius",2019,"score",1.606,"MUS",480
+"Mexico",2019,"rank",140,"MEX",484
+"Mexico",2019,"score",2.6,"MEX",484
+"Moldova",2019,"rank",68,"MDA",498
+"Moldova",2019,"score",1.951,"MDA",498
+"Mongolia",2019,"rank",42,"MNG",496
+"Mongolia",2019,"score",1.792,"MNG",496
+"Montenegro",2019,"rank",67,"MNE",499
+"Montenegro",2019,"score",1.939,"MNE",499
+"Morocco",2019,"rank",90,"MAR",504
+"Morocco",2019,"score",2.07,"MAR",504
+"Mozambique",2019,"rank",94,"MOZ",508
+"Mozambique",2019,"score",2.099,"MOZ",508
+"Myanmar",2019,"rank",125,"MMR",104
+"Myanmar",2019,"score",2.393,"MMR",104
+"Namibia",2019,"rank",NA,"NAM",516
+"Namibia",2019,"score",1.892,"NAM",516
+"Nepal",2019,"rank",76,"NPL",524
+"Nepal",2019,"score",2.003,"NPL",524
+"Netherlands",2019,"rank",17,"NLD",528
+"Netherlands",2019,"score",1.53,"NLD",528
+"New Zealand",2019,"rank",2,"NZL",554
+"New Zealand",2019,"score",1.221,"NZL",554
+"Nicaragua",2019,"rank",120,"NIC",558
+"Nicaragua",2019,"score",2.312,"NIC",558
+"Niger",2019,"rank",126,"NER",562
+"Niger",2019,"score",2.394,"NER",562
+"Nigeria",2019,"rank",148,"NGA",566
+"Nigeria",2019,"score",2.898,"NGA",566
+"North Korea",2019,"rank",151,"PRK",408
+"North Korea",2019,"score",2.995,"PRK",408
+"North Macedonia",2019,"rank",NA,"MKD",807
+"North Macedonia",2019,"score",1.933,"MKD",807
+"Norway",2019,"rank",20,"NOR",578
+"Norway",2019,"score",1.536,"NOR",578
+"Oman",2019,"rank",69,"OMN",512
+"Oman",2019,"score",1.953,"OMN",512
+"Pakistan",2019,"rank",153,"PAK",586
+"Pakistan",2019,"score",3.072,"PAK",586
+"Palestine",2019,"rank",142,"PSE",275
+"Palestine",2019,"score",2.608,"PSE",275
+"Panama",2019,"rank",47,"PAN",591
+"Panama",2019,"score",1.804,"PAN",591
+"Papua New Guinea",2019,"rank",98,"PNG",598
+"Papua New Guinea",2019,"score",2.118,"PNG",598
+"Paraguay",2019,"rank",88,"PRY",600
+"Paraguay",2019,"score",2.055,"PRY",600
+"Peru",2019,"rank",80,"PER",604
+"Peru",2019,"score",2.016,"PER",604
+"Philippines",2019,"rank",134,"PHL",608
+"Philippines",2019,"score",2.516,"PHL",608
+"Poland",2019,"rank",29,"POL",616
+"Poland",2019,"score",1.654,"POL",616
+"Portugal",2019,"rank",3,"PRT",620
+"Portugal",2019,"score",1.274,"PRT",620
+"Qatar",2019,"rank",31,"QAT",634
+"Qatar",2019,"score",1.696,"QAT",634
+"Republic of the Congo",2019,"rank",121,"COG",178
+"Republic of the Congo",2019,"score",2.323,"COG",178
+"Romania",2019,"rank",24,"ROU",642
+"Romania",2019,"score",1.562,"ROU",642
+"Russia",2019,"rank",154,"RUS",643
+"Russia",2019,"score",3.093,"RUS",643
+"Rwanda",2019,"rank",79,"RWA",646
+"Rwanda",2019,"score",2.014,"RWA",646
+"Saudi Arabia",2019,"rank",129,"SAU",682
+"Saudi Arabia",2019,"score",2.409,"SAU",682
+"Senegal",2019,"rank",58,"SEN",686
+"Senegal",2019,"score",1.883,"SEN",686
+"Serbia",2019,"rank",50,"SRB",688
+"Serbia",2019,"score",1.812,"SRB",688
+"Sierra Leone",2019,"rank",52,"SLE",694
+"Sierra Leone",2019,"score",1.822,"SLE",694
+"Singapore",2019,"rank",7,"SGP",702
+"Singapore",2019,"score",1.347,"SGP",702
+"Slovakia",2019,"rank",23,"SVK",703
+"Slovakia",2019,"score",1.55,"SVK",703
+"Slovenia",2019,"rank",8,"SVN",705
+"Slovenia",2019,"score",1.355,"SVN",705
+"Somalia",2019,"rank",163,"SOM",706
+"Somalia",2019,"score",3.574,"SOM",706
+"South Africa",2019,"rank",127,"ZAF",710
+"South Africa",2019,"score",2.399,"ZAF",710
+"South Korea",2019,"rank",NA,"KOR",410
+"South Korea",2019,"score",1.867,"KOR",410
+"South Sudan",2019,"rank",161,"SSD",728
+"South Sudan",2019,"score",3.526,"SSD",728
+"Spain",2019,"rank",32,"ESP",724
+"Spain",2019,"score",1.699,"ESP",724
+"Sri Lanka",2019,"rank",NA,"LKA",144
+"Sri Lanka",2019,"score",1.986,"LKA",144
+"Sudan",2019,"rank",149,"SDN",729
+"Sudan",2019,"score",2.921,"SDN",729
+"Sweden",2019,"rank",NA,"SWE",752
+"Sweden",2019,"score",1.533,"SWE",752
+"Switzerland",2019,"rank",10,"CHE",756
+"Switzerland",2019,"score",1.375,"CHE",756
+"Syria",2019,"rank",160,"SYR",760
+"Syria",2019,"score",3.412,"SYR",760
+"Taiwan",2019,"rank",36,"TWN",158
+"Taiwan",2019,"score",1.725,"TWN",158
+"Tajikistan",2019,"rank",NA,"TJK",762
+"Tajikistan",2019,"score",2.196,"TJK",762
+"Tanzania",2019,"rank",54,"TZA",834
+"Tanzania",2019,"score",1.86,"TZA",834
+"Thailand",2019,"rank",117,"THA",764
+"Thailand",2019,"score",2.278,"THA",764
+"The Gambia",2019,"rank",62,"GMB",270
+"The Gambia",2019,"score",1.908,"GMB",270
+"Togo",2019,"rank",108,"TGO",768
+"Togo",2019,"score",2.205,"TGO",768
+"Trinidad and Tobago",2019,"rank",93,"TTO",780
+"Trinidad and Tobago",2019,"score",2.094,"TTO",780
+"Tunisia",2019,"rank",82,"TUN",788
+"Tunisia",2019,"score",2.035,"TUN",788
+"Turkey",2019,"rank",152,"TUR",792
+"Turkey",2019,"score",3.015,"TUR",792
+"Turkmenistan",2019,"rank",115,"TKM",795
+"Turkmenistan",2019,"score",2.265,"TKM",795
+"Uganda",2019,"rank",NA,"UGA",800
+"Uganda",2019,"score",2.196,"UGA",800
+"Ukraine",2019,"rank",150,"UKR",804
+"Ukraine",2019,"score",2.95,"UKR",804
+"United Arab Emirates",2019,"rank",53,"ARE",784
+"United Arab Emirates",2019,"score",1.847,"ARE",784
+"United Kingdom",2019,"rank",45,"GBR",826
+"United Kingdom",2019,"score",1.801,"GBR",826
+"United States",2019,"rank",128,"USA",840
+"United States",2019,"score",2.401,"USA",840
+"Uruguay",2019,"rank",34,"URY",858
+"Uruguay",2019,"score",1.711,"URY",858
+"Uzbekistan",2019,"rank",102,"UZB",860
+"Uzbekistan",2019,"score",2.166,"UZB",860
+"Venezuela",2019,"rank",144,"VEN",862
+"Venezuela",2019,"score",2.671,"VEN",862
+"Vietnam",2019,"rank",57,"VNM",704
+"Vietnam",2019,"score",1.877,"VNM",704
+"Yemen",2019,"rank",159,"YEM",887
+"Yemen",2019,"score",3.369,"YEM",887
+"Zambia",2019,"rank",NA,"ZMB",894
+"Zambia",2019,"score",1.805,"ZMB",894
+"Zimbabwe",2019,"rank",132,"ZWE",716
+"Zimbabwe",2019,"score",2.463,"ZWE",716

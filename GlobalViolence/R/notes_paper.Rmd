@@ -53,7 +53,12 @@ Remarkably, the United States stands out as the only country among the world's l
 I am a bit concerned that we are mixing a lot some of the underlying causes of lifetime uncertainty and violence. Violence is one of factors associated to uncertainty, but not the main one in specific cases, as clearly illustrated by China, Egypt, Saudi Arabia and Turkey. 
 
 
+Figure 2. including all years log the level of violence scatter plot. 
 
 
+Keep the map for the closest GPI global violence. 
+
+
+ages 10,15,20
 
 

@@ -56,7 +56,7 @@ View(GPI_ISO3)
 # loading data: using GBDmid created by Tim
 
 GBD_mid<-readRDS(here("GlobalViolence","Data","Closeout","GBD","GBDmid_ggompertz_65_90_65.rds"))
-GPI_ISO3 <- read_csv(here("GPI_ISO3.csv"))
+GPI_ISO3 <- read_csv(here("Data","Inputs","GPI","GPI_ISO3.csv"))
 GPI<-GPI_ISO3 %>% filter(type=="score")
 GPI_year<-GPI %>% filter(year==2017)
 View(GPI_year)
