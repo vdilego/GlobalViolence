@@ -1,9 +1,8 @@
-###############################################################################
-# Some correlation tests to address Alyson and Ridhi´s comments on why        #
-# standard deviation is more meaningful than life expectancy to describe      #
-# the relationship with violence.                                             #
-# Vanessa di Lego                                                             #
-###############################################################################
+#-----------------------------------------------------------------------------
+# Some correlation tests to address Alyson and Ridhi´s comments on why        
+# standard deviation is meaningful to describe the relationship with violence.
+# Is life expectancy also important? What about HDI?
+#-----------------------------------------------------------------------------
 
 library(here)
 library(countrycode)
@@ -14,46 +13,51 @@ library(tidyverse)
 library(ggplot2)
 library(gridExtra)
 library(grid)
+library(stringr)
+library(stargazer)
 
+# Read in GBD data estimated in the Results folder- selecting the mid version
 GBD_est <- readRDS(here("GlobalViolence","Data","Results","GBD", "GBDmid.rds"))
+
+# Transforming ISO codes into country names for better identification
 GBD_est$ISO3<-countrycode(GBD_est$location, origin="country.name", destination="iso3c")
 View(GBD_est)
 
-#bringing GPI 
+# Read in GPI score values 
 GPI_ISO3 <- fread(here("GlobalViolence","Data","Inputs","GPI", "GPI_ISO3.csv"))
 View(GPI_ISO3)
 
-# selecting only the matching years for the GPI and GBD and the score value
+# GPI: Selecting only the matching years for the GPI and GBD and the score value
 GPI_years<-GPI_ISO3 %>% 
   filter(type=="score"& year %in% c(2008:2017))
 summary(GPI_years)
 
+# Checking for NAs and which cases are they
 check.na<-GPI_years%>% filter(is.na(value))
-# there are missing values for the scores for South Sudan and Palestine for some years,
-# as there were no estimates for them and territorial issues. Palestine from 2008 until 2015 and
-# South Sudan until 2010. I took  them out for doing the correlation for all years and included them for the last year
 
-# ages 10 and 15 only
+# there are missing values for the scores for South Sudan and Palestine for some years,
+# as there were no estimates for them due to biding territorial issues. Palestine from 2008 until 2015 and
+# South Sudan until 2010. I took  them out for doing the correlation for all years and included them for the last year of analysis
+
+# GBD: Selecting only the matching years for the GPI and GBD and the score value and restricting to ages 10 to 30 
 GBD_years<-GBD_est %>% filter(age%in% c(10,15,20,25,30) & year %in% c(2008:2017))
 View(GBD_years)
 
 # Azerbaijan, Albania, Tunisia and Uzbekistan have NaN edx values.
-# Substitute for 0 so  it is not left out later (it does not affect what we do since the NaN values are only for the edaggers)
+# Substitute for 0 so it is not left out later (it does not affect what we do since the NaN values are only for the edaggers)
 
 GBD_years[is.na(GBD_years)] <- 0
 
-# joining GBD file with GPI file
-
-names(GPI_years)
+# Joining GBD file with GPI file by ISO code and year. Keeping only the matching observations.
 
 setnames(GPI_years, "ISO3c","ISO3")
 GBD_GPI<-inner_join(GBD_years, GPI_years, by=c("ISO3","year")) 
 View(GBD_GPI)
 
 # -------------------------------------------------------------------------------------------------------------------------------
-# Calculating Pearson's product-moment correlation
-# uncertainty (sdx) versus GPI and remaining life expectancy at ages 10 and 15 versus GPI (this was also in Ridhis´comments) 
-# Small comments: Kosovo is not used no GBD data for it; on the other hand, 34 countries have info from GBD but not from GPI.
+# Calculating Pearson's product-moment correlation:
+# Uncertainty (sdx) versus GPI and remaining life expectancy at ages 10 to 30 versus GPI (this was also in Ridhis´comments) 
+# Small comments: Kosovo is not used since there is no GBD data for it; 33 countries have info from GBD but not from GPI.
 # They are taken out. In the end we get 162 countries, while the GPI report retains 163 because they include Kosovo. 
 # -------------------------------------------------------------------------------------------------------------------------------
 
@@ -72,7 +76,8 @@ GBD_GPI_cor_all<-GBD_GPI %>%
   select(value,sex,age,year,sdx,ex,corr_sdx,corr_ex)
 
 
-# Plot standard deviation versus GPI, both sexes, all years and countries, ages 10 and 15
+
+# Plot standard deviation versus GPI, both sexes, all years and countries, ages 10-30
 
 labels_sdx<-GBD_GPI_cor_all %>%                             # labels for graphing
   group_by(sex, age,year, corr_sdx) %>% 
@@ -168,21 +173,18 @@ ex_plot_2017<-ggplot(GBD_GPI_cor_2017, aes(ex,value,group=sex,color=sex))+
                                   axis.title.x = element_blank())
 
 # change size accordingly when saving
-library(stringr)
+
 pdf(here("GlobalViolence","Maps","plot_corr_2017.pdf"), width = 30, height = 15) 
 
 grid.arrange(sdx_plot_2017, ex_plot_2017, ncol=1,left = textGrob("GPI Score\n", rot = 90, vjust = 1,
             gp = gpar(fontsize = 16, fontface = 'bold')), right = textGrob("Life Expectancy                                                               Standard Deviation\n",
                               gp = gpar(fontsize = 16, fontface = 'bold'),rot = 90))
 
-
-dev.off() # Close the file
-
-X11()
-
+dev.off() 
 
 # ----------------------------------------------------------------------------------------------------------------------------------
-# Correlation 3. Disagreggated by Region
+# Correlation 3. Disagreggated by Region. Here we group the countries according to the 7 regions defined by the World Bank.
+# Including Human Development Index (HDI) to perform analysis.
 # ----------------------------------------------------------------------------------------------------------------------------------
 
 # Download Human Development Index at http://hdr.undp.org/en/data#
@@ -194,7 +196,7 @@ hdi_iso<- hdi %>%
   mutate(ISO3= countrycode(Country, "country.name","iso3c"),
          Region=countrycode(Country, "country.name","region")) %>% 
   drop_na() %>% 
-  select(-1) %>% 
+  dplyr::select(-1) %>% 
   gather(Year,HDI, 2:30) %>% 
   filter(Year%in%c(2008:2017))
 
@@ -202,21 +204,65 @@ hdi_iso$Year<-as.numeric(hdi_iso$Year)
 
 GBD_GPI_hdi<-left_join(hdi_iso,GBD_GPI, by=c("ISO3", "Year"="year"))
 GBD_GPI_hdi$HDI<-as.numeric(GBD_GPI_hdi$HDI)
+
+# Checking for NAs and which cases are they: these are countries for which originally there is no HDI estimate- taking them out
+check.na_hdi<-GBD_GPI_hdi %>% filter(is.na(HDI))
+
 GBD_GPI_hdi<-GBD_GPI_hdi %>% 
   drop_na()
 
 GBD_GPI_hdi$Region<-as.factor(GBD_GPI_hdi$Region)
 GBD_GPI_hdi <- within(GBD_GPI_hdi, Region <- relevel(Region, ref = 2))  # relevel to the developed region as comparison group = Europe & Central Asia
 
-# Correlation test between HDI and GPI. Negatively associated; linear relationship with significant correlation 
 
-GBD_GPI_hdi_m_10<-GBD_GPI_hdi %>% 
-  filter(age==10 & sex=="Male" & Year==2017)
+# Correlation test between HDI and GPI and between HDI and lifespan inequality. 
+# As expected, HDI and GPI are negatively associated (-0.526). The relationship is linear and means that the highest the levels of development
+# the lower are the GPI scores, which mean lower levels of violence.
+# The correlation between HDI and sdx is also significant and with a linear negative association of -0.654.
+# As it is expected that HDI and sdx were correlated, it is actually truly remarkable that GPI has such a big correlation value
+
+GBD_GPI_hdi_2017<-GBD_GPI_hdi %>% 
+  filter(age %in% c(10))
+
+# Adding the correlation and p-values of testing to the dataframe 
+
+GBD_GPI_hdi_cor<-GBD_GPI_hdi%>% 
+  filter(Region!="North America") %>% 
+  group_by(Region, Year, sex, age) %>% 
+  mutate(corr_sdx= cor.test(sdx, value, method = "pearson", conf.level = 0.95)$estimate,
+         corr_ex= cor.test(ex, value, method = "pearson", conf.level = 0.95)$estimate,
+         corr_sdx_test=cor.test(sdx, value, method = "pearson", conf.level = 0.95)$p.value,
+         corr_ex_test=cor.test(ex, value, method = "pearson", conf.level = 0.95)$p.value)
+
+
+#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$sdx)
+#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$value)
+#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$sdx)
+
+p<-GBD_GPI_hdi_2017_cor %>% 
+  group_by(sex, Region) %>% 
+  dplyr::summarise(corr_sdx) %>% 
+  arrange(mean(corr_sdx))
+
+
+
+
+
+ggplot(p, aes(corr_sdx,Region, color=sex, group=sex))+ geom_point(size=3)+ theme_bw()
+
+
+cor_location2<-cor_location %>%
+  filter(Region=="Sub-Saharan Africa") 
+
+ggplot(cor_location2, aes(sdx,value))+ 
+  geom_point(alpha=0.5, size=3)+ geom_smooth()
+
+
 
 X11()
 
 ggplot(GBD_GPI_hdi_m_10, aes(sdx,value, group=Region, color=Region))+ 
-  geom_point(alpha=0.5, size=3)+ geom_smooth(method = "lm", se=F)
+  geom_point(alpha=0.5, size=3)+ geom_smooth(method = "lm", se=T)
 
 # Check correlation by World Bank region
 # Since all the variables of interest are related to GPI in a linear way, we can fit a linear regression model to check what 
@@ -236,11 +282,26 @@ summary(mod3)
 mod4<-lm(sdx ~ value+Region, data=GBD_GPI_hdi_m_10)
 summary(mod4)
 
+mod5<-lm(sdx ~ value+HDI+Region, data=GBD_GPI_hdi_m_10)
+summary(mod5)
+
+mena<-GBD_GPI_hdi_m_10 %>%
+  filter(Region=="Middle East & North Africa") 
+
+summary(mena$sdx)
+
+count_location<-GBD_GPI_hdi_m_10 %>%
+  group_by(Region) %>% 
+  dplyr::summarize(n())
+
+
 anova(mod1,mod2)
 anova(mod1,mod3)
 anova(mod1,mod4)
 
 anova(mod1,mod2,mod3,mod4)
+
+
 
 # the best model is the one that includes both GPI and Region as variables to explain lifespan inequality.
 
