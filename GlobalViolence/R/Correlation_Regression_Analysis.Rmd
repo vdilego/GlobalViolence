@@ -1,0 +1,37 @@
+---
+title: "Correlation and Regression Analysis"
+author: "Vanessa di Lego"
+output: pdf_document
+---
+ 
+# lit. rev
+
+In order to also address the comments made by Alyson I have included in the analysis ages 10-30, so we can see how I also agree that the direction of the relationship is more violence affecting people at really young ages and the consequences of this for lifetime uncertainty as measured by the standard deviation.
+
+# Does violence influence lifespan inequality?
+
+Mena countries have the broadest range in terms of values when compared to other locations as defined by the World Bank. At the same time we have Syria with a sdx of 21.39 for men aged 10 in 2017, the minimum observed sdx value is 12.96 for Bahrain. This variance can affect how we interpret the regression analysis?
+
+
+ 
+MENA countries: war and top-down violence connected to violent conflict.
+
+Latin American countries: 
+The "violence trap": like with poverty and inequality, these countries seem to suffer from an intergenerational transfer of violence: the social conditions that nurture violence perpetuate, reproducing violence through generations. 
+
+#
+regions with high uncertainty and low violence:
+Namibia, Botswana, Zambia, Tanzania and Sierra Leoa
+
+regions with low uncertainty and  high violence:
+China, Egypt, Saudi Arabia and Turkey stand out as being countries where violence is high, but the lifetime uncertainty is low.
+
+
+Remarkably, the United States stands out as the only country among the world's largest economies (i.e., Canada, France, Germany, Italy, Japan and United Kingdom) with middle levels of violence and lifetime uncertainty, while all others experience the lowest levels of both. 
+
+I am a bit concerned that we are mixing a lot some of the underlying causes of lifetime uncertainty and violence. Violence is one of factors associated to uncertainty, but not the main one in specific cases, as clearly illustrated by China, Egypt, Saudi Arabia and Turkey. 
+
+
+
+
+
