@@ -1,37 +1,355 @@
 ---
-title: "Correlation and Regression Analysis"
-author: "Vanessa di Lego"
-output: pdf_document
+title: "Correlation and Regression Analysis. Global Violence Project "
+output:
+  bookdown::pdf_document2: default
+  bookdown::html_document2: default
+header-includes:
+    - \usepackage{dcolumn}
 ---
  
-# lit. rev
+# Overall comments
 
-In order to also address the comments made by Alyson I have included in the analysis ages 10-30, so we can see how I also agree that the direction of the relationship is more violence affecting people at really young ages and the consequences of this for lifetime uncertainty as measured by the standard deviation.
+In order to address the comments made by you, Alyson and Ridhi I have included in the analysis ages 10-30 and all years, so we can see how the direction of the relationship with violence is affecting people at really young ages and the consequences of this for lifetime uncertainty as measured by the standard deviation. Additionally, I included life expectancy and Human Development Index (HDI) in the regression models and also ran some correlation tests with both the GPI and lifespan inequality. HDI has a stronger correlation (negative, linear) to lifespan inequality than GPI. At first, I thought this meant our work had lost strength. But the more I digged in, the more impressive I thought that the GPI was so strongly associated to lifespan inequality in the first place. It is expected that the HDI would be strongly correlated to lifespan inequality, since it is a very broad indicator that includes many aspects of development in a society, so it is obviously related; However, the fact that a peace Index alone can be so correlated to lifespan inequality is very striking and makes the point of the importance of violence in the variability of ages at death globally.
 
-# Does violence influence lifespan inequality?
+# How is violence correlated to lifespan inequality at different ages and years?
 
-Mena countries have the broadest range in terms of values when compared to other locations as defined by the World Bank. At the same time we have Syria with a sdx of 21.39 for men aged 10 in 2017, the minimum observed sdx value is 12.96 for Bahrain. This variance can affect how we interpret the regression analysis?
+We first estimated Pearson´s correlation coefficient to assess how strong and significant is the relationship between GPI and lifespan inequality for all pooled 162 countries and for all years available that match GBD and GPI (2008-2017), by sex and ages 10-30. The relationship is significant at each year, age and sex, showing that globally there is a significant correlation between violence levels and lifespan inequality. Figure \@ref(fig:sdx-plot) shows how the positive linear relationship holds across all ages and years observed, for both sexes. However, the correlation weakens with age and is stronger for men relative to women across all years and age. 
+
+```{r sdx-plot,fig.height=22, fig.width=16, fig.cap="Relationship between GPI and lifespan inequality, by sex, year and age", echo=FALSE,message=FALSE, warning=FALSE}
+
+#-----------------------------------------------------------------------------
+# Some correlation tests to address Alyson and Ridhi´s comments on why        
+# standard deviation is meaningful to describe the relationship with violence.
+# Is life expectancy also important? What about HDI?
+#-----------------------------------------------------------------------------
+
+library(here)
+library(countrycode)
+library(htmltab)
+library(data.table)
+library(ggpubr)
+library(tidyverse)
+library(ggplot2)
+library(gridExtra)
+library(grid)
+library(stringr)
+library(stargazer)
+
+# Read in GBD data estimated in the Results folder- selecting the mid version
+GBD_est <- readRDS(here("GlobalViolence","Data","Results","GBD", "GBDmid.rds"))
+
+# Transforming ISO codes into country names for better identification
+GBD_est$ISO3<-countrycode(GBD_est$location, origin="country.name", destination="iso3c")
+
+# Read in GPI score values 
+GPI_ISO3 <- fread(here("GlobalViolence","Data","Inputs","GPI", "GPI_ISO3.csv"))
+View(GPI_ISO3)
+
+# GPI: Selecting only the matching years for the GPI and GBD and the score value
+GPI_years<-GPI_ISO3 %>% 
+  filter(type=="score"& year %in% c(2008:2017))
+
+# Checking for NAs and which cases are they
+check.na<-GPI_years%>% filter(is.na(value))
+
+# there are missing values for the scores for South Sudan and Palestine for some years,
+# as there were no estimates for them due to biding territorial issues. Palestine from 2008 until 2015 and
+# South Sudan until 2010. I took  them out for doing the correlation for all years and included them for the last year of analysis
+
+# GBD: Selecting only the matching years for the GPI and GBD and the score value and restricting to ages 10 to 30 
+GBD_years<-GBD_est %>% 
+  filter(age%in% c(10,15,20,25,30) & year %in% c(2008:2017))
 
 
- 
-MENA countries: war and top-down violence connected to violent conflict.
+# Azerbaijan, Albania, Tunisia and Uzbekistan have NaN edx values.
+# Substitute for 0 so it is not left out later (it does not affect what we do since the NaN values are only for the edaggers)
 
-Latin American countries: 
-The "violence trap": like with poverty and inequality, these countries seem to suffer from an intergenerational transfer of violence: the social conditions that nurture violence perpetuate, reproducing violence through generations. 
+GBD_years[is.na(GBD_years)] <- 0
 
-#
-regions with high uncertainty and low violence:
-Namibia, Botswana, Zambia, Tanzania and Sierra Leoa
+# Joining GBD file with GPI file by ISO code and year. Keeping only the matching observations.
 
-regions with low uncertainty and  high violence:
-China, Egypt, Saudi Arabia and Turkey stand out as being countries where violence is high, but the lifetime uncertainty is low.
+setnames(GPI_years, "ISO3c","ISO3")
+GBD_GPI<-inner_join(GBD_years, GPI_years, by=c("ISO3","year")) 
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Calculating Pearson's product-moment correlation:
+# Uncertainty (sdx) versus GPI and remaining life expectancy at ages 10 to 30 versus GPI (this was also in Ridhis´comments) 
+# Small comments: Kosovo is not used since there is no GBD data for it; 33 countries have info from GBD but not from GPI.
+# They are taken out. In the end we get 162 countries, while the GPI report retains 163 because they include Kosovo. 
+# -------------------------------------------------------------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------------------------------------------------------------
+# Correlation 1. all countries and for all years available that match GBD and GPI (2008-2017), by sex and ages 10-30
+# -------------------------------------------------------------------------------------------------------------------------------
+
+# Adding the correlation and p-values of testing to the dataframe for all years, 162 countries
+
+GBD_GPI_cor_all<-GBD_GPI %>% 
+  group_by(sex, age, year) %>% 
+  mutate(corr_sdx= cor.test(sdx, value, method = "pearson", conf.level = 0.95)$estimate,
+         corr_ex= cor.test(ex, value, method = "pearson", conf.level = 0.95)$estimate,
+         corr_sdx_test=cor.test(sdx, value, method = "pearson", conf.level = 0.95)$p.value,
+         corr_ex_test=cor.test(ex, value, method = "pearson", conf.level = 0.95)$p.value)%>% 
+  select(value,sex,age,year,sdx,ex,corr_sdx,corr_ex)
+
+# Plot standard deviation versus GPI, both sexes, all years and countries, ages 10-30
+
+labels_sdx<-GBD_GPI_cor_all %>%                             # labels for graphing
+  group_by(sex, age,year, corr_sdx) %>% 
+  dplyr::summarise()
+labels_sdx$corr_sdx<-sprintf("italic(r) == %.3f", labels_sdx$corr_sdx)
 
 
-Remarkably, the United States stands out as the only country among the world's largest economies (i.e., Canada, France, Germany, Italy, Japan and United Kingdom) with middle levels of violence and lifetime uncertainty, while all others experience the lowest levels of both. 
+ggplot(GBD_GPI_cor_all, aes(sdx,value, group=sex, color=sex))+ 
+  geom_point(alpha=0.25, size=2.5)+facet_grid(year~age)+  
+  geom_smooth(method=lm, se=FALSE)+
+  scale_y_continuous(name="GPI score",limits=c(1,4))+
+  scale_x_continuous(name="Standard Deviation",limits=c(8,21))+
+  geom_text(x = 10, y = 3.9, aes(label = corr_sdx),size=5, parse=T,data = labels_sdx %>% filter(sex=="Female"),show.legend = F)+
+  geom_text(x = 10, y = 3.6, aes(label = corr_sdx), size=5,parse=T,data = labels_sdx %>% filter(sex=="Male"),show.legend = F)+
+  scale_color_manual(values=c("brown", "blue"))+
+  theme_bw(base_size = 16) +theme(legend.position = "bottom")
 
-I am a bit concerned that we are mixing a lot some of the underlying causes of lifetime uncertainty and violence. Violence is one of factors associated to uncertainty, but not the main one in specific cases, as clearly illustrated by China, Egypt, Saudi Arabia and Turkey. 
+
+```
+
+Ridhi pointed out why use standard deviation to relate to GPI and not life expectancy, for instance. In Figure \@ref(fig:ex-plot) shows how the correlation between life expectancy and violence is weaker than lifespan inequality as measured by the standard deviation. However, one important thing that appears here is that for women life expectancy is more correlated to violence levels than for men. So the coefficient is higher for women than men at all ages and across all years observed for 162 countries in the world.
+
+```{r ex-plot,fig.height=22, fig.width=16, fig.cap="Relationship between GPI and remaining life expectancy, by sex, year and age", echo=FALSE,message=FALSE, warning=FALSE}
+# Plot remaining life expectancy versus GPI, both sexes, all years and countries.
+
+labels_ex<-GBD_GPI_cor_all %>%                             # labels for graphing
+  group_by(sex, age,year, corr_ex) %>% 
+  dplyr::summarise()
+labels_ex$corr_ex<-sprintf("italic(r) == %.3f", labels_ex$corr_ex)
+
+ggplot(GBD_GPI_cor_all, aes(ex,value,group=sex,color=sex))+ 
+  geom_point(alpha=0.3, size=2.5)+facet_grid(year~age)+   
+  geom_smooth(method=lm, se=FALSE)+
+  scale_y_continuous(name="GPI score",limits=c(1,4))+
+  scale_x_continuous(name="Life expectancy",limits=c(20,80))+
+  geom_text(x = 29, y = 3.9, aes(label = corr_ex),size=5, parse=T,data = labels_ex %>% filter(sex=="Female"), show.legend = FALSE)+
+  geom_text(x = 29, y = 3.6, aes(label = corr_ex),size=5, parse=T,data = labels_ex %>% filter(sex=="Male"),show.legend = FALSE)+
+  scale_color_manual(values=c("brown", "blue"))+
+  theme_bw(base_size = 16) +theme(legend.position = "bottom")
+
+```
+
+# What happens when we focus only in the relationship between lifespan inequality, life expectancy and violence for the latest year observed (2017)?
+
+Figure \@ref(fig:plot2017) focuses on the latest year available and contrasts both life expectancy and lifespan inequality against GPI. The correlation between lifespan inequality and violence for both men and women is strongest at age 10. The previous figures showed how the correlation is also getting stronger year by year, since 2008. For women at age 10 the Pearson´s correlation is 0.436 and at age 15 is 0.423 for men age at 10 it is 0.515 and at age 15 0.502. They are both significant. for Women, the correlation between life expectancy and GPI is stronger than the standard deviation. For men, it is the opposite, especially when considering ages 10 and 15.
+
+```{r plot2017, fig.width = 20, fig.height = 10, fig.cap="Relationship between GPI, lifespan inequality and remaining life expectancy, 2017, by sex and age", echo=FALSE,message=FALSE, warning=FALSE}
+# ----------------------------------------------------------------------------------------------------------------------------------
+# Correlation 2. All countries highlighting only most recent year, for women and men at ages 10-30
+# ----------------------------------------------------------------------------------------------------------------------------------
+
+# Selecting latest year
+
+GBD_GPI_cor_2017<-GBD_GPI_cor_all %>% 
+  filter(year==2017)
+
+# Plot standard deviation versus GPI, both sexes, year 2017 and countries, ages 10-30
+
+labels_sdx_2017<-GBD_GPI_cor_2017 %>%                             # labels for graphing
+  group_by(sex, age,year, corr_sdx) %>% 
+  dplyr::summarise()
+labels_sdx_2017$corr_sdx<-sprintf("italic(r) == %.3f", labels_sdx_2017$corr_sdx)
+
+sdx_plot_2017<-ggplot(GBD_GPI_cor_2017, aes(sdx,value, group=sex, color=sex))+
+  geom_point(size = 4,alpha=0.3)+
+  facet_grid(.~age)+  
+  geom_smooth(method=lm, se=FALSE, size=1.3)+
+  scale_y_continuous(name="GPI score",limits=c(1,4))+
+  scale_x_continuous(name="Standard Deviation",limits=c(8,23))+
+  geom_text(x = 10, y = 4, aes(label = corr_sdx),size=7, parse=T,data = labels_sdx_2017 %>% filter(sex=="Female"),show.legend = F)+
+  geom_text(x = 10, y = 3.8, aes(label = corr_sdx), size=7,parse=T,data = labels_sdx_2017 %>% filter(sex=="Male"),show.legend = F)+
+  scale_color_manual(values=c("brown", "blue"))+
+  theme_bw(base_size = 18) +theme(legend.position = "none", axis.title.y = element_blank(),axis.title.x = element_blank())
 
 
+# Plot remaining life expectancy versus GPI, both sexes, year 2017 and countries, ages 10-30
+
+labels_ex_2017<-GBD_GPI_cor_2017 %>%                             # labels for graphing
+  group_by(sex, age,year, corr_ex) %>% 
+  dplyr::summarise()
+labels_ex_2017$corr_ex<-sprintf("italic(r) == %.3f", labels_ex_2017$corr_ex)
+
+ex_plot_2017<-ggplot(GBD_GPI_cor_2017, aes(ex,value,group=sex,color=sex))+ 
+  geom_point(alpha=0.3, size=4)+facet_grid(.~age)+   
+  geom_smooth(method=lm, se=FALSE, size=1.3)+
+  scale_y_continuous(name="GPI score",limits=c(1,4))+
+  scale_x_continuous(name="Life expectancy",limits=c(20,80))+
+  geom_text(x = 29, y = 4, aes(label = corr_ex),size=7, parse=T,data = labels_ex_2017 %>% filter(sex=="Female"), show.legend = FALSE)+
+  geom_text(x = 29, y = 3.8, aes(label = corr_ex),size=7, parse=T,data = labels_ex_2017 %>% filter(sex=="Male"),show.legend = FALSE)+
+  scale_color_manual(values=c("brown", "blue"))+
+  theme_bw(base_size = 18) +theme(legend.position = "bottom",strip.text.x =  element_blank(), axis.title.y = element_blank(),
+                                  axis.title.x = element_blank())
+
+# change size accordingly when saving
 
 
+grid.arrange(sdx_plot_2017, ex_plot_2017, ncol=1,left = textGrob("GPI Score\n", rot = 90, vjust = 1,
+            gp = gpar(fontsize = 18)), right = textGrob("Life Expectancy                                                          Standard Deviation\n",
+                              gp = gpar(fontsize = 18),rot = 90))
 
+
+```
+
+
+# How is violence correlated to lifespan inequality in different regions in the world?
+
+Until now we analysed all 162 countries together. In this section, we group them into the 7 World Bank regions and add the Human Development Index (HDI) as a complementary check. Table \@ref(tab:correlation) shows the distribution of correlation coeficients between lifespan inequality and GPI by region, for 10-year old women and men. We have to discuss if it actually makes sense to present correlation coeficients for each region, since it seems sensitive to the number of countries in each category? For instance, North America presents perfect correlation because you have two countries only. Also there is a great variance within the regions. So sometimes I just feel that these categories make sense and other not. But we have to discuss.
+
+
+```{r correlation, results='asis', echo=FALSE,message=FALSE, warning=FALSE}
+library(xtable)
+library(ggthemes)
+library(RColorBrewer)
+# Download Human Development Index at http://hdr.undp.org/en/data#
+
+hdi<- fread(here("GlobalViolence","Maps","hdi.csv"), header = T)
+
+hdi_iso<- hdi %>% 
+  mutate(ISO3= countrycode(Country, "country.name","iso3c"),
+         Region=countrycode(Country, "country.name","region")) %>% 
+  drop_na() %>% 
+  dplyr::select(-1) %>% 
+  gather(Year,HDI, 2:30) %>% 
+  filter(Year%in%c(2008:2017))
+
+hdi_iso$Year<-as.numeric(hdi_iso$Year)
+
+GBD_GPI_hdi<-left_join(hdi_iso,GBD_GPI, by=c("ISO3", "Year"="year"))
+GBD_GPI_hdi$HDI<-as.numeric(GBD_GPI_hdi$HDI)
+
+# Checking for NAs and which cases are they: these are countries for which originally there is no HDI estimate
+# I kept them in the dataset since I also used information on World Bank region
+#check.na_hdi<-GBD_GPI_hdi %>% filter(is.na(HDI))
+
+# I took out the countries for which there is no GPI registered, since they will not contribute to our estimates.
+# these are the countries that have info from the GBD, for example.
+GBD_GPI_hdi<- GBD_GPI_hdi %>% 
+  filter(!is.na(value))
+
+GBD_GPI_hdi$Region<-as.factor(GBD_GPI_hdi$Region)
+
+# relevel to the developed region as comparison group = Europe & Central Asia for regressions below
+GBD_GPI_hdi <- within(GBD_GPI_hdi, Region <- relevel(Region, ref = 2)) 
+
+GBD_GPI_hdi_cor<-GBD_GPI_hdi%>% 
+  group_by(Region, Year, sex, age) %>% 
+  mutate(corr_sdx= cor(sdx, value,  use = "complete.obs"),
+         corr_ex= cor(ex, value, use = "complete.obs"), 
+         corr_hdi=cor(HDI,value, use = "complete.obs"),
+         corr_hdi_sdx=cor(HDI,sdx, use = "complete.obs"))
+
+# tabulating summary correlation by region and sex, year 2017, age 10
+
+GBD_GPI_hdi_cor_sum<-GBD_GPI_hdi_cor %>% 
+  filter(Year==2017 & age==10) %>% 
+  group_by(Region,sex) %>% 
+  summarize(correlation=mean(corr_sdx))
+
+xtb<-xtable(GBD_GPI_hdi_cor_sum, caption='Correlation by region and sex, year 2017, age 10', label="tab:correlation")
+print.xtable(xtb, comment=FALSE)
+
+```
+
+Figure \@ref(fig:plot2017regions) presents the association between GPI and standard deviation for other age groups. It seems that the relationship between GPI and lifespan inequality is negative for Sub-Saharan Africa, but looking into the correlation tests it is not significant, suggesting that the relationship is not linear for this region. 
+
+```{r plot2017regions, fig.width = 18, fig.height = 8, fig.cap="Relationship between GPI and lifespan inequality, 2017, by World Bank regions, sex and age", echo=FALSE,message=FALSE, warning=FALSE}
+
+ggplot(GBD_GPI_hdi_cor %>% filter(Year==2017), aes(sdx,value, group=Region, color=Region))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+  geom_smooth(method="lm", se=F)+
+  facet_grid(sex~age)+
+  theme(legend.position = "bottom")+ 
+  theme_bw(base_size = 16)+
+  scale_fill_viridis_d()+
+  scale_color_viridis_d()+
+  theme(legend.position = "bottom")
+
+```
+
+
+As a matter of effect, when we plot only the cases for this region, we can see how the variance  across countries in this region is so high that there is no clear relationship, as shown in Figure \@ref(fig:africa2017)
+
+```{r africa2017, fig.width = 18, fig.height = 8, fig.cap="Relationship between GPI and lifespan inequality, 2017, for Sub-Saharan Africa, sex and age", echo=FALSE,message=FALSE, warning=FALSE}
+
+cor_location2<-GBD_GPI_hdi_cor %>%
+  filter(Region=="Sub-Saharan Africa") 
+
+ggplot(cor_location2 %>% filter(Year==2017), aes(sdx,value))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+ 
+  geom_smooth()+
+  facet_grid(sex~age)+
+  theme(legend.position = "bottom")+ 
+  theme_bw(base_size = 16)+scale_fill_viridis_d()+scale_color_viridis_d()
+
+```
+
+
+When taking a closer look at HDI, however the relationship is linear and significant. This can suggest that that for this region HDI is more important to explain lifespan inequality than levels of violence, but we first have to measure this association in a proper way. 
+
+```{r africahdi, fig.width = 5, fig.height = 5, fig.cap="Relationship between GPI and HDI, 2017, for Sub-Saharan Africa", echo=FALSE,message=FALSE, warning=FALSE}
+
+ggplot(cor_location2 %>% filter(Year==2017), aes(HDI,value))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+
+  geom_smooth(method = "lm")+
+  theme_bw()+scale_fill_viridis_d()+scale_color_viridis_d()+  theme(legend.position = "bottom")
+
+```
+
+Since all the variables of interest are overall related to GPI in a linear way, we can fit a linear regression model to check what is important to explain the sdx. We do it for all data including year, region and sex as a covariable and then we restrict the analysis only for males, age 10, year 2017. 
+
+# Models part 1: all data including year, age, region and sex
+
+For both sets of models the Region of reference is Europe & Central Asia, where the countries with lower levels of violence and lifespan inequality are usually observed. 
+
+```{r, results='asis', echo=FALSE,message=FALSE, warning=FALSE}
+
+library(apsrtable)
+
+setnames(GBD_GPI_hdi,"value","GPI")
+mod1<-lm(sdx ~ GPI, data=GBD_GPI_hdi %>% drop_na())
+mod2<-lm(sdx ~ HDI, data=GBD_GPI_hdi %>% drop_na())
+mod3<-lm(sdx ~ Region, data=GBD_GPI_hdi %>% drop_na())
+mod4<-lm(sdx ~ GPI+Region+sex, data=GBD_GPI_hdi %>% drop_na())
+mod5<-lm(sdx ~ GPI+HDI+sex, data=GBD_GPI_hdi %>% drop_na())
+mod6<-lm(sdx ~ GPI+age+sex+Region, data=GBD_GPI_hdi %>% drop_na())
+
+apsrtable(mod1,mod2, mod3,mod4,mod5,mod6,Sweave = TRUE, stars = "default")
+
+```
+
+# Set of models 2: only year 2017 and males aged 10
+
+
+```{r, results='asis', echo=FALSE,message=FALSE, warning=FALSE}
+
+library(apsrtable)
+
+mod1.1<-lm(sdx ~ GPI, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male") )
+
+mod2.1<-lm(sdx ~ HDI, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+
+mod3.1<-lm(sdx ~ Region, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+
+mod4.1<-lm(sdx ~ GPI+Region,data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+
+mod5.1<-lm(sdx ~ GPI+HDI, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+
+mod6.1<-lm(sdx ~ GPI+HDI+Region, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+
+apsrtable(mod1.1,mod2.1, mod3.1,mod4.1,mod5.1,mod6.1,Sweave = TRUE, stars = "default")
+
+```
+
+We have to discuss these results better or even if this is the best analytical strategy. 
+For men aged 10 some regions lose significance in explaining the variation in lifespan inequality. The North american region is tricky, because the US has middle sdx and GPI while Canada fares a lot better and there are only these two countries in the group region. So this is the issue of grouping countries that have very different profiles in that respect. Latin America and African countries are the ones that really have a strong relationship between lifespan inequality and violence, even after controlling for all the other variables. I worry however that the descriptive analysis showed that the pattern is not linear for the African region, so the model can be misspecified. 

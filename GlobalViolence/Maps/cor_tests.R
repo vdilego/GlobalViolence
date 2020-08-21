@@ -65,7 +65,7 @@ View(GBD_GPI)
 # Correlation 1. all countries and for all years available that match GBD and GPI (2008-2017), by sex and ages 10-30
 # -------------------------------------------------------------------------------------------------------------------------------
 
-# Adding the correlation and p-values of testing to the dataframe for all years
+# Adding the correlation and p-values of testing to the dataframe for all years, 162 countries
 
 GBD_GPI_cor_all<-GBD_GPI %>% 
   group_by(sex, age, year) %>% 
@@ -128,7 +128,6 @@ dev.off()
 # for Women, the correlation between life expectancy and GPI is stronger than the standard deviation. For men, it is the opposite,
 # especially when considering ages 10 and 15.
 # ----------------------------------------------------------------------------------------------------------------------------------
-
 
 # Selecting latest year
 
@@ -205,85 +204,136 @@ hdi_iso$Year<-as.numeric(hdi_iso$Year)
 GBD_GPI_hdi<-left_join(hdi_iso,GBD_GPI, by=c("ISO3", "Year"="year"))
 GBD_GPI_hdi$HDI<-as.numeric(GBD_GPI_hdi$HDI)
 
-# Checking for NAs and which cases are they: these are countries for which originally there is no HDI estimate- taking them out
+# Checking for NAs and which cases are they: these are countries for which originally there is no HDI estimate
+# I kept them in the dataset since I also used information on World Bank region
 check.na_hdi<-GBD_GPI_hdi %>% filter(is.na(HDI))
 
-GBD_GPI_hdi<-GBD_GPI_hdi %>% 
-  drop_na()
+# I took out the countries for which there is no GPI registered, since they will not contribute to our estimates.
+# these are the countries that have info from the GBD, for example.
+GBD_GPI_hdi<- GBD_GPI_hdi %>% 
+  filter(!is.na(value))
 
 GBD_GPI_hdi$Region<-as.factor(GBD_GPI_hdi$Region)
-GBD_GPI_hdi <- within(GBD_GPI_hdi, Region <- relevel(Region, ref = 2))  # relevel to the developed region as comparison group = Europe & Central Asia
+
+# relevel to the developed region as comparison group = Europe & Central Asia for regressions below
+GBD_GPI_hdi <- within(GBD_GPI_hdi, Region <- relevel(Region, ref = 2)) 
 
 
-# Correlation test between HDI and GPI and between HDI and lifespan inequality. 
-# As expected, HDI and GPI are negatively associated (-0.526). The relationship is linear and means that the highest the levels of development
-# the lower are the GPI scores, which mean lower levels of violence.
-# The correlation between HDI and sdx is also significant and with a linear negative association of -0.654.
+# Overall correlation test between HDI and GPI and between HDI and lifespan inequality.
+# these are for all observations
+cor.test(GBD_GPI_hdi$HDI,GBD_GPI_hdi$value, use = "complete.obs")
+cor.test(GBD_GPI_hdi$HDI,GBD_GPI_hdi$sdx, use = "complete.obs")
+
+# As expected, HDI and GPI are negatively associated (-0.52). The relationship is linear and means that the higher the levels of development
+# the lower are the GPI scores, which means lower levels of violence.
+# The correlation between HDI and sdx is also significant and with a linear negative association of -0.656.
 # As it is expected that HDI and sdx were correlated, it is actually truly remarkable that GPI has such a big correlation value
+# Now let´s refine these correlations by year, sex, age and region
 
-GBD_GPI_hdi_2017<-GBD_GPI_hdi %>% 
-  filter(age %in% c(10))
-
-# Adding the correlation and p-values of testing to the dataframe 
+# Since there are only 2 observations for North America the tests cannot be performed for this region, so I just added the correlation. 
+# Later we see in the regression how it is not significant probably for this very same reason - the variance is too high.
 
 GBD_GPI_hdi_cor<-GBD_GPI_hdi%>% 
-  filter(Region!="North America") %>% 
   group_by(Region, Year, sex, age) %>% 
-  mutate(corr_sdx= cor.test(sdx, value, method = "pearson", conf.level = 0.95)$estimate,
-         corr_ex= cor.test(ex, value, method = "pearson", conf.level = 0.95)$estimate,
-         corr_sdx_test=cor.test(sdx, value, method = "pearson", conf.level = 0.95)$p.value,
-         corr_ex_test=cor.test(ex, value, method = "pearson", conf.level = 0.95)$p.value)
+  mutate(corr_sdx= cor(sdx, value,  use = "complete.obs"),
+         corr_ex= cor(ex, value, use = "complete.obs"), 
+         corr_hdi=cor(HDI,value, use = "complete.obs"),
+         corr_hdi_sdx=cor(HDI,sdx, use = "complete.obs"))
 
 
-#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$sdx)
-#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$value)
-#cor.test(GBD_GPI_hdi_m_10$HDI,GBD_GPI_hdi_m_10$sdx)
+# In this graph, the correlation between GPI and sdx seems negative for Sub-Saharan Africa, but looking
+# into the correlation tests it is not significant, suggesting that the relationship is not linear for this 
+# region. 
+X11()
+library(ggthemes)
+library(RColorBrewer)
+ggplot(GBD_GPI_hdi_cor %>% filter(Year==2017), aes(sdx,value, group=Region, color=Region))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+ 
+  geom_smooth(method="lm", se=F)+
+  facet_grid(sex~age)+
+  theme(legend.position = "bottom")+ 
+  theme_bw()+
+  scale_fill_viridis_d()+
+  scale_color_viridis_d()
 
-p<-GBD_GPI_hdi_2017_cor %>% 
-  group_by(sex, Region) %>% 
-  dplyr::summarise(corr_sdx) %>% 
-  arrange(mean(corr_sdx))
 
+# As a matter of effect, when we plot only the cases for this region, we can see how the variance 
+# across countries in this region is so high that there is no clear relationship.
 
-
-
-
-ggplot(p, aes(corr_sdx,Region, color=sex, group=sex))+ geom_point(size=3)+ theme_bw()
-
-
-cor_location2<-cor_location %>%
+cor_location2<-GBD_GPI_hdi_cor %>%
   filter(Region=="Sub-Saharan Africa") 
 
-ggplot(cor_location2, aes(sdx,value))+ 
-  geom_point(alpha=0.5, size=3)+ geom_smooth()
+ggplot(cor_location2 %>% filter(Year==2017), aes(sdx,value))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+ 
+  geom_smooth()+
+  facet_grid(sex~age)+
+  theme(legend.position = "bottom")+ 
+  theme_bw()+scale_fill_viridis_d()+scale_color_viridis_d()
 
 
+# when looking at HDI, however the relationship is quite linear
+ggplot(cor_location2 %>% filter(Year==2017), aes(HDI,value))+ 
+  geom_point(aes(colour=Region, fill=Region),shape = 21,colour = "black",alpha=0.4, size=4)+ 
+  geom_smooth(method = "lm")+
+  facet_grid(sex~age)+
+  theme(legend.position = "bottom")+ 
+  theme_bw()+scale_fill_viridis_d()+scale_color_viridis_d()
 
-X11()
+cor_location3<- cor_location2 %>% 
+  filter(Year==2017)
+cor.test(cor_location3$HDI,cor_location3$value, use="complete.obs")
 
-ggplot(GBD_GPI_hdi_m_10, aes(sdx,value, group=Region, color=Region))+ 
-  geom_point(alpha=0.5, size=3)+ geom_smooth(method = "lm", se=T)
+cor.test(cor_location3$sdx,cor_location3$value, use="complete.obs")
 
-# Check correlation by World Bank region
-# Since all the variables of interest are related to GPI in a linear way, we can fit a linear regression model to check what 
-# is important to explain the sdx. We do it for males, age 10, year 2017. Go into Appendix?
 
-# Models
+cor.test(GBD_GPI_hdi$sdx,GBD_GPI_hdi$Year, use="complete.obs")
+# the correlation of sdx and year is negative, with recent years having lower 
+# sdx. However, the strength of the correlation between sdx and GPI becomes stronger
+# over time for males aged 10.
 
-mod1<-lm(sdx ~ value, data=GBD_GPI_hdi_m_10)
+# Since all the variables of interest are overall related to GPI in a linear way, we can fit a linear regression model to check what 
+# is important to explain the sdx. We do it for all data including year, region and sex as a covariable
+# and then we restrict the analysis only for males, age 10, year 2017. 
+
+# Models part 1: all data including year, region and sex
+
+mod1<-lm(sdx ~ value, data=GBD_GPI_hdi)
 summary(mod1)
 
-mod2<-lm(sdx ~ HDI, data=GBD_GPI_hdi_m_10)
+mod2<-lm(sdx ~ HDI, data=GBD_GPI_hdi)
 summary(mod2)
 
-mod3<-lm(sdx ~ Region, data=GBD_GPI_hdi_m_10)
+mod3<-lm(sdx ~ Region, data=GBD_GPI_hdi)
 summary(mod3)
 
-mod4<-lm(sdx ~ value+Region, data=GBD_GPI_hdi_m_10)
+mod4<-lm(sdx ~ value+Region+sex+factor(Year), data=GBD_GPI_hdi)
 summary(mod4)
 
-mod5<-lm(sdx ~ value+HDI+Region, data=GBD_GPI_hdi_m_10)
+
+mod5<-lm(sdx ~ value+HDI+Region, data=GBD_GPI_hdi)
 summary(mod5)
+
+# Set of model 2: only year 2017 and males aged 10
+
+mod1.1<-lm(sdx ~ value, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+summary(mod1.1)
+
+mod2.1<-lm(sdx ~ HDI, data=GBD_GPI_hdi %>% 
+           filter(Year==2017 & age==10 & sex=="Male"))
+summary(mod2.1)
+
+mod3.1<-lm(sdx ~ Region, data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+summary(mod3.1)
+
+mod4.1<-lm(sdx ~ value+Region,data=GBD_GPI_hdi %>% 
+             filter(Year==2017 & age==10 & sex=="Male"))
+summary(mod4.1)
+
+mod5<-lm(sdx ~ value+HDI+Region, data=GBD_GPI_hdi)
+summary(mod5)
+
 
 mena<-GBD_GPI_hdi_m_10 %>%
   filter(Region=="Middle East & North Africa") 
